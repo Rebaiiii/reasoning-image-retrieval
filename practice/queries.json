@@ -1,0 +1,8 @@
+[
+  {"query": "A green triangle.", "target": "05.png"},
+  {"query": "A yellow circle.", "target": "06.png"},
+  {"query": "A red circle to the left of a blue square.", "target": "01.png"},
+  {"query": "A red circle to the right of a blue square.", "target": "02.png"},
+  {"query": "A red circle above a blue square.", "target": "03.png"},
+  {"query": "A red circle below a blue square.", "target": "04.png"}
+]

@@ -1,0 +1,195 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "candidate_count": 6,
+  "results": [
+    {
+      "query": "A green triangle.",
+      "ranking": [
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.3497782349586487
+        },
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.24356397986412048
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.2383774369955063
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.2369164079427719
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.2351209819316864
+        },
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.23274244368076324
+        }
+      ],
+      "target": "05.png",
+      "target_rank": 1
+    },
+    {
+      "query": "A yellow circle.",
+      "ranking": [
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.3262292742729187
+        },
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.2703973054885864
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.2670164406299591
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.2521858215332031
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.24956004321575165
+        },
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.23001685738563538
+        }
+      ],
+      "target": "06.png",
+      "target_rank": 1
+    },
+    {
+      "query": "A red circle to the left of a blue square.",
+      "ranking": [
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.33847782015800476
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.33525869250297546
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.32216912508010864
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.32098129391670227
+        },
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.2461453080177307
+        },
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.21579723060131073
+        }
+      ],
+      "target": "01.png",
+      "target_rank": 3
+    },
+    {
+      "query": "A red circle to the right of a blue square.",
+      "ranking": [
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.33787381649017334
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.33431217074394226
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.32008153200149536
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.3185917139053345
+        },
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.24980491399765015
+        },
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.21672892570495605
+        }
+      ],
+      "target": "02.png",
+      "target_rank": 4
+    },
+    {
+      "query": "A red circle above a blue square.",
+      "ranking": [
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.35293859243392944
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.3506246507167816
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.33889344334602356
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.3367207646369934
+        },
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.25157833099365234
+        },
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.22059020400047302
+        }
+      ],
+      "target": "03.png",
+      "target_rank": 2
+    },
+    {
+      "query": "A red circle below a blue square.",
+      "ranking": [
+        {
+          "image": "04.png",
+          "cosine_similarity": 0.34681469202041626
+        },
+        {
+          "image": "03.png",
+          "cosine_similarity": 0.343250572681427
+        },
+        {
+          "image": "01.png",
+          "cosine_similarity": 0.33095604181289673
+        },
+        {
+          "image": "02.png",
+          "cosine_similarity": 0.32932236790657043
+        },
+        {
+          "image": "06.png",
+          "cosine_similarity": 0.24666351079940796
+        },
+        {
+          "image": "05.png",
+          "cosine_similarity": 0.21566355228424072
+        }
+      ],
+      "target": "04.png",
+      "target_rank": 1
+    }
+  ],
+  "top1_accuracy": 0.5
+}
