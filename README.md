@@ -1,11 +1,15 @@
-# Reasoning-Based Image Retrieval
+### Reasoning-Based Image Retrieval
 
-I'm exploring whether reasoning can improve text-to-image retrieval when a query depends on spatial relationships or scene details.
+Reasoning-Based Image Retrieval is a project for finding images from text descriptions that include spatial relationships or scene details. For example, a query such as "a red car behind a blue car" needs more than recognising the two cars.
 
-I'm building a training-free prototype on my M1 MacBook with 8 GB RAM. My goal is to keep the code simple, understandable, and practical for limited computing resources.
+The goal is to compare CLIP similarity search with a multimodal model that checks how well each retrieved image matches the query. The models are used without fine-tuning.
 
-I'm starting with a CLIP ViT-B/32 baseline and a simple evaluation. I'll review each module before adding the next one.
+## Planned Approach
 
-Later, I plan to explore a small research dataset, Qwen reranking, retrieval metrics, and adaptive reasoning efficiency.
+1. CLIP Retrieval: Convert images and text queries into embeddings, then rank the images by similarity.
+2. Reasoning-Based Reranking: Use Qwen to check the objects and relationships in the retrieved images and reorder the results.
+3. Evaluation: Compare the original CLIP rankings with the reranked results in terms of retrieval accuracy and computation time.
 
-This repository starts with my project overview. I'll add the implementation one module at a time as I learn.
+## Current Work
+
+CLIP ViT-B/32 baseline and evaluation on a small set of labelled queries.
