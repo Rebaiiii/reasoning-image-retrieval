@@ -1,0 +1,219 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "cases_sha256": "cc86b2ac8b7634a0c5c504e529c882685396530198ef54eb76df9e39442a6951",
+  "manifest_sha256": "490161d8b0af4c9be226fec169a2924e87eed2e21099da87d4e0f05a8199e20c",
+  "query_correct": 7,
+  "query_count": 10,
+  "pair_both_correct": 2,
+  "pair_choice_changed": 2,
+  "pair_count": 5,
+  "results": [
+    {
+      "id": "laptop_A",
+      "queries": [
+        {
+          "text": "The cat is on the laptop.",
+          "target": "000000398767.jpg",
+          "ranking": [
+            {
+              "image": "000000018903.jpg",
+              "score": 0.30652332305908203
+            },
+            {
+              "image": "000000398767.jpg",
+              "score": 0.30314329266548157
+            }
+          ],
+          "target_margin": -0.003380030393600464,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is beside the laptop.",
+          "target": "000000018903.jpg",
+          "ranking": [
+            {
+              "image": "000000018903.jpg",
+              "score": 0.3162010908126831
+            },
+            {
+              "image": "000000398767.jpg",
+              "score": 0.30346235632896423
+            }
+          ],
+          "target_margin": 0.012738734483718872,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "laptop_B",
+      "queries": [
+        {
+          "text": "The cat is on the laptop.",
+          "target": "000000022962.jpg",
+          "ranking": [
+            {
+              "image": "000000022962.jpg",
+              "score": 0.3202853500843048
+            },
+            {
+              "image": "000000052290.jpg",
+              "score": 0.30267098546028137
+            }
+          ],
+          "target_margin": 0.017614364624023438,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is beside the laptop.",
+          "target": "000000052290.jpg",
+          "ranking": [
+            {
+              "image": "000000022962.jpg",
+              "score": 0.31518059968948364
+            },
+            {
+              "image": "000000052290.jpg",
+              "score": 0.30114614963531494
+            }
+          ],
+          "target_margin": -0.014034450054168701,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "refrigerator",
+      "queries": [
+        {
+          "text": "The cat is on top of the refrigerator.",
+          "target": "000000466680.jpg",
+          "ranking": [
+            {
+              "image": "000000466680.jpg",
+              "score": 0.35196077823638916
+            },
+            {
+              "image": "000000191016.jpg",
+              "score": 0.29750412702560425
+            }
+          ],
+          "target_margin": 0.05445665121078491,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the refrigerator.",
+          "target": "000000191016.jpg",
+          "ranking": [
+            {
+              "image": "000000191016.jpg",
+              "score": 0.3440082371234894
+            },
+            {
+              "image": "000000466680.jpg",
+              "score": 0.31945401430130005
+            }
+          ],
+          "target_margin": 0.02455422282218933,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "wine_glass",
+      "queries": [
+        {
+          "text": "The cat is behind the wine glass.",
+          "target": "000000275449.jpg",
+          "ranking": [
+            {
+              "image": "000000275449.jpg",
+              "score": 0.33669313788414
+            },
+            {
+              "image": "000000196619.jpg",
+              "score": 0.29882076382637024
+            }
+          ],
+          "target_margin": 0.037872374057769775,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in front of the wine glass.",
+          "target": "000000196619.jpg",
+          "ranking": [
+            {
+              "image": "000000275449.jpg",
+              "score": 0.3389260768890381
+            },
+            {
+              "image": "000000196619.jpg",
+              "score": 0.30328723788261414
+            }
+          ],
+          "target_margin": -0.03563883900642395,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "car",
+      "queries": [
+        {
+          "text": "The cat is under the car.",
+          "target": "000000230224.jpg",
+          "ranking": [
+            {
+              "image": "000000230224.jpg",
+              "score": 0.32752248644828796
+            },
+            {
+              "image": "000000000650.jpg",
+              "score": 0.2806909382343292
+            }
+          ],
+          "target_margin": 0.04683154821395874,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is on the roof of the car.",
+          "target": "000000000650.jpg",
+          "ranking": [
+            {
+              "image": "000000000650.jpg",
+              "score": 0.3143712282180786
+            },
+            {
+              "image": "000000230224.jpg",
+              "score": 0.2911785840988159
+            }
+          ],
+          "target_margin": 0.023192644119262695,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    }
+  ]
+}

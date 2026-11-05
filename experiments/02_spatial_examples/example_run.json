@@ -1,0 +1,55 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "candidate_count": 4,
+  "results": [
+    {
+      "query": "The cat is on top of the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "cosine_similarity": 0.3043593764305115
+        },
+        {
+          "image": "000000107664.jpg",
+          "cosine_similarity": 0.3039228916168213
+        },
+        {
+          "image": "000000000650.jpg",
+          "cosine_similarity": 0.21701553463935852
+        },
+        {
+          "image": "000000230224.jpg",
+          "cosine_similarity": 0.1935398131608963
+        }
+      ],
+      "target": "000000107664.jpg",
+      "target_rank": 2
+    },
+    {
+      "query": "The cat is under the car.",
+      "ranking": [
+        {
+          "image": "000000230224.jpg",
+          "cosine_similarity": 0.32752248644828796
+        },
+        {
+          "image": "000000000650.jpg",
+          "cosine_similarity": 0.2806909382343292
+        },
+        {
+          "image": "000000018903.jpg",
+          "cosine_similarity": 0.2247810959815979
+        },
+        {
+          "image": "000000107664.jpg",
+          "cosine_similarity": 0.22287461161613464
+        }
+      ],
+      "target": "000000230224.jpg",
+      "target_rank": 1
+    }
+  ],
+  "top1_accuracy": 0.5
+}

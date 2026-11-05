@@ -1,0 +1,13 @@
+{
+  "selected_before_scoring": true,
+  "new_pair_count": 7,
+  "prior_pair_count": 2,
+  "excluded": {
+    "bird_book": "Book not clearly visible in negative.",
+    "bowl_sandwich": "Bowl not clearly visible in negative.",
+    "laptop_sandwich": "Laptop not visible in positive; sandwich not clearly visible in negative.",
+    "laptop_dog": "Laptop not visible in negative.",
+    "car_under_cat": "Car absent from negative."
+  },
+  "hypothesis": "Image-plane height may be confused with support/depth; this probe measures retrieval choices, not internal representations."
+}

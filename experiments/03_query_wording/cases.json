@@ -1,0 +1,119 @@
+[
+  {
+    "id": "laptop_1",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000346614.jpg",
+    "negative": "000000018903.jpg",
+    "query": "The cat is on top of the laptop.",
+    "explicit_query": "The cat is physically resting on the laptop.",
+    "source_rows": [
+      79,
+      234
+    ]
+  },
+  {
+    "id": "laptop_2",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000281351.jpg",
+    "negative": "000000018903.jpg",
+    "query": "The cat is on top of the laptop.",
+    "explicit_query": "The cat is physically resting on the laptop.",
+    "source_rows": [
+      701,
+      234
+    ]
+  },
+  {
+    "id": "laptop_3",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000398767.jpg",
+    "negative": "000000018903.jpg",
+    "query": "The cat is on top of the laptop.",
+    "explicit_query": "The cat is physically resting on the laptop.",
+    "source_rows": [
+      935,
+      234
+    ]
+  },
+  {
+    "id": "laptop_under_cat",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000022962.jpg",
+    "negative": "000000052290.jpg",
+    "query": "The laptop is under the cat.",
+    "explicit_query": "The laptop is directly underneath and supporting the cat.",
+    "source_rows": [
+      99,
+      917
+    ]
+  },
+  {
+    "id": "apple_banana",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000360948.jpg",
+    "negative": "000000036417.jpg",
+    "query": "The apple is on top of the banana.",
+    "explicit_query": "The apple is resting on top of a banana.",
+    "source_rows": [
+      379,
+      77
+    ]
+  },
+  {
+    "id": "cat_fridge",
+    "group": "support",
+    "prior_example": false,
+    "positive": "000000466680.jpg",
+    "negative": "000000191016.jpg",
+    "query": "The cat is on top of the refrigerator.",
+    "explicit_query": "The cat is sitting on the top exterior surface of the refrigerator.",
+    "source_rows": [
+      214,
+      374
+    ]
+  },
+  {
+    "id": "cat_glass",
+    "group": "depth",
+    "prior_example": false,
+    "positive": "000000275449.jpg",
+    "negative": "000000196619.jpg",
+    "query": "The cat is behind the wine glass.",
+    "explicit_query": "The wine glass is closer to the camera than the cat.",
+    "source_rows": [
+      496,
+      252
+    ]
+  },
+  {
+    "id": "original_laptop",
+    "group": "support",
+    "prior_example": true,
+    "positive": "000000107664.jpg",
+    "negative": "000000018903.jpg",
+    "query": "The cat is on top of the laptop.",
+    "explicit_query": "The cat is physically resting on the laptop.",
+    "source_rows": [
+      14,
+      234
+    ]
+  },
+  {
+    "id": "original_car",
+    "group": "under",
+    "prior_example": true,
+    "positive": "000000230224.jpg",
+    "negative": "000000000650.jpg",
+    "query": "The cat is under the car.",
+    "explicit_query": "The cat is beneath the car body.",
+    "source_rows": [
+      215,
+      314
+    ]
+  }
+]

@@ -1,0 +1,4417 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "cases_sha256": "8864119262eaa2969d4aa2eb051e53c2d6d88e8c9db3a8263e661916ff19728e",
+  "manifest_sha256": "227dbbe9a104975df7ac44f340095e8ab0c9abe15e888466084bae6a337b13c3",
+  "query_correct": 109,
+  "query_count": 200,
+  "pair_both_correct": 13,
+  "pair_choice_changed": 17,
+  "pair_count": 100,
+  "results": [
+    {
+      "id": "p001",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The bus is in front of the truck.",
+          "target": "000000553735.jpg",
+          "ranking": [
+            {
+              "image": "000000370260.jpg",
+              "score": 0.2703145146369934
+            },
+            {
+              "image": "000000553735.jpg",
+              "score": 0.2535550892353058
+            }
+          ],
+          "target_margin": -0.016759425401687622,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The bus is behind the truck.",
+          "target": "000000370260.jpg",
+          "ranking": [
+            {
+              "image": "000000370260.jpg",
+              "score": 0.2583036720752716
+            },
+            {
+              "image": "000000553735.jpg",
+              "score": 0.23850028216838837
+            }
+          ],
+          "target_margin": 0.01980338990688324,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p002",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is at the left side of the refrigerator.",
+          "target": "000000294346.jpg",
+          "ranking": [
+            {
+              "image": "000000294346.jpg",
+              "score": 0.30221569538116455
+            },
+            {
+              "image": "000000347884.jpg",
+              "score": 0.2933092415332794
+            }
+          ],
+          "target_margin": 0.008906453847885132,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the refrigerator.",
+          "target": "000000347884.jpg",
+          "ranking": [
+            {
+              "image": "000000347884.jpg",
+              "score": 0.29859867691993713
+            },
+            {
+              "image": "000000294346.jpg",
+              "score": 0.29461297392845154
+            }
+          ],
+          "target_margin": 0.003985702991485596,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p003",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The pizza is on top of the oven.",
+          "target": "000000459200.jpg",
+          "ranking": [
+            {
+              "image": "000000428599.jpg",
+              "score": 0.29346394538879395
+            },
+            {
+              "image": "000000459200.jpg",
+              "score": 0.25800377130508423
+            }
+          ],
+          "target_margin": -0.03546017408370972,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The pizza is inside the oven.",
+          "target": "000000428599.jpg",
+          "ranking": [
+            {
+              "image": "000000428599.jpg",
+              "score": 0.2951694130897522
+            },
+            {
+              "image": "000000459200.jpg",
+              "score": 0.25406062602996826
+            }
+          ],
+          "target_margin": 0.041108787059783936,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p004",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The backpack is on the cat.",
+          "target": "000000212868.jpg",
+          "ranking": [
+            {
+              "image": "000000473964.jpg",
+              "score": 0.3125389814376831
+            },
+            {
+              "image": "000000212868.jpg",
+              "score": 0.29143238067626953
+            }
+          ],
+          "target_margin": -0.021106600761413574,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The backpack is under the cat.",
+          "target": "000000473964.jpg",
+          "ranking": [
+            {
+              "image": "000000473964.jpg",
+              "score": 0.3108021020889282
+            },
+            {
+              "image": "000000212868.jpg",
+              "score": 0.28462058305740356
+            }
+          ],
+          "target_margin": 0.026181519031524658,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p005",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The parking meter is in front of the car.",
+          "target": "000000057308.jpg",
+          "ranking": [
+            {
+              "image": "000000057308.jpg",
+              "score": 0.2757290005683899
+            },
+            {
+              "image": "000000377756.jpg",
+              "score": 0.26854491233825684
+            }
+          ],
+          "target_margin": 0.007184088230133057,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The parking meter is behind the car.",
+          "target": "000000377756.jpg",
+          "ranking": [
+            {
+              "image": "000000057308.jpg",
+              "score": 0.2659950256347656
+            },
+            {
+              "image": "000000377756.jpg",
+              "score": 0.26327550411224365
+            }
+          ],
+          "target_margin": -0.0027195215225219727,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p006",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is left of the teddy bear.",
+          "target": "000000429582.jpg",
+          "ranking": [
+            {
+              "image": "000000429582.jpg",
+              "score": 0.27976399660110474
+            },
+            {
+              "image": "000000545670.jpg",
+              "score": 0.2720763087272644
+            }
+          ],
+          "target_margin": 0.007687687873840332,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the teddy bear.",
+          "target": "000000545670.jpg",
+          "ranking": [
+            {
+              "image": "000000545670.jpg",
+              "score": 0.27905377745628357
+            },
+            {
+              "image": "000000429582.jpg",
+              "score": 0.2788953185081482
+            }
+          ],
+          "target_margin": 0.00015845894813537598,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p007",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000045830.jpg",
+          "ranking": [
+            {
+              "image": "000000045830.jpg",
+              "score": 0.3345702290534973
+            },
+            {
+              "image": "000000087377.jpg",
+              "score": 0.2836374044418335
+            }
+          ],
+          "target_margin": 0.05093282461166382,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the suitcase.",
+          "target": "000000087377.jpg",
+          "ranking": [
+            {
+              "image": "000000045830.jpg",
+              "score": 0.3282606601715088
+            },
+            {
+              "image": "000000087377.jpg",
+              "score": 0.3065934479236603
+            }
+          ],
+          "target_margin": -0.02166721224784851,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p008",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The dog is on the bed.",
+          "target": "000000503992.jpg",
+          "ranking": [
+            {
+              "image": "000000137016.jpg",
+              "score": 0.2831353545188904
+            },
+            {
+              "image": "000000503992.jpg",
+              "score": 0.2679693400859833
+            }
+          ],
+          "target_margin": -0.015166014432907104,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The dog is beneath the bed.",
+          "target": "000000137016.jpg",
+          "ranking": [
+            {
+              "image": "000000137016.jpg",
+              "score": 0.30447304248809814
+            },
+            {
+              "image": "000000503992.jpg",
+              "score": 0.27079424262046814
+            }
+          ],
+          "target_margin": 0.033678799867630005,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p009",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is in front of the zebra.",
+          "target": "000000135820.jpg",
+          "ranking": [
+            {
+              "image": "000000135820.jpg",
+              "score": 0.3050110340118408
+            },
+            {
+              "image": "000000085666.jpg",
+              "score": 0.28665435314178467
+            }
+          ],
+          "target_margin": 0.018356680870056152,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The person is behind the zebra.",
+          "target": "000000085666.jpg",
+          "ranking": [
+            {
+              "image": "000000135820.jpg",
+              "score": 0.29921627044677734
+            },
+            {
+              "image": "000000085666.jpg",
+              "score": 0.27506402134895325
+            }
+          ],
+          "target_margin": -0.024152249097824097,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p010",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The tv is at the left side of the cat.",
+          "target": "000000321736.jpg",
+          "ranking": [
+            {
+              "image": "000000321736.jpg",
+              "score": 0.3029170632362366
+            },
+            {
+              "image": "000000197236.jpg",
+              "score": 0.257134348154068
+            }
+          ],
+          "target_margin": 0.04578271508216858,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The tv is at the right side of the cat.",
+          "target": "000000197236.jpg",
+          "ranking": [
+            {
+              "image": "000000321736.jpg",
+              "score": 0.30313146114349365
+            },
+            {
+              "image": "000000197236.jpg",
+              "score": 0.2466549277305603
+            }
+          ],
+          "target_margin": -0.05647653341293335,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p011",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000040348.jpg",
+          "ranking": [
+            {
+              "image": "000000332420.jpg",
+              "score": 0.33864709734916687
+            },
+            {
+              "image": "000000040348.jpg",
+              "score": 0.3093668818473816
+            }
+          ],
+          "target_margin": -0.02928021550178528,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the suitcase.",
+          "target": "000000332420.jpg",
+          "ranking": [
+            {
+              "image": "000000332420.jpg",
+              "score": 0.32158422470092773
+            },
+            {
+              "image": "000000040348.jpg",
+              "score": 0.29731452465057373
+            }
+          ],
+          "target_margin": 0.024269700050354004,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p012",
+      "category": "support_vertical",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The dog is on top of the teddy bear.",
+          "target": "000000205854.jpg",
+          "ranking": [
+            {
+              "image": "000000139355.jpg",
+              "score": 0.30060458183288574
+            },
+            {
+              "image": "000000205854.jpg",
+              "score": 0.2954850196838379
+            }
+          ],
+          "target_margin": -0.0051195621490478516,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The dog is beneath the teddy bear.",
+          "target": "000000139355.jpg",
+          "ranking": [
+            {
+              "image": "000000139355.jpg",
+              "score": 0.30036792159080505
+            },
+            {
+              "image": "000000205854.jpg",
+              "score": 0.29197758436203003
+            }
+          ],
+          "target_margin": 0.008390337228775024,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p013",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The refrigerator is in front of the person.",
+          "target": "000000391539.jpg",
+          "ranking": [
+            {
+              "image": "000000391539.jpg",
+              "score": 0.28686463832855225
+            },
+            {
+              "image": "000000407617.jpg",
+              "score": 0.2805740535259247
+            }
+          ],
+          "target_margin": 0.0062905848026275635,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The refrigerator is behind the person.",
+          "target": "000000407617.jpg",
+          "ranking": [
+            {
+              "image": "000000407617.jpg",
+              "score": 0.2866053581237793
+            },
+            {
+              "image": "000000391539.jpg",
+              "score": 0.2793359160423279
+            }
+          ],
+          "target_margin": 0.007269442081451416,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p014",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is at the left side of the laptop.",
+          "target": "000000474764.jpg",
+          "ranking": [
+            {
+              "image": "000000248876.jpg",
+              "score": 0.28929102420806885
+            },
+            {
+              "image": "000000474764.jpg",
+              "score": 0.2890920042991638
+            }
+          ],
+          "target_margin": -0.0001990199089050293,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is at the right side of the laptop.",
+          "target": "000000248876.jpg",
+          "ranking": [
+            {
+              "image": "000000474764.jpg",
+              "score": 0.292349636554718
+            },
+            {
+              "image": "000000248876.jpg",
+              "score": 0.2888812720775604
+            }
+          ],
+          "target_margin": -0.0034683644771575928,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": false
+    },
+    {
+      "id": "p015",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The pizza is on top of the oven.",
+          "target": "000000105247.jpg",
+          "ranking": [
+            {
+              "image": "000000341707.jpg",
+              "score": 0.31678497791290283
+            },
+            {
+              "image": "000000105247.jpg",
+              "score": 0.3120107054710388
+            }
+          ],
+          "target_margin": -0.004774272441864014,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The pizza is in the oven.",
+          "target": "000000341707.jpg",
+          "ranking": [
+            {
+              "image": "000000341707.jpg",
+              "score": 0.3015245497226715
+            },
+            {
+              "image": "000000105247.jpg",
+              "score": 0.2970620095729828
+            }
+          ],
+          "target_margin": 0.004462540149688721,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p016",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The couch is on the truck.",
+          "target": "000000028333.jpg",
+          "ranking": [
+            {
+              "image": "000000028333.jpg",
+              "score": 0.2689480185508728
+            },
+            {
+              "image": "000000439546.jpg",
+              "score": 0.22500886023044586
+            }
+          ],
+          "target_margin": 0.04393915832042694,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The couch is under the truck.",
+          "target": "000000439546.jpg",
+          "ranking": [
+            {
+              "image": "000000028333.jpg",
+              "score": 0.26620733737945557
+            },
+            {
+              "image": "000000439546.jpg",
+              "score": 0.2124323844909668
+            }
+          ],
+          "target_margin": -0.05377495288848877,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p017",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The person is in front of the laptop.",
+          "target": "000000263957.jpg",
+          "ranking": [
+            {
+              "image": "000000158582.jpg",
+              "score": 0.284591406583786
+            },
+            {
+              "image": "000000263957.jpg",
+              "score": 0.28403568267822266
+            }
+          ],
+          "target_margin": -0.0005557239055633545,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is behind the laptop.",
+          "target": "000000158582.jpg",
+          "ranking": [
+            {
+              "image": "000000158582.jpg",
+              "score": 0.28457915782928467
+            },
+            {
+              "image": "000000263957.jpg",
+              "score": 0.27660587430000305
+            }
+          ],
+          "target_margin": 0.007973283529281616,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p018",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The person is at the left side of the dining table.",
+          "target": "000000485288.jpg",
+          "ranking": [
+            {
+              "image": "000000481689.jpg",
+              "score": 0.2252131998538971
+            },
+            {
+              "image": "000000485288.jpg",
+              "score": 0.22331660985946655
+            }
+          ],
+          "target_margin": -0.001896589994430542,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the dining table.",
+          "target": "000000481689.jpg",
+          "ranking": [
+            {
+              "image": "000000485288.jpg",
+              "score": 0.22119733691215515
+            },
+            {
+              "image": "000000481689.jpg",
+              "score": 0.22068855166435242
+            }
+          ],
+          "target_margin": -0.0005087852478027344,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": false
+    },
+    {
+      "id": "p019",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the handbag.",
+          "target": "000000442252.jpg",
+          "ranking": [
+            {
+              "image": "000000320600.jpg",
+              "score": 0.315518319606781
+            },
+            {
+              "image": "000000442252.jpg",
+              "score": 0.26064154505729675
+            }
+          ],
+          "target_margin": -0.05487677454948425,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the handbag.",
+          "target": "000000320600.jpg",
+          "ranking": [
+            {
+              "image": "000000320600.jpg",
+              "score": 0.3171653747558594
+            },
+            {
+              "image": "000000442252.jpg",
+              "score": 0.2559654414653778
+            }
+          ],
+          "target_margin": 0.06119993329048157,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p020",
+      "category": "support_vertical",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on the person.",
+          "target": "000000364879.jpg",
+          "ranking": [
+            {
+              "image": "000000229707.jpg",
+              "score": 0.2690258026123047
+            },
+            {
+              "image": "000000364879.jpg",
+              "score": 0.25914373993873596
+            }
+          ],
+          "target_margin": -0.009882062673568726,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is beneath the person.",
+          "target": "000000229707.jpg",
+          "ranking": [
+            {
+              "image": "000000229707.jpg",
+              "score": 0.26439663767814636
+            },
+            {
+              "image": "000000364879.jpg",
+              "score": 0.2601377069950104
+            }
+          ],
+          "target_margin": 0.004258930683135986,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p021",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The horse is in front of the person.",
+          "target": "000000271949.jpg",
+          "ranking": [
+            {
+              "image": "000000057550.jpg",
+              "score": 0.2722138464450836
+            },
+            {
+              "image": "000000271949.jpg",
+              "score": 0.26500704884529114
+            }
+          ],
+          "target_margin": -0.0072067975997924805,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The horse is behind the person.",
+          "target": "000000057550.jpg",
+          "ranking": [
+            {
+              "image": "000000057550.jpg",
+              "score": 0.27414825558662415
+            },
+            {
+              "image": "000000271949.jpg",
+              "score": 0.2552362084388733
+            }
+          ],
+          "target_margin": 0.018912047147750854,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p022",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is left of the teddy bear.",
+          "target": "000000192575.jpg",
+          "ranking": [
+            {
+              "image": "000000219418.jpg",
+              "score": 0.331302285194397
+            },
+            {
+              "image": "000000192575.jpg",
+              "score": 0.272867351770401
+            }
+          ],
+          "target_margin": -0.05843493342399597,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is at the right side of the teddy bear.",
+          "target": "000000219418.jpg",
+          "ranking": [
+            {
+              "image": "000000219418.jpg",
+              "score": 0.3257060945034027
+            },
+            {
+              "image": "000000192575.jpg",
+              "score": 0.26915356516838074
+            }
+          ],
+          "target_margin": 0.05655252933502197,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p023",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the backpack.",
+          "target": "000000273607.jpg",
+          "ranking": [
+            {
+              "image": "000000102987.jpg",
+              "score": 0.31703996658325195
+            },
+            {
+              "image": "000000273607.jpg",
+              "score": 0.3121022582054138
+            }
+          ],
+          "target_margin": -0.004937708377838135,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the backpack.",
+          "target": "000000102987.jpg",
+          "ranking": [
+            {
+              "image": "000000102987.jpg",
+              "score": 0.33186984062194824
+            },
+            {
+              "image": "000000273607.jpg",
+              "score": 0.2973948121070862
+            }
+          ],
+          "target_margin": 0.03447502851486206,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p024",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the car.",
+          "target": "000000258344.jpg",
+          "ranking": [
+            {
+              "image": "000000258344.jpg",
+              "score": 0.29435741901397705
+            },
+            {
+              "image": "000000186484.jpg",
+              "score": 0.26934871077537537
+            }
+          ],
+          "target_margin": 0.025008708238601685,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the car.",
+          "target": "000000186484.jpg",
+          "ranking": [
+            {
+              "image": "000000186484.jpg",
+              "score": 0.30363720655441284
+            },
+            {
+              "image": "000000258344.jpg",
+              "score": 0.280131995677948
+            }
+          ],
+          "target_margin": 0.023505210876464844,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p025",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is in front of the laptop.",
+          "target": "000000369208.jpg",
+          "ranking": [
+            {
+              "image": "000000369208.jpg",
+              "score": 0.3036932945251465
+            },
+            {
+              "image": "000000362231.jpg",
+              "score": 0.2899184823036194
+            }
+          ],
+          "target_margin": 0.0137748122215271,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is behind the laptop.",
+          "target": "000000362231.jpg",
+          "ranking": [
+            {
+              "image": "000000369208.jpg",
+              "score": 0.3064057528972626
+            },
+            {
+              "image": "000000362231.jpg",
+              "score": 0.29631397128105164
+            }
+          ],
+          "target_margin": -0.010091781616210938,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p026",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The laptop is at the left side of the cake.",
+          "target": "000000393375.jpg",
+          "ranking": [
+            {
+              "image": "000000393375.jpg",
+              "score": 0.2785193920135498
+            },
+            {
+              "image": "000000229286.jpg",
+              "score": 0.27564752101898193
+            }
+          ],
+          "target_margin": 0.002871870994567871,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The laptop is right of the cake.",
+          "target": "000000229286.jpg",
+          "ranking": [
+            {
+              "image": "000000393375.jpg",
+              "score": 0.30570849776268005
+            },
+            {
+              "image": "000000229286.jpg",
+              "score": 0.26631879806518555
+            }
+          ],
+          "target_margin": -0.03938969969749451,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p027",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The pizza is on top of the oven.",
+          "target": "000000573206.jpg",
+          "ranking": [
+            {
+              "image": "000000573206.jpg",
+              "score": 0.3066793978214264
+            },
+            {
+              "image": "000000415594.jpg",
+              "score": 0.29415637254714966
+            }
+          ],
+          "target_margin": 0.012523025274276733,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The pizza is in the oven.",
+          "target": "000000415594.jpg",
+          "ranking": [
+            {
+              "image": "000000415594.jpg",
+              "score": 0.296389639377594
+            },
+            {
+              "image": "000000573206.jpg",
+              "score": 0.28597578406333923
+            }
+          ],
+          "target_margin": 0.01041385531425476,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p028",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The teddy bear is on top of the cat.",
+          "target": "000000386029.jpg",
+          "ranking": [
+            {
+              "image": "000000555951.jpg",
+              "score": 0.30281150341033936
+            },
+            {
+              "image": "000000386029.jpg",
+              "score": 0.2527492344379425
+            }
+          ],
+          "target_margin": -0.05006226897239685,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is under the cat.",
+          "target": "000000555951.jpg",
+          "ranking": [
+            {
+              "image": "000000555951.jpg",
+              "score": 0.2936853766441345
+            },
+            {
+              "image": "000000386029.jpg",
+              "score": 0.24950700998306274
+            }
+          ],
+          "target_margin": 0.04417836666107178,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p029",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The couch is in front of the bed.",
+          "target": "000000550780.jpg",
+          "ranking": [
+            {
+              "image": "000000550780.jpg",
+              "score": 0.24810118973255157
+            },
+            {
+              "image": "000000257021.jpg",
+              "score": 0.24139106273651123
+            }
+          ],
+          "target_margin": 0.006710126996040344,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The couch is behind the bed.",
+          "target": "000000257021.jpg",
+          "ranking": [
+            {
+              "image": "000000550780.jpg",
+              "score": 0.24893063306808472
+            },
+            {
+              "image": "000000257021.jpg",
+              "score": 0.24174834787845612
+            }
+          ],
+          "target_margin": -0.007182285189628601,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p030",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The oven is at the left side of the person.",
+          "target": "000000391638.jpg",
+          "ranking": [
+            {
+              "image": "000000321223.jpg",
+              "score": 0.28981953859329224
+            },
+            {
+              "image": "000000391638.jpg",
+              "score": 0.2622470259666443
+            }
+          ],
+          "target_margin": -0.02757251262664795,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The oven is at the right side of the person.",
+          "target": "000000321223.jpg",
+          "ranking": [
+            {
+              "image": "000000321223.jpg",
+              "score": 0.2909499406814575
+            },
+            {
+              "image": "000000391638.jpg",
+              "score": 0.2668626606464386
+            }
+          ],
+          "target_margin": 0.02408728003501892,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p031",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the toilet.",
+          "target": "000000219567.jpg",
+          "ranking": [
+            {
+              "image": "000000219567.jpg",
+              "score": 0.329633891582489
+            },
+            {
+              "image": "000000411685.jpg",
+              "score": 0.3088926672935486
+            }
+          ],
+          "target_margin": 0.02074122428894043,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the toilet.",
+          "target": "000000411685.jpg",
+          "ranking": [
+            {
+              "image": "000000219567.jpg",
+              "score": 0.3225643038749695
+            },
+            {
+              "image": "000000411685.jpg",
+              "score": 0.32107579708099365
+            }
+          ],
+          "target_margin": -0.00148850679397583,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p032",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on the motorcycle.",
+          "target": "000000156506.jpg",
+          "ranking": [
+            {
+              "image": "000000340004.jpg",
+              "score": 0.2921174466609955
+            },
+            {
+              "image": "000000156506.jpg",
+              "score": 0.2852158844470978
+            }
+          ],
+          "target_margin": -0.006901562213897705,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the motorcycle.",
+          "target": "000000340004.jpg",
+          "ranking": [
+            {
+              "image": "000000340004.jpg",
+              "score": 0.30240312218666077
+            },
+            {
+              "image": "000000156506.jpg",
+              "score": 0.29718661308288574
+            }
+          ],
+          "target_margin": 0.005216509103775024,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p033",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The chair is in front of the dining table.",
+          "target": "000000183236.jpg",
+          "ranking": [
+            {
+              "image": "000000183236.jpg",
+              "score": 0.23899869620800018
+            },
+            {
+              "image": "000000149250.jpg",
+              "score": 0.21577514708042145
+            }
+          ],
+          "target_margin": 0.023223549127578735,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The chair is behind the dining table.",
+          "target": "000000149250.jpg",
+          "ranking": [
+            {
+              "image": "000000183236.jpg",
+              "score": 0.2426822930574417
+            },
+            {
+              "image": "000000149250.jpg",
+              "score": 0.20978093147277832
+            }
+          ],
+          "target_margin": -0.03290136158466339,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p034",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The broccoli is at the left side of the pizza.",
+          "target": "000000238795.jpg",
+          "ranking": [
+            {
+              "image": "000000238795.jpg",
+              "score": 0.2555387318134308
+            },
+            {
+              "image": "000000281920.jpg",
+              "score": 0.23247312009334564
+            }
+          ],
+          "target_margin": 0.023065611720085144,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The broccoli is at the right side of the pizza.",
+          "target": "000000281920.jpg",
+          "ranking": [
+            {
+              "image": "000000238795.jpg",
+              "score": 0.25341808795928955
+            },
+            {
+              "image": "000000281920.jpg",
+              "score": 0.2349061220884323
+            }
+          ],
+          "target_margin": -0.01851196587085724,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p035",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000066271.jpg",
+          "ranking": [
+            {
+              "image": "000000066271.jpg",
+              "score": 0.33829253911972046
+            },
+            {
+              "image": "000000319865.jpg",
+              "score": 0.3233358860015869
+            }
+          ],
+          "target_margin": 0.014956653118133545,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the suitcase.",
+          "target": "000000319865.jpg",
+          "ranking": [
+            {
+              "image": "000000066271.jpg",
+              "score": 0.32767176628112793
+            },
+            {
+              "image": "000000319865.jpg",
+              "score": 0.3220517337322235
+            }
+          ],
+          "target_margin": -0.005620032548904419,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p036",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The dog is on the chair.",
+          "target": "000000562574.jpg",
+          "ranking": [
+            {
+              "image": "000000562574.jpg",
+              "score": 0.29549527168273926
+            },
+            {
+              "image": "000000359085.jpg",
+              "score": 0.24703741073608398
+            }
+          ],
+          "target_margin": 0.04845786094665527,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The dog is under the chair.",
+          "target": "000000359085.jpg",
+          "ranking": [
+            {
+              "image": "000000359085.jpg",
+              "score": 0.2678183913230896
+            },
+            {
+              "image": "000000562574.jpg",
+              "score": 0.26607099175453186
+            }
+          ],
+          "target_margin": 0.0017473995685577393,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p037",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The truck is in front of the car.",
+          "target": "000000335339.jpg",
+          "ranking": [
+            {
+              "image": "000000335339.jpg",
+              "score": 0.25392037630081177
+            },
+            {
+              "image": "000000421455.jpg",
+              "score": 0.2439592033624649
+            }
+          ],
+          "target_margin": 0.009961172938346863,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The truck is behind the car.",
+          "target": "000000421455.jpg",
+          "ranking": [
+            {
+              "image": "000000335339.jpg",
+              "score": 0.24919526278972626
+            },
+            {
+              "image": "000000421455.jpg",
+              "score": 0.2470913976430893
+            }
+          ],
+          "target_margin": -0.002103865146636963,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p038",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The donut is left of the cup.",
+          "target": "000000353427.jpg",
+          "ranking": [
+            {
+              "image": "000000304858.jpg",
+              "score": 0.27798596024513245
+            },
+            {
+              "image": "000000353427.jpg",
+              "score": 0.2693355083465576
+            }
+          ],
+          "target_margin": -0.008650451898574829,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The donut is at the right side of the cup.",
+          "target": "000000304858.jpg",
+          "ranking": [
+            {
+              "image": "000000304858.jpg",
+              "score": 0.2826475501060486
+            },
+            {
+              "image": "000000353427.jpg",
+              "score": 0.2747475206851959
+            }
+          ],
+          "target_margin": 0.007900029420852661,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p039",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000501498.jpg",
+          "ranking": [
+            {
+              "image": "000000501498.jpg",
+              "score": 0.32498395442962646
+            },
+            {
+              "image": "000000086229.jpg",
+              "score": 0.28314635157585144
+            }
+          ],
+          "target_margin": 0.041837602853775024,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the suitcase.",
+          "target": "000000086229.jpg",
+          "ranking": [
+            {
+              "image": "000000501498.jpg",
+              "score": 0.32634809613227844
+            },
+            {
+              "image": "000000086229.jpg",
+              "score": 0.30815553665161133
+            }
+          ],
+          "target_margin": -0.018192559480667114,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p040",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the umbrella.",
+          "target": "000000123970.jpg",
+          "ranking": [
+            {
+              "image": "000000059949.jpg",
+              "score": 0.3476875126361847
+            },
+            {
+              "image": "000000123970.jpg",
+              "score": 0.2952684462070465
+            }
+          ],
+          "target_margin": -0.052419066429138184,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the umbrella.",
+          "target": "000000059949.jpg",
+          "ranking": [
+            {
+              "image": "000000059949.jpg",
+              "score": 0.358253538608551
+            },
+            {
+              "image": "000000123970.jpg",
+              "score": 0.29456639289855957
+            }
+          ],
+          "target_margin": 0.06368714570999146,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p041",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The giraffe is in front of the person.",
+          "target": "000000358748.jpg",
+          "ranking": [
+            {
+              "image": "000000358748.jpg",
+              "score": 0.32199692726135254
+            },
+            {
+              "image": "000000315018.jpg",
+              "score": 0.29972320795059204
+            }
+          ],
+          "target_margin": 0.022273719310760498,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The giraffe is behind the person.",
+          "target": "000000315018.jpg",
+          "ranking": [
+            {
+              "image": "000000358748.jpg",
+              "score": 0.31587284803390503
+            },
+            {
+              "image": "000000315018.jpg",
+              "score": 0.299974262714386
+            }
+          ],
+          "target_margin": -0.015898585319519043,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p042",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The horse is at the left side of the person.",
+          "target": "000000253487.jpg",
+          "ranking": [
+            {
+              "image": "000000408328.jpg",
+              "score": 0.27964168787002563
+            },
+            {
+              "image": "000000253487.jpg",
+              "score": 0.2779722809791565
+            }
+          ],
+          "target_margin": -0.0016694068908691406,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The horse is at the right side of the person.",
+          "target": "000000408328.jpg",
+          "ranking": [
+            {
+              "image": "000000253487.jpg",
+              "score": 0.2792763411998749
+            },
+            {
+              "image": "000000408328.jpg",
+              "score": 0.27635839581489563
+            }
+          ],
+          "target_margin": -0.002917945384979248,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": false
+    },
+    {
+      "id": "p043",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000080168.jpg",
+          "ranking": [
+            {
+              "image": "000000080168.jpg",
+              "score": 0.33975714445114136
+            },
+            {
+              "image": "000000360157.jpg",
+              "score": 0.3327113091945648
+            }
+          ],
+          "target_margin": 0.007045835256576538,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the suitcase.",
+          "target": "000000360157.jpg",
+          "ranking": [
+            {
+              "image": "000000080168.jpg",
+              "score": 0.3323926627635956
+            },
+            {
+              "image": "000000360157.jpg",
+              "score": 0.3293822109699249
+            }
+          ],
+          "target_margin": -0.0030104517936706543,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p044",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the umbrella.",
+          "target": "000000280043.jpg",
+          "ranking": [
+            {
+              "image": "000000158354.jpg",
+              "score": 0.333422988653183
+            },
+            {
+              "image": "000000280043.jpg",
+              "score": 0.3142586946487427
+            }
+          ],
+          "target_margin": -0.019164294004440308,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is beneath the umbrella.",
+          "target": "000000158354.jpg",
+          "ranking": [
+            {
+              "image": "000000158354.jpg",
+              "score": 0.33425867557525635
+            },
+            {
+              "image": "000000280043.jpg",
+              "score": 0.31321048736572266
+            }
+          ],
+          "target_margin": 0.02104818820953369,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p045",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The couch is in front of the person.",
+          "target": "000000363468.jpg",
+          "ranking": [
+            {
+              "image": "000000363468.jpg",
+              "score": 0.24408408999443054
+            },
+            {
+              "image": "000000072538.jpg",
+              "score": 0.18493211269378662
+            }
+          ],
+          "target_margin": 0.05915197730064392,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The couch is behind the person.",
+          "target": "000000072538.jpg",
+          "ranking": [
+            {
+              "image": "000000363468.jpg",
+              "score": 0.24305459856987
+            },
+            {
+              "image": "000000072538.jpg",
+              "score": 0.19761888682842255
+            }
+          ],
+          "target_margin": -0.04543571174144745,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p046",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The teddy bear is at the left side of the dog.",
+          "target": "000000041625.jpg",
+          "ranking": [
+            {
+              "image": "000000542854.jpg",
+              "score": 0.290618896484375
+            },
+            {
+              "image": "000000041625.jpg",
+              "score": 0.2846020758152008
+            }
+          ],
+          "target_margin": -0.006016820669174194,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is at the right side of the dog.",
+          "target": "000000542854.jpg",
+          "ranking": [
+            {
+              "image": "000000542854.jpg",
+              "score": 0.2863779366016388
+            },
+            {
+              "image": "000000041625.jpg",
+              "score": 0.27830860018730164
+            }
+          ],
+          "target_margin": 0.008069336414337158,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p047",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The dog is on top of the suitcase.",
+          "target": "000000441674.jpg",
+          "ranking": [
+            {
+              "image": "000000441674.jpg",
+              "score": 0.32097476720809937
+            },
+            {
+              "image": "000000375140.jpg",
+              "score": 0.24514739215373993
+            }
+          ],
+          "target_margin": 0.07582737505435944,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The dog is inside the suitcase.",
+          "target": "000000375140.jpg",
+          "ranking": [
+            {
+              "image": "000000441674.jpg",
+              "score": 0.30521130561828613
+            },
+            {
+              "image": "000000375140.jpg",
+              "score": 0.2557644248008728
+            }
+          ],
+          "target_margin": -0.04944688081741333,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p048",
+      "category": "support_vertical",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the dining table.",
+          "target": "000000555574.jpg",
+          "ranking": [
+            {
+              "image": "000000268141.jpg",
+              "score": 0.2939663529396057
+            },
+            {
+              "image": "000000555574.jpg",
+              "score": 0.2707965672016144
+            }
+          ],
+          "target_margin": -0.023169785737991333,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the dining table.",
+          "target": "000000268141.jpg",
+          "ranking": [
+            {
+              "image": "000000268141.jpg",
+              "score": 0.28700122237205505
+            },
+            {
+              "image": "000000555574.jpg",
+              "score": 0.2793882489204407
+            }
+          ],
+          "target_margin": 0.00761297345161438,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p049",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The car is in front of the elephant.",
+          "target": "000000273579.jpg",
+          "ranking": [
+            {
+              "image": "000000551100.jpg",
+              "score": 0.31133610010147095
+            },
+            {
+              "image": "000000273579.jpg",
+              "score": 0.2906455099582672
+            }
+          ],
+          "target_margin": -0.020690590143203735,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The car is behind the elephant.",
+          "target": "000000551100.jpg",
+          "ranking": [
+            {
+              "image": "000000551100.jpg",
+              "score": 0.29802554845809937
+            },
+            {
+              "image": "000000273579.jpg",
+              "score": 0.2728797197341919
+            }
+          ],
+          "target_margin": 0.02514582872390747,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p050",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The laptop is at the left side of the cat.",
+          "target": "000000394234.jpg",
+          "ranking": [
+            {
+              "image": "000000394234.jpg",
+              "score": 0.3091387450695038
+            },
+            {
+              "image": "000000037707.jpg",
+              "score": 0.30811065435409546
+            }
+          ],
+          "target_margin": 0.0010280907154083252,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The laptop is at the right side of the cat.",
+          "target": "000000037707.jpg",
+          "ranking": [
+            {
+              "image": "000000037707.jpg",
+              "score": 0.3094090223312378
+            },
+            {
+              "image": "000000394234.jpg",
+              "score": 0.30736154317855835
+            }
+          ],
+          "target_margin": 0.0020474791526794434,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p051",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the sink.",
+          "target": "000000471407.jpg",
+          "ranking": [
+            {
+              "image": "000000169365.jpg",
+              "score": 0.32077211141586304
+            },
+            {
+              "image": "000000471407.jpg",
+              "score": 0.3148439824581146
+            }
+          ],
+          "target_margin": -0.005928128957748413,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the sink.",
+          "target": "000000169365.jpg",
+          "ranking": [
+            {
+              "image": "000000169365.jpg",
+              "score": 0.3279350996017456
+            },
+            {
+              "image": "000000471407.jpg",
+              "score": 0.31453603506088257
+            }
+          ],
+          "target_margin": 0.013399064540863037,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p052",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The dog is on the chair.",
+          "target": "000000504293.jpg",
+          "ranking": [
+            {
+              "image": "000000313520.jpg",
+              "score": 0.22196052968502045
+            },
+            {
+              "image": "000000504293.jpg",
+              "score": 0.20662859082221985
+            }
+          ],
+          "target_margin": -0.015331938862800598,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The dog is under the chair.",
+          "target": "000000313520.jpg",
+          "ranking": [
+            {
+              "image": "000000313520.jpg",
+              "score": 0.22275467216968536
+            },
+            {
+              "image": "000000504293.jpg",
+              "score": 0.19514474272727966
+            }
+          ],
+          "target_margin": 0.0276099294424057,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p053",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is in front of the laptop.",
+          "target": "000000079445.jpg",
+          "ranking": [
+            {
+              "image": "000000079445.jpg",
+              "score": 0.31404924392700195
+            },
+            {
+              "image": "000000558189.jpg",
+              "score": 0.3030850291252136
+            }
+          ],
+          "target_margin": 0.01096421480178833,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is behind the laptop.",
+          "target": "000000558189.jpg",
+          "ranking": [
+            {
+              "image": "000000079445.jpg",
+              "score": 0.3146675229072571
+            },
+            {
+              "image": "000000558189.jpg",
+              "score": 0.30440837144851685
+            }
+          ],
+          "target_margin": -0.010259151458740234,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p054",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The person is left of the cat.",
+          "target": "000000012827.jpg",
+          "ranking": [
+            {
+              "image": "000000402177.jpg",
+              "score": 0.2575526833534241
+            },
+            {
+              "image": "000000012827.jpg",
+              "score": 0.24021130800247192
+            }
+          ],
+          "target_margin": -0.01734137535095215,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the cat.",
+          "target": "000000402177.jpg",
+          "ranking": [
+            {
+              "image": "000000402177.jpg",
+              "score": 0.2551294267177582
+            },
+            {
+              "image": "000000012827.jpg",
+              "score": 0.23147986829280853
+            }
+          ],
+          "target_margin": 0.023649558424949646,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p055",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000397606.jpg",
+          "ranking": [
+            {
+              "image": "000000397606.jpg",
+              "score": 0.32989487051963806
+            },
+            {
+              "image": "000000488004.jpg",
+              "score": 0.31950750946998596
+            }
+          ],
+          "target_margin": 0.0103873610496521,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the suitcase.",
+          "target": "000000488004.jpg",
+          "ranking": [
+            {
+              "image": "000000488004.jpg",
+              "score": 0.32038211822509766
+            },
+            {
+              "image": "000000397606.jpg",
+              "score": 0.3195337653160095
+            }
+          ],
+          "target_margin": 0.0008483529090881348,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p056",
+      "category": "support_vertical",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the dog.",
+          "target": "000000485560.jpg",
+          "ranking": [
+            {
+              "image": "000000485560.jpg",
+              "score": 0.29153063893318176
+            },
+            {
+              "image": "000000081918.jpg",
+              "score": 0.2793748676776886
+            }
+          ],
+          "target_margin": 0.012155771255493164,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the dog.",
+          "target": "000000081918.jpg",
+          "ranking": [
+            {
+              "image": "000000485560.jpg",
+              "score": 0.27843543887138367
+            },
+            {
+              "image": "000000081918.jpg",
+              "score": 0.2770727872848511
+            }
+          ],
+          "target_margin": -0.0013626515865325928,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p057",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is in front of the potted plant.",
+          "target": "000000044702.jpg",
+          "ranking": [
+            {
+              "image": "000000044702.jpg",
+              "score": 0.2800562381744385
+            },
+            {
+              "image": "000000037729.jpg",
+              "score": 0.27499818801879883
+            }
+          ],
+          "target_margin": 0.0050580501556396484,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is behind the potted plant.",
+          "target": "000000037729.jpg",
+          "ranking": [
+            {
+              "image": "000000037729.jpg",
+              "score": 0.27743515372276306
+            },
+            {
+              "image": "000000044702.jpg",
+              "score": 0.2731465995311737
+            }
+          ],
+          "target_margin": 0.0042885541915893555,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p058",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The person is left of the cake.",
+          "target": "000000398153.jpg",
+          "ranking": [
+            {
+              "image": "000000343104.jpg",
+              "score": 0.2597443759441376
+            },
+            {
+              "image": "000000398153.jpg",
+              "score": 0.258377343416214
+            }
+          ],
+          "target_margin": -0.001367032527923584,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the cake.",
+          "target": "000000343104.jpg",
+          "ranking": [
+            {
+              "image": "000000398153.jpg",
+              "score": 0.2552241086959839
+            },
+            {
+              "image": "000000343104.jpg",
+              "score": 0.24448606371879578
+            }
+          ],
+          "target_margin": -0.01073804497718811,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": false
+    },
+    {
+      "id": "p059",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000389474.jpg",
+          "ranking": [
+            {
+              "image": "000000389474.jpg",
+              "score": 0.3426203727722168
+            },
+            {
+              "image": "000000468951.jpg",
+              "score": 0.2987763285636902
+            }
+          ],
+          "target_margin": 0.04384404420852661,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the suitcase.",
+          "target": "000000468951.jpg",
+          "ranking": [
+            {
+              "image": "000000389474.jpg",
+              "score": 0.3404074013233185
+            },
+            {
+              "image": "000000468951.jpg",
+              "score": 0.30674827098846436
+            }
+          ],
+          "target_margin": -0.033659130334854126,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p060",
+      "category": "support_vertical",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on the dining table.",
+          "target": "000000401144.jpg",
+          "ranking": [
+            {
+              "image": "000000413250.jpg",
+              "score": 0.2575218379497528
+            },
+            {
+              "image": "000000401144.jpg",
+              "score": 0.22777554392814636
+            }
+          ],
+          "target_margin": -0.029746294021606445,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cat is under the dining table.",
+          "target": "000000413250.jpg",
+          "ranking": [
+            {
+              "image": "000000413250.jpg",
+              "score": 0.26257044076919556
+            },
+            {
+              "image": "000000401144.jpg",
+              "score": 0.2166038453578949
+            }
+          ],
+          "target_margin": 0.04596659541130066,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p061",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is in front of the laptop.",
+          "target": "000000062237.jpg",
+          "ranking": [
+            {
+              "image": "000000062237.jpg",
+              "score": 0.30466240644454956
+            },
+            {
+              "image": "000000501126.jpg",
+              "score": 0.26038140058517456
+            }
+          ],
+          "target_margin": 0.044281005859375,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is behind the laptop.",
+          "target": "000000501126.jpg",
+          "ranking": [
+            {
+              "image": "000000062237.jpg",
+              "score": 0.3070144057273865
+            },
+            {
+              "image": "000000501126.jpg",
+              "score": 0.2652565538883209
+            }
+          ],
+          "target_margin": -0.04175785183906555,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p062",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The teddy bear is at the left side of the dog.",
+          "target": "000000278184.jpg",
+          "ranking": [
+            {
+              "image": "000000278184.jpg",
+              "score": 0.32095712423324585
+            },
+            {
+              "image": "000000088241.jpg",
+              "score": 0.31300708651542664
+            }
+          ],
+          "target_margin": 0.007950037717819214,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is right of the dog.",
+          "target": "000000088241.jpg",
+          "ranking": [
+            {
+              "image": "000000278184.jpg",
+              "score": 0.32166317105293274
+            },
+            {
+              "image": "000000088241.jpg",
+              "score": 0.31432032585144043
+            }
+          ],
+          "target_margin": -0.00734284520149231,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p063",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The pizza is on top of the oven.",
+          "target": "000000076654.jpg",
+          "ranking": [
+            {
+              "image": "000000155604.jpg",
+              "score": 0.3063809275627136
+            },
+            {
+              "image": "000000076654.jpg",
+              "score": 0.29191234707832336
+            }
+          ],
+          "target_margin": -0.014468580484390259,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The pizza is in the oven.",
+          "target": "000000155604.jpg",
+          "ranking": [
+            {
+              "image": "000000155604.jpg",
+              "score": 0.2874715030193329
+            },
+            {
+              "image": "000000076654.jpg",
+              "score": 0.2844560444355011
+            }
+          ],
+          "target_margin": 0.003015458583831787,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p064",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The dining table is in front of the person.",
+          "target": "000000517049.jpg",
+          "ranking": [
+            {
+              "image": "000000517049.jpg",
+              "score": 0.2287580668926239
+            },
+            {
+              "image": "000000276055.jpg",
+              "score": 0.1948431134223938
+            }
+          ],
+          "target_margin": 0.0339149534702301,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The dining table is behind the person.",
+          "target": "000000276055.jpg",
+          "ranking": [
+            {
+              "image": "000000517049.jpg",
+              "score": 0.23394373059272766
+            },
+            {
+              "image": "000000276055.jpg",
+              "score": 0.20914658904075623
+            }
+          ],
+          "target_margin": -0.024797141551971436,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p065",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The teddy bear is at the left side of the cat.",
+          "target": "000000414481.jpg",
+          "ranking": [
+            {
+              "image": "000000315441.jpg",
+              "score": 0.28083285689353943
+            },
+            {
+              "image": "000000414481.jpg",
+              "score": 0.27334731817245483
+            }
+          ],
+          "target_margin": -0.007485538721084595,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is right of the cat.",
+          "target": "000000315441.jpg",
+          "ranking": [
+            {
+              "image": "000000315441.jpg",
+              "score": 0.29234734177589417
+            },
+            {
+              "image": "000000414481.jpg",
+              "score": 0.2744157314300537
+            }
+          ],
+          "target_margin": 0.017931610345840454,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p066",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The pizza is on top of the oven.",
+          "target": "000000180479.jpg",
+          "ranking": [
+            {
+              "image": "000000278962.jpg",
+              "score": 0.2978144884109497
+            },
+            {
+              "image": "000000180479.jpg",
+              "score": 0.293038010597229
+            }
+          ],
+          "target_margin": -0.004776477813720703,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The pizza is inside the oven.",
+          "target": "000000278962.jpg",
+          "ranking": [
+            {
+              "image": "000000278962.jpg",
+              "score": 0.30813828110694885
+            },
+            {
+              "image": "000000180479.jpg",
+              "score": 0.29486212134361267
+            }
+          ],
+          "target_margin": 0.013276159763336182,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p067",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The couch is in front of the cat.",
+          "target": "000000139639.jpg",
+          "ranking": [
+            {
+              "image": "000000139639.jpg",
+              "score": 0.2779293358325958
+            },
+            {
+              "image": "000000040419.jpg",
+              "score": 0.23784098029136658
+            }
+          ],
+          "target_margin": 0.04008835554122925,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The couch is behind the cat.",
+          "target": "000000040419.jpg",
+          "ranking": [
+            {
+              "image": "000000139639.jpg",
+              "score": 0.2796408236026764
+            },
+            {
+              "image": "000000040419.jpg",
+              "score": 0.237823948264122
+            }
+          ],
+          "target_margin": -0.04181687533855438,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p068",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is at the left side of the couch.",
+          "target": "000000229180.jpg",
+          "ranking": [
+            {
+              "image": "000000269098.jpg",
+              "score": 0.2391284704208374
+            },
+            {
+              "image": "000000229180.jpg",
+              "score": 0.20837944746017456
+            }
+          ],
+          "target_margin": -0.030749022960662842,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the couch.",
+          "target": "000000269098.jpg",
+          "ranking": [
+            {
+              "image": "000000269098.jpg",
+              "score": 0.23839515447616577
+            },
+            {
+              "image": "000000229180.jpg",
+              "score": 0.21077121794223785
+            }
+          ],
+          "target_margin": 0.027623936533927917,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p069",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The surfboard is on top of the truck.",
+          "target": "000000168260.jpg",
+          "ranking": [
+            {
+              "image": "000000168260.jpg",
+              "score": 0.2883616089820862
+            },
+            {
+              "image": "000000209791.jpg",
+              "score": 0.2750013470649719
+            }
+          ],
+          "target_margin": 0.013360261917114258,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The surfboard is in the truck.",
+          "target": "000000209791.jpg",
+          "ranking": [
+            {
+              "image": "000000209791.jpg",
+              "score": 0.27173110842704773
+            },
+            {
+              "image": "000000168260.jpg",
+              "score": 0.27107828855514526
+            }
+          ],
+          "target_margin": 0.0006528198719024658,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p070",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The couch is in front of the person.",
+          "target": "000000566955.jpg",
+          "ranking": [
+            {
+              "image": "000000566955.jpg",
+              "score": 0.1995226889848709
+            },
+            {
+              "image": "000000296524.jpg",
+              "score": 0.19416525959968567
+            }
+          ],
+          "target_margin": 0.005357429385185242,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The couch is behind the person.",
+          "target": "000000296524.jpg",
+          "ranking": [
+            {
+              "image": "000000566955.jpg",
+              "score": 0.20163294672966003
+            },
+            {
+              "image": "000000296524.jpg",
+              "score": 0.20037086308002472
+            }
+          ],
+          "target_margin": -0.001262083649635315,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p071",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is at the left side of the refrigerator.",
+          "target": "000000574769.jpg",
+          "ranking": [
+            {
+              "image": "000000294751.jpg",
+              "score": 0.2651435136795044
+            },
+            {
+              "image": "000000574769.jpg",
+              "score": 0.22572943568229675
+            }
+          ],
+          "target_margin": -0.03941407799720764,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the refrigerator.",
+          "target": "000000294751.jpg",
+          "ranking": [
+            {
+              "image": "000000294751.jpg",
+              "score": 0.2667228877544403
+            },
+            {
+              "image": "000000574769.jpg",
+              "score": 0.22209589183330536
+            }
+          ],
+          "target_margin": 0.04462699592113495,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p072",
+      "category": "support_containment",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000391632.jpg",
+          "ranking": [
+            {
+              "image": "000000391632.jpg",
+              "score": 0.322483092546463
+            },
+            {
+              "image": "000000388312.jpg",
+              "score": 0.3186878561973572
+            }
+          ],
+          "target_margin": 0.003795236349105835,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is inside the suitcase.",
+          "target": "000000388312.jpg",
+          "ranking": [
+            {
+              "image": "000000388312.jpg",
+              "score": 0.33198389410972595
+            },
+            {
+              "image": "000000391632.jpg",
+              "score": 0.32172703742980957
+            }
+          ],
+          "target_margin": 0.010256856679916382,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p073",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The teddy bear is in front of the book.",
+          "target": "000000145381.jpg",
+          "ranking": [
+            {
+              "image": "000000137188.jpg",
+              "score": 0.3113095164299011
+            },
+            {
+              "image": "000000145381.jpg",
+              "score": 0.2689141631126404
+            }
+          ],
+          "target_margin": -0.04239535331726074,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is behind the book.",
+          "target": "000000137188.jpg",
+          "ranking": [
+            {
+              "image": "000000137188.jpg",
+              "score": 0.30581843852996826
+            },
+            {
+              "image": "000000145381.jpg",
+              "score": 0.26456156373023987
+            }
+          ],
+          "target_margin": 0.041256874799728394,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p074",
+      "category": "horizontal",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The person is at the left side of the refrigerator.",
+          "target": "000000355175.jpg",
+          "ranking": [
+            {
+              "image": "000000235464.jpg",
+              "score": 0.26952022314071655
+            },
+            {
+              "image": "000000355175.jpg",
+              "score": 0.2567397654056549
+            }
+          ],
+          "target_margin": -0.012780457735061646,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the refrigerator.",
+          "target": "000000235464.jpg",
+          "ranking": [
+            {
+              "image": "000000235464.jpg",
+              "score": 0.26250553131103516
+            },
+            {
+              "image": "000000355175.jpg",
+              "score": 0.24810823798179626
+            }
+          ],
+          "target_margin": 0.014397293329238892,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p075",
+      "category": "support_containment",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is on top of the suitcase.",
+          "target": "000000045071.jpg",
+          "ranking": [
+            {
+              "image": "000000045071.jpg",
+              "score": 0.3167651295661926
+            },
+            {
+              "image": "000000375278.jpg",
+              "score": 0.3035571575164795
+            }
+          ],
+          "target_margin": 0.013207972049713135,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is in the suitcase.",
+          "target": "000000375278.jpg",
+          "ranking": [
+            {
+              "image": "000000045071.jpg",
+              "score": 0.31085920333862305
+            },
+            {
+              "image": "000000375278.jpg",
+              "score": 0.3080958425998688
+            }
+          ],
+          "target_margin": -0.0027633607387542725,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p076",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The elephant is in front of the car.",
+          "target": "000000470745.jpg",
+          "ranking": [
+            {
+              "image": "000000470745.jpg",
+              "score": 0.324820876121521
+            },
+            {
+              "image": "000000149551.jpg",
+              "score": 0.24948182702064514
+            }
+          ],
+          "target_margin": 0.07533904910087585,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The elephant is behind the car.",
+          "target": "000000149551.jpg",
+          "ranking": [
+            {
+              "image": "000000470745.jpg",
+              "score": 0.30933547019958496
+            },
+            {
+              "image": "000000149551.jpg",
+              "score": 0.2514786720275879
+            }
+          ],
+          "target_margin": -0.05785679817199707,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p077",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The refrigerator is at the left side of the person.",
+          "target": "000000219075.jpg",
+          "ranking": [
+            {
+              "image": "000000219075.jpg",
+              "score": 0.29861414432525635
+            },
+            {
+              "image": "000000459935.jpg",
+              "score": 0.20242194831371307
+            }
+          ],
+          "target_margin": 0.09619219601154327,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The refrigerator is at the right side of the person.",
+          "target": "000000459935.jpg",
+          "ranking": [
+            {
+              "image": "000000219075.jpg",
+              "score": 0.29949048161506653
+            },
+            {
+              "image": "000000459935.jpg",
+              "score": 0.19680432975292206
+            }
+          ],
+          "target_margin": -0.10268615186214447,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p078",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The teddy bear is in front of the person.",
+          "target": "000000050403.jpg",
+          "ranking": [
+            {
+              "image": "000000335712.jpg",
+              "score": 0.2921605706214905
+            },
+            {
+              "image": "000000050403.jpg",
+              "score": 0.24460703134536743
+            }
+          ],
+          "target_margin": -0.04755353927612305,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The teddy bear is behind the person.",
+          "target": "000000335712.jpg",
+          "ranking": [
+            {
+              "image": "000000335712.jpg",
+              "score": 0.28998520970344543
+            },
+            {
+              "image": "000000050403.jpg",
+              "score": 0.2316848337650299
+            }
+          ],
+          "target_margin": 0.05830037593841553,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p079",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The person is at the left side of the oven.",
+          "target": "000000281111.jpg",
+          "ranking": [
+            {
+              "image": "000000281111.jpg",
+              "score": 0.28194648027420044
+            },
+            {
+              "image": "000000280930.jpg",
+              "score": 0.2343803346157074
+            }
+          ],
+          "target_margin": 0.04756614565849304,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The person is at the right side of the oven.",
+          "target": "000000280930.jpg",
+          "ranking": [
+            {
+              "image": "000000281111.jpg",
+              "score": 0.27929526567459106
+            },
+            {
+              "image": "000000280930.jpg",
+              "score": 0.23727987706661224
+            }
+          ],
+          "target_margin": -0.04201538860797882,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p080",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The dining table is in front of the person.",
+          "target": "000000523639.jpg",
+          "ranking": [
+            {
+              "image": "000000111347.jpg",
+              "score": 0.23230671882629395
+            },
+            {
+              "image": "000000523639.jpg",
+              "score": 0.22313690185546875
+            }
+          ],
+          "target_margin": -0.009169816970825195,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The dining table is behind the person.",
+          "target": "000000111347.jpg",
+          "ranking": [
+            {
+              "image": "000000111347.jpg",
+              "score": 0.24338233470916748
+            },
+            {
+              "image": "000000523639.jpg",
+              "score": 0.22546356916427612
+            }
+          ],
+          "target_margin": 0.017918765544891357,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p081",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The banana is at the left side of the sandwich.",
+          "target": "000000147492.jpg",
+          "ranking": [
+            {
+              "image": "000000533917.jpg",
+              "score": 0.2941998243331909
+            },
+            {
+              "image": "000000147492.jpg",
+              "score": 0.2698163688182831
+            }
+          ],
+          "target_margin": -0.024383455514907837,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The banana is at the right side of the sandwich.",
+          "target": "000000533917.jpg",
+          "ranking": [
+            {
+              "image": "000000533917.jpg",
+              "score": 0.28862544894218445
+            },
+            {
+              "image": "000000147492.jpg",
+              "score": 0.266749769449234
+            }
+          ],
+          "target_margin": 0.02187567949295044,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p082",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The dining table is in front of the couch.",
+          "target": "000000489550.jpg",
+          "ranking": [
+            {
+              "image": "000000346947.jpg",
+              "score": 0.25021225214004517
+            },
+            {
+              "image": "000000489550.jpg",
+              "score": 0.2167443037033081
+            }
+          ],
+          "target_margin": -0.03346794843673706,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The dining table is behind the couch.",
+          "target": "000000346947.jpg",
+          "ranking": [
+            {
+              "image": "000000346947.jpg",
+              "score": 0.2386399209499359
+            },
+            {
+              "image": "000000489550.jpg",
+              "score": 0.20879089832305908
+            }
+          ],
+          "target_margin": 0.02984902262687683,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p083",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cow is at the left side of the person.",
+          "target": "000000035547.jpg",
+          "ranking": [
+            {
+              "image": "000000328673.jpg",
+              "score": 0.27000850439071655
+            },
+            {
+              "image": "000000035547.jpg",
+              "score": 0.2537526786327362
+            }
+          ],
+          "target_margin": -0.016255825757980347,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The cow is at the right side of the person.",
+          "target": "000000328673.jpg",
+          "ranking": [
+            {
+              "image": "000000328673.jpg",
+              "score": 0.2635922431945801
+            },
+            {
+              "image": "000000035547.jpg",
+              "score": 0.25227174162864685
+            }
+          ],
+          "target_margin": 0.011320501565933228,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p084",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The tv is in front of the person.",
+          "target": "000000544832.jpg",
+          "ranking": [
+            {
+              "image": "000000544832.jpg",
+              "score": 0.27105748653411865
+            },
+            {
+              "image": "000000182339.jpg",
+              "score": 0.21215370297431946
+            }
+          ],
+          "target_margin": 0.058903783559799194,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The tv is behind the person.",
+          "target": "000000182339.jpg",
+          "ranking": [
+            {
+              "image": "000000544832.jpg",
+              "score": 0.2708651125431061
+            },
+            {
+              "image": "000000182339.jpg",
+              "score": 0.21147796511650085
+            }
+          ],
+          "target_margin": -0.059387147426605225,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p085",
+      "category": "horizontal",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The refrigerator is at the left side of the dog.",
+          "target": "000000567106.jpg",
+          "ranking": [
+            {
+              "image": "000000558671.jpg",
+              "score": 0.28847536444664
+            },
+            {
+              "image": "000000567106.jpg",
+              "score": 0.24795843660831451
+            }
+          ],
+          "target_margin": -0.0405169278383255,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The refrigerator is right of the dog.",
+          "target": "000000558671.jpg",
+          "ranking": [
+            {
+              "image": "000000558671.jpg",
+              "score": 0.2925255000591278
+            },
+            {
+              "image": "000000567106.jpg",
+              "score": 0.24747011065483093
+            }
+          ],
+          "target_margin": 0.045055389404296875,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p086",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The parking meter is in front of the truck.",
+          "target": "000000559754.jpg",
+          "ranking": [
+            {
+              "image": "000000559754.jpg",
+              "score": 0.26856347918510437
+            },
+            {
+              "image": "000000519203.jpg",
+              "score": 0.259809672832489
+            }
+          ],
+          "target_margin": 0.008753806352615356,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The parking meter is behind the truck.",
+          "target": "000000519203.jpg",
+          "ranking": [
+            {
+              "image": "000000519203.jpg",
+              "score": 0.2667739987373352
+            },
+            {
+              "image": "000000559754.jpg",
+              "score": 0.2467903196811676
+            }
+          ],
+          "target_margin": 0.019983679056167603,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p087",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The oven is in front of the person.",
+          "target": "000000270922.jpg",
+          "ranking": [
+            {
+              "image": "000000270922.jpg",
+              "score": 0.2429848611354828
+            },
+            {
+              "image": "000000387913.jpg",
+              "score": 0.2046820968389511
+            }
+          ],
+          "target_margin": 0.03830276429653168,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The oven is behind the person.",
+          "target": "000000387913.jpg",
+          "ranking": [
+            {
+              "image": "000000270922.jpg",
+              "score": 0.24772188067436218
+            },
+            {
+              "image": "000000387913.jpg",
+              "score": 0.21585072576999664
+            }
+          ],
+          "target_margin": -0.03187115490436554,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p088",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The dining table is in front of the person.",
+          "target": "000000415755.jpg",
+          "ranking": [
+            {
+              "image": "000000415755.jpg",
+              "score": 0.22864988446235657
+            },
+            {
+              "image": "000000384755.jpg",
+              "score": 0.19568024575710297
+            }
+          ],
+          "target_margin": 0.0329696387052536,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The dining table is behind the person.",
+          "target": "000000384755.jpg",
+          "ranking": [
+            {
+              "image": "000000415755.jpg",
+              "score": 0.22988371551036835
+            },
+            {
+              "image": "000000384755.jpg",
+              "score": 0.21368061006069183
+            }
+          ],
+          "target_margin": -0.016203105449676514,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p089",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The refrigerator is in front of the person.",
+          "target": "000000316353.jpg",
+          "ranking": [
+            {
+              "image": "000000144358.jpg",
+              "score": 0.2585635185241699
+            },
+            {
+              "image": "000000316353.jpg",
+              "score": 0.227334663271904
+            }
+          ],
+          "target_margin": -0.03122885525226593,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The refrigerator is behind the person.",
+          "target": "000000144358.jpg",
+          "ranking": [
+            {
+              "image": "000000144358.jpg",
+              "score": 0.2596992552280426
+            },
+            {
+              "image": "000000316353.jpg",
+              "score": 0.23196293413639069
+            }
+          ],
+          "target_margin": 0.027736321091651917,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p090",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The cup is in front of the sandwich.",
+          "target": "000000157601.jpg",
+          "ranking": [
+            {
+              "image": "000000157601.jpg",
+              "score": 0.2896384298801422
+            },
+            {
+              "image": "000000563647.jpg",
+              "score": 0.282253623008728
+            }
+          ],
+          "target_margin": 0.007384806871414185,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cup is behind the sandwich.",
+          "target": "000000563647.jpg",
+          "ranking": [
+            {
+              "image": "000000157601.jpg",
+              "score": 0.2863650321960449
+            },
+            {
+              "image": "000000563647.jpg",
+              "score": 0.2806709408760071
+            }
+          ],
+          "target_margin": -0.005694091320037842,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p091",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The cat is in front of the tv.",
+          "target": "000000580651.jpg",
+          "ranking": [
+            {
+              "image": "000000580651.jpg",
+              "score": 0.31234145164489746
+            },
+            {
+              "image": "000000434222.jpg",
+              "score": 0.2301708608865738
+            }
+          ],
+          "target_margin": 0.08217059075832367,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The cat is behind the tv.",
+          "target": "000000434222.jpg",
+          "ranking": [
+            {
+              "image": "000000580651.jpg",
+              "score": 0.31251466274261475
+            },
+            {
+              "image": "000000434222.jpg",
+              "score": 0.2259422391653061
+            }
+          ],
+          "target_margin": -0.08657242357730865,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p092",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The motorcycle is in front of the dog.",
+          "target": "000000001915.jpg",
+          "ranking": [
+            {
+              "image": "000000001915.jpg",
+              "score": 0.31984907388687134
+            },
+            {
+              "image": "000000472375.jpg",
+              "score": 0.3193914294242859
+            }
+          ],
+          "target_margin": 0.0004576444625854492,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The motorcycle is behind the dog.",
+          "target": "000000472375.jpg",
+          "ranking": [
+            {
+              "image": "000000001915.jpg",
+              "score": 0.32252171635627747
+            },
+            {
+              "image": "000000472375.jpg",
+              "score": 0.3176968991756439
+            }
+          ],
+          "target_margin": -0.004824817180633545,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p093",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The tv is in front of the cat.",
+          "target": "000000076762.jpg",
+          "ranking": [
+            {
+              "image": "000000076762.jpg",
+              "score": 0.2984074354171753
+            },
+            {
+              "image": "000000142890.jpg",
+              "score": 0.2462383508682251
+            }
+          ],
+          "target_margin": 0.052169084548950195,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The tv is behind the cat.",
+          "target": "000000142890.jpg",
+          "ranking": [
+            {
+              "image": "000000076762.jpg",
+              "score": 0.29452988505363464
+            },
+            {
+              "image": "000000142890.jpg",
+              "score": 0.23874817788600922
+            }
+          ],
+          "target_margin": -0.05578170716762543,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p094",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The umbrella is in front of the bed.",
+          "target": "000000553361.jpg",
+          "ranking": [
+            {
+              "image": "000000553361.jpg",
+              "score": 0.2512902021408081
+            },
+            {
+              "image": "000000081748.jpg",
+              "score": 0.23657777905464172
+            }
+          ],
+          "target_margin": 0.014712423086166382,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The umbrella is behind the bed.",
+          "target": "000000081748.jpg",
+          "ranking": [
+            {
+              "image": "000000553361.jpg",
+              "score": 0.2601551413536072
+            },
+            {
+              "image": "000000081748.jpg",
+              "score": 0.22747105360031128
+            }
+          ],
+          "target_margin": -0.0326840877532959,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p095",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The bear is in front of the person.",
+          "target": "000000497662.jpg",
+          "ranking": [
+            {
+              "image": "000000497662.jpg",
+              "score": 0.26565977931022644
+            },
+            {
+              "image": "000000073197.jpg",
+              "score": 0.26259779930114746
+            }
+          ],
+          "target_margin": 0.0030619800090789795,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The bear is behind the person.",
+          "target": "000000073197.jpg",
+          "ranking": [
+            {
+              "image": "000000073197.jpg",
+              "score": 0.259987473487854
+            },
+            {
+              "image": "000000497662.jpg",
+              "score": 0.2586074471473694
+            }
+          ],
+          "target_margin": 0.0013800263404846191,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": true,
+      "both_correct": true
+    },
+    {
+      "id": "p096",
+      "category": "depth",
+      "flagged": true,
+      "queries": [
+        {
+          "text": "The banana is in front of the person.",
+          "target": "000000283405.jpg",
+          "ranking": [
+            {
+              "image": "000000283405.jpg",
+              "score": 0.2663588523864746
+            },
+            {
+              "image": "000000348838.jpg",
+              "score": 0.24117623269557953
+            }
+          ],
+          "target_margin": 0.02518261969089508,
+          "correct": true,
+          "tie": false
+        },
+        {
+          "text": "The banana is behind the person.",
+          "target": "000000348838.jpg",
+          "ranking": [
+            {
+              "image": "000000283405.jpg",
+              "score": 0.2639271020889282
+            },
+            {
+              "image": "000000348838.jpg",
+              "score": 0.24277696013450623
+            }
+          ],
+          "target_margin": -0.021150141954421997,
+          "correct": false,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p097",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The car is in front of the cat.",
+          "target": "000000266083.jpg",
+          "ranking": [
+            {
+              "image": "000000471871.jpg",
+              "score": 0.3030182719230652
+            },
+            {
+              "image": "000000266083.jpg",
+              "score": 0.27765265107154846
+            }
+          ],
+          "target_margin": -0.025365620851516724,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The car is behind the cat.",
+          "target": "000000471871.jpg",
+          "ranking": [
+            {
+              "image": "000000471871.jpg",
+              "score": 0.30382952094078064
+            },
+            {
+              "image": "000000266083.jpg",
+              "score": 0.27943888306617737
+            }
+          ],
+          "target_margin": 0.02439063787460327,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p098",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The bicycle is in front of the cat.",
+          "target": "000000101762.jpg",
+          "ranking": [
+            {
+              "image": "000000446409.jpg",
+              "score": 0.3258872926235199
+            },
+            {
+              "image": "000000101762.jpg",
+              "score": 0.3250938653945923
+            }
+          ],
+          "target_margin": -0.0007934272289276123,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The bicycle is behind the cat.",
+          "target": "000000446409.jpg",
+          "ranking": [
+            {
+              "image": "000000446409.jpg",
+              "score": 0.3211573362350464
+            },
+            {
+              "image": "000000101762.jpg",
+              "score": 0.32015079259872437
+            }
+          ],
+          "target_margin": 0.0010065436363220215,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p099",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The laptop is in front of the cat.",
+          "target": "000000223462.jpg",
+          "ranking": [
+            {
+              "image": "000000346207.jpg",
+              "score": 0.29692456126213074
+            },
+            {
+              "image": "000000223462.jpg",
+              "score": 0.28674694895744324
+            }
+          ],
+          "target_margin": -0.0101776123046875,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The laptop is behind the cat.",
+          "target": "000000346207.jpg",
+          "ranking": [
+            {
+              "image": "000000346207.jpg",
+              "score": 0.3030964136123657
+            },
+            {
+              "image": "000000223462.jpg",
+              "score": 0.284767210483551
+            }
+          ],
+          "target_margin": 0.018329203128814697,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    },
+    {
+      "id": "p100",
+      "category": "depth",
+      "flagged": false,
+      "queries": [
+        {
+          "text": "The bench is in front of the potted plant.",
+          "target": "000000279477.jpg",
+          "ranking": [
+            {
+              "image": "000000148705.jpg",
+              "score": 0.2687298655509949
+            },
+            {
+              "image": "000000279477.jpg",
+              "score": 0.2583663761615753
+            }
+          ],
+          "target_margin": -0.010363489389419556,
+          "correct": false,
+          "tie": false
+        },
+        {
+          "text": "The bench is behind the potted plant.",
+          "target": "000000148705.jpg",
+          "ranking": [
+            {
+              "image": "000000148705.jpg",
+              "score": 0.26470014452934265
+            },
+            {
+              "image": "000000279477.jpg",
+              "score": 0.25500550866127014
+            }
+          ],
+          "target_margin": 0.00969463586807251,
+          "correct": true,
+          "tie": false
+        }
+      ],
+      "choice_changed": false,
+      "both_correct": false
+    }
+  ],
+  "audit_sha256": "82a78274eaef614cd3637f81bd0c12e10dde735cad4545d863f9c7ccb3ca6ca4",
+  "summaries": {
+    "all": {
+      "pairs": 100,
+      "queries": 200,
+      "query_correct": 109,
+      "both_correct": 13,
+      "switched_wrong": 4,
+      "same_choice": 83,
+      "pairs_with_ties": 0
+    },
+    "unflagged": {
+      "pairs": 57,
+      "queries": 114,
+      "query_correct": 66,
+      "both_correct": 10,
+      "switched_wrong": 1,
+      "same_choice": 46,
+      "pairs_with_ties": 0
+    }
+  },
+  "by_category": {
+    "depth": {
+      "all": {
+        "pairs": 40,
+        "queries": 80,
+        "query_correct": 44,
+        "both_correct": 4,
+        "switched_wrong": 0,
+        "same_choice": 36,
+        "pairs_with_ties": 0
+      },
+      "unflagged": {
+        "pairs": 19,
+        "queries": 38,
+        "query_correct": 21,
+        "both_correct": 2,
+        "switched_wrong": 0,
+        "same_choice": 17,
+        "pairs_with_ties": 0
+      }
+    },
+    "horizontal": {
+      "all": {
+        "pairs": 25,
+        "queries": 50,
+        "query_correct": 24,
+        "both_correct": 3,
+        "switched_wrong": 4,
+        "same_choice": 18,
+        "pairs_with_ties": 0
+      },
+      "unflagged": {
+        "pairs": 16,
+        "queries": 32,
+        "query_correct": 18,
+        "both_correct": 3,
+        "switched_wrong": 1,
+        "same_choice": 12,
+        "pairs_with_ties": 0
+      }
+    },
+    "support_containment": {
+      "all": {
+        "pairs": 20,
+        "queries": 40,
+        "query_correct": 24,
+        "both_correct": 4,
+        "switched_wrong": 0,
+        "same_choice": 16,
+        "pairs_with_ties": 0
+      },
+      "unflagged": {
+        "pairs": 11,
+        "queries": 22,
+        "query_correct": 14,
+        "both_correct": 3,
+        "switched_wrong": 0,
+        "same_choice": 8,
+        "pairs_with_ties": 0
+      }
+    },
+    "support_vertical": {
+      "all": {
+        "pairs": 15,
+        "queries": 30,
+        "query_correct": 17,
+        "both_correct": 2,
+        "switched_wrong": 0,
+        "same_choice": 13,
+        "pairs_with_ties": 0
+      },
+      "unflagged": {
+        "pairs": 11,
+        "queries": 22,
+        "query_correct": 13,
+        "both_correct": 2,
+        "switched_wrong": 0,
+        "same_choice": 9,
+        "pairs_with_ties": 0
+      }
+    }
+  }
+}

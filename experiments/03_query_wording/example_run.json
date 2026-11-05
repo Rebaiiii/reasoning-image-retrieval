@@ -1,0 +1,515 @@
+{
+  "model": "openai/clip-vit-base-patch32",
+  "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+  "device": "cpu",
+  "candidate_count_per_query": 2,
+  "unique_images": 15,
+  "cases_sha256": "cf587b551287b9cb9f88f15ef5934fc85ea4efbcd6db1a134a366d011e97dac3",
+  "manifest_sha256": "6d133c9250625b3f9e92baded566bdac6f31417fb70a8333538a40f79c4c7da1",
+  "results": [
+    {
+      "id": "laptop_1",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000346614.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        79,
+        234
+      ],
+      "wording": "query",
+      "text": "The cat is on top of the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3043593764305115
+        },
+        {
+          "image": "000000346614.jpg",
+          "score": 0.2639731466770172
+        }
+      ],
+      "positive_minus_negative": -0.04038622975349426,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_1",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000346614.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        79,
+        234
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is physically resting on the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3219239413738251
+        },
+        {
+          "image": "000000346614.jpg",
+          "score": 0.26390495896339417
+        }
+      ],
+      "positive_minus_negative": -0.05801898241043091,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_2",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000281351.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        701,
+        234
+      ],
+      "wording": "query",
+      "text": "The cat is on top of the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3043593764305115
+        },
+        {
+          "image": "000000281351.jpg",
+          "score": 0.30209410190582275
+        }
+      ],
+      "positive_minus_negative": -0.0022652745246887207,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_2",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000281351.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        701,
+        234
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is physically resting on the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3219239413738251
+        },
+        {
+          "image": "000000281351.jpg",
+          "score": 0.3026793301105499
+        }
+      ],
+      "positive_minus_negative": -0.019244611263275146,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_3",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000398767.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        935,
+        234
+      ],
+      "wording": "query",
+      "text": "The cat is on top of the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3043593764305115
+        },
+        {
+          "image": "000000398767.jpg",
+          "score": 0.3007308542728424
+        }
+      ],
+      "positive_minus_negative": -0.0036285221576690674,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_3",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000398767.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        935,
+        234
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is physically resting on the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3219239413738251
+        },
+        {
+          "image": "000000398767.jpg",
+          "score": 0.29133015871047974
+        }
+      ],
+      "positive_minus_negative": -0.030593782663345337,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "laptop_under_cat",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000022962.jpg",
+      "negative": "000000052290.jpg",
+      "query": "The laptop is under the cat.",
+      "explicit_query": "The laptop is directly underneath and supporting the cat.",
+      "source_rows": [
+        99,
+        917
+      ],
+      "wording": "query",
+      "text": "The laptop is under the cat.",
+      "ranking": [
+        {
+          "image": "000000022962.jpg",
+          "score": 0.30791419744491577
+        },
+        {
+          "image": "000000052290.jpg",
+          "score": 0.2954217791557312
+        }
+      ],
+      "positive_minus_negative": 0.01249241828918457,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "laptop_under_cat",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000022962.jpg",
+      "negative": "000000052290.jpg",
+      "query": "The laptop is under the cat.",
+      "explicit_query": "The laptop is directly underneath and supporting the cat.",
+      "source_rows": [
+        99,
+        917
+      ],
+      "wording": "explicit_query",
+      "text": "The laptop is directly underneath and supporting the cat.",
+      "ranking": [
+        {
+          "image": "000000022962.jpg",
+          "score": 0.30724963545799255
+        },
+        {
+          "image": "000000052290.jpg",
+          "score": 0.2893020808696747
+        }
+      ],
+      "positive_minus_negative": 0.01794755458831787,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "apple_banana",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000360948.jpg",
+      "negative": "000000036417.jpg",
+      "query": "The apple is on top of the banana.",
+      "explicit_query": "The apple is resting on top of a banana.",
+      "source_rows": [
+        379,
+        77
+      ],
+      "wording": "query",
+      "text": "The apple is on top of the banana.",
+      "ranking": [
+        {
+          "image": "000000036417.jpg",
+          "score": 0.3126296103000641
+        },
+        {
+          "image": "000000360948.jpg",
+          "score": 0.29528337717056274
+        }
+      ],
+      "positive_minus_negative": -0.017346233129501343,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "apple_banana",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000360948.jpg",
+      "negative": "000000036417.jpg",
+      "query": "The apple is on top of the banana.",
+      "explicit_query": "The apple is resting on top of a banana.",
+      "source_rows": [
+        379,
+        77
+      ],
+      "wording": "explicit_query",
+      "text": "The apple is resting on top of a banana.",
+      "ranking": [
+        {
+          "image": "000000036417.jpg",
+          "score": 0.30840790271759033
+        },
+        {
+          "image": "000000360948.jpg",
+          "score": 0.2956506609916687
+        }
+      ],
+      "positive_minus_negative": -0.01275724172592163,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "cat_fridge",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000466680.jpg",
+      "negative": "000000191016.jpg",
+      "query": "The cat is on top of the refrigerator.",
+      "explicit_query": "The cat is sitting on the top exterior surface of the refrigerator.",
+      "source_rows": [
+        214,
+        374
+      ],
+      "wording": "query",
+      "text": "The cat is on top of the refrigerator.",
+      "ranking": [
+        {
+          "image": "000000466680.jpg",
+          "score": 0.35196077823638916
+        },
+        {
+          "image": "000000191016.jpg",
+          "score": 0.29750412702560425
+        }
+      ],
+      "positive_minus_negative": 0.05445665121078491,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "cat_fridge",
+      "group": "support",
+      "prior_example": false,
+      "positive": "000000466680.jpg",
+      "negative": "000000191016.jpg",
+      "query": "The cat is on top of the refrigerator.",
+      "explicit_query": "The cat is sitting on the top exterior surface of the refrigerator.",
+      "source_rows": [
+        214,
+        374
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is sitting on the top exterior surface of the refrigerator.",
+      "ranking": [
+        {
+          "image": "000000466680.jpg",
+          "score": 0.34781891107559204
+        },
+        {
+          "image": "000000191016.jpg",
+          "score": 0.32085978984832764
+        }
+      ],
+      "positive_minus_negative": 0.026959121227264404,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "cat_glass",
+      "group": "depth",
+      "prior_example": false,
+      "positive": "000000275449.jpg",
+      "negative": "000000196619.jpg",
+      "query": "The cat is behind the wine glass.",
+      "explicit_query": "The wine glass is closer to the camera than the cat.",
+      "source_rows": [
+        496,
+        252
+      ],
+      "wording": "query",
+      "text": "The cat is behind the wine glass.",
+      "ranking": [
+        {
+          "image": "000000275449.jpg",
+          "score": 0.33669313788414
+        },
+        {
+          "image": "000000196619.jpg",
+          "score": 0.29882076382637024
+        }
+      ],
+      "positive_minus_negative": 0.037872374057769775,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "cat_glass",
+      "group": "depth",
+      "prior_example": false,
+      "positive": "000000275449.jpg",
+      "negative": "000000196619.jpg",
+      "query": "The cat is behind the wine glass.",
+      "explicit_query": "The wine glass is closer to the camera than the cat.",
+      "source_rows": [
+        496,
+        252
+      ],
+      "wording": "explicit_query",
+      "text": "The wine glass is closer to the camera than the cat.",
+      "ranking": [
+        {
+          "image": "000000275449.jpg",
+          "score": 0.34795820713043213
+        },
+        {
+          "image": "000000196619.jpg",
+          "score": 0.3017178475856781
+        }
+      ],
+      "positive_minus_negative": 0.04624035954475403,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "original_laptop",
+      "group": "support",
+      "prior_example": true,
+      "positive": "000000107664.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        14,
+        234
+      ],
+      "wording": "query",
+      "text": "The cat is on top of the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3043593764305115
+        },
+        {
+          "image": "000000107664.jpg",
+          "score": 0.3039228916168213
+        }
+      ],
+      "positive_minus_negative": -0.00043648481369018555,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "original_laptop",
+      "group": "support",
+      "prior_example": true,
+      "positive": "000000107664.jpg",
+      "negative": "000000018903.jpg",
+      "query": "The cat is on top of the laptop.",
+      "explicit_query": "The cat is physically resting on the laptop.",
+      "source_rows": [
+        14,
+        234
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is physically resting on the laptop.",
+      "ranking": [
+        {
+          "image": "000000018903.jpg",
+          "score": 0.3219239413738251
+        },
+        {
+          "image": "000000107664.jpg",
+          "score": 0.30982425808906555
+        }
+      ],
+      "positive_minus_negative": -0.012099683284759521,
+      "correct": false,
+      "tie": false
+    },
+    {
+      "id": "original_car",
+      "group": "under",
+      "prior_example": true,
+      "positive": "000000230224.jpg",
+      "negative": "000000000650.jpg",
+      "query": "The cat is under the car.",
+      "explicit_query": "The cat is beneath the car body.",
+      "source_rows": [
+        215,
+        314
+      ],
+      "wording": "query",
+      "text": "The cat is under the car.",
+      "ranking": [
+        {
+          "image": "000000230224.jpg",
+          "score": 0.32752248644828796
+        },
+        {
+          "image": "000000000650.jpg",
+          "score": 0.2806909382343292
+        }
+      ],
+      "positive_minus_negative": 0.04683154821395874,
+      "correct": true,
+      "tie": false
+    },
+    {
+      "id": "original_car",
+      "group": "under",
+      "prior_example": true,
+      "positive": "000000230224.jpg",
+      "negative": "000000000650.jpg",
+      "query": "The cat is under the car.",
+      "explicit_query": "The cat is beneath the car body.",
+      "source_rows": [
+        215,
+        314
+      ],
+      "wording": "explicit_query",
+      "text": "The cat is beneath the car body.",
+      "ranking": [
+        {
+          "image": "000000230224.jpg",
+          "score": 0.3248749375343323
+        },
+        {
+          "image": "000000000650.jpg",
+          "score": 0.2843629717826843
+        }
+      ],
+      "positive_minus_negative": 0.04051196575164795,
+      "correct": true,
+      "tie": false
+    }
+  ]
+}

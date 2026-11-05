@@ -1,0 +1,10 @@
+[
+  {
+    "query": "The cat is on top of the laptop.",
+    "target": "000000107664.jpg"
+  },
+  {
+    "query": "The cat is under the car.",
+    "target": "000000230224.jpg"
+  }
+]

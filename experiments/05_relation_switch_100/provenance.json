@@ -1,0 +1,52 @@
+{
+  "seed": 20261105,
+  "selection": "Positive VSR captions grouped by identical subject and object text. Shuffle each relation-category pool, then fill quotas round-robin without image reuse; exclude earlier inspected photos. Freeze selection and visual flags before CLIP inference.",
+  "quotas": {
+    "depth": 40,
+    "horizontal": 25,
+    "support_containment": 20,
+    "support_vertical": 15
+  },
+  "excluded_prior_images": [
+    "000000000650.jpg",
+    "000000018903.jpg",
+    "000000022962.jpg",
+    "000000028134.jpg",
+    "000000036417.jpg",
+    "000000052290.jpg",
+    "000000068878.jpg",
+    "000000069745.jpg",
+    "000000107664.jpg",
+    "000000113707.jpg",
+    "000000191016.jpg",
+    "000000196619.jpg",
+    "000000230224.jpg",
+    "000000275449.jpg",
+    "000000279199.jpg",
+    "000000281351.jpg",
+    "000000346614.jpg",
+    "000000360948.jpg",
+    "000000372919.jpg",
+    "000000398767.jpg",
+    "000000443177.jpg",
+    "000000466680.jpg",
+    "000000482127.jpg",
+    "000000482808.jpg",
+    "000000511523.jpg"
+  ],
+  "sources": [
+    {
+      "split": "train",
+      "url": "https://raw.githubusercontent.com/cambridgeltl/visual-spatial-reasoning/master/data/splits/random/train.jsonl",
+      "sha256": "8b725a8621f2d0f94745f1fefdcf3ff8a7eb96fd358676296ff9c9a4ff463c6e",
+      "row_indexing": "zero-based"
+    },
+    {
+      "split": "dev",
+      "url": "https://raw.githubusercontent.com/cambridgeltl/visual-spatial-reasoning/master/data/splits/random/dev.jsonl",
+      "sha256": "90de24b811597a913310d043758f1119a1ba9ebf1b1ca8f1e27c4907f01980d4",
+      "row_indexing": "zero-based"
+    }
+  ],
+  "negative_label_caution": "Each caption has a positive VSR label on its own photo. Its negative label on the other photo is inferred, not an independently supplied VSR label. This is a paired retrieval adaptation, not the official VSR evaluation."
+}

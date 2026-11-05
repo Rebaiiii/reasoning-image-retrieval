@@ -1,0 +1,82 @@
+[
+  {
+    "image": "000000022962.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000022962.jpg",
+    "sha256": "00a1e570e6ce07f13e0145c598eecbfa9f1c651af927aad267935a69420d0d39",
+    "vsr_caption": "The laptop is under the cat.",
+    "vsr_label": 1,
+    "vsr_dev_row_zero_based": 99
+  },
+  {
+    "image": "000000466680.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000466680.jpg",
+    "sha256": "082b9584f403c665ec2f1fc2c93e60a8fc4c72fc760e688488331d0f38c48574",
+    "vsr_caption": "The cat is on top of the refrigerator.",
+    "vsr_label": 1,
+    "vsr_dev_row_zero_based": 214
+  },
+  {
+    "image": "000000230224.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000230224.jpg",
+    "sha256": "122528df0a12664a3307c1bc091e74ef2698895f9a4c6959f2cc79e584c73e7d",
+    "vsr_caption": "The cat is under the car.",
+    "vsr_label": 1,
+    "vsr_dev_row_zero_based": 215
+  },
+  {
+    "image": "000000018903.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000018903.jpg",
+    "sha256": "8654637735095ffb359f90921ff82d9f7b0a4d326b52da5e109921ac336fe3a7",
+    "vsr_caption": "The cat is on top of the laptop.",
+    "vsr_label": 0,
+    "vsr_dev_row_zero_based": 234
+  },
+  {
+    "image": "000000196619.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000196619.jpg",
+    "sha256": "3704c96ab4e29e76d91d8ca5fd23f9823957efcf0414a113b4662cd55d0a53f8",
+    "vsr_caption": "The cat is behind the wine glass.",
+    "vsr_label": 0,
+    "vsr_dev_row_zero_based": 252
+  },
+  {
+    "image": "000000000650.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000000650.jpg",
+    "sha256": "95a596bc3dc83995a973cf10f335ae70734c72ab2f2bce828af399c9d7c3a069",
+    "vsr_caption": "The cat is under the car.",
+    "vsr_label": 0,
+    "vsr_dev_row_zero_based": 314
+  },
+  {
+    "image": "000000191016.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000191016.jpg",
+    "sha256": "f586060822ec16583431b8dffae4bf434a397424d8f0beb1a2d567feb28193ee",
+    "vsr_caption": "The cat is on top of the refrigerator.",
+    "vsr_label": 0,
+    "vsr_dev_row_zero_based": 374
+  },
+  {
+    "image": "000000275449.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000275449.jpg",
+    "sha256": "329926889fdd24dee4e55577434dbc0b43277cf09122581db5c5b9613504d9b5",
+    "vsr_caption": "The cat is behind the wine glass.",
+    "vsr_label": 1,
+    "vsr_dev_row_zero_based": 496
+  },
+  {
+    "image": "000000052290.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000052290.jpg",
+    "sha256": "c71095d4be726bdb25905bce78b7c71318caa7658fc1067f9bb7223a10156cde",
+    "vsr_caption": "The laptop is under the cat.",
+    "vsr_label": 0,
+    "vsr_dev_row_zero_based": 917
+  },
+  {
+    "image": "000000398767.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000398767.jpg",
+    "sha256": "b966fd5d9074b52f937979cc8106245d68e4dbdedc30df56d93d15bb359d44ad",
+    "vsr_caption": "The cat is on top of the laptop.",
+    "vsr_label": 1,
+    "vsr_dev_row_zero_based": 935
+  }
+]

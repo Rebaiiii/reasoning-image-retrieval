@@ -1,0 +1,507 @@
+{
+  "review_before_scoring": true,
+  "reviewer": "AI assistant, full-image contact sheets; not independent human validation",
+  "criterion": "Flag unclear objects, ambiguous opposing labels, or conflicting camera/object reference frames. Unflagged is provisional. CLIP center crops not separately audited.",
+  "cases": [
+    {
+      "id": "p001",
+      "status": "flagged",
+      "reason": "Bus/truck counterpart not clearly visible in both photos."
+    },
+    {
+      "id": "p002",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p003",
+      "status": "flagged",
+      "reason": "Object-category mismatch: right image looks like bread, left appliance is a grill."
+    },
+    {
+      "id": "p004",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p005",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p006",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p007",
+      "status": "flagged",
+      "reason": "Cat may be inside the open suitcase in the supposed on-top image too."
+    },
+    {
+      "id": "p008",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p009",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p010",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p011",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p012",
+      "status": "flagged",
+      "reason": "Beneath versus beside the teddy bear is ambiguous."
+    },
+    {
+      "id": "p013",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p014",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p015",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p016",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p017",
+      "status": "flagged",
+      "reason": "Both people appear behind their laptops from the camera viewpoint; reference-frame conflict."
+    },
+    {
+      "id": "p018",
+      "status": "flagged",
+      "reason": "Person in the left-labelled image is mostly outside the frame."
+    },
+    {
+      "id": "p019",
+      "status": "flagged",
+      "reason": "On versus inside the soft handbag is ambiguous in the left image."
+    },
+    {
+      "id": "p020",
+      "status": "flagged",
+      "reason": "Support by the person is not clear in the left image."
+    },
+    {
+      "id": "p021",
+      "status": "flagged",
+      "reason": "Person in the horse-front image is mostly occluded."
+    },
+    {
+      "id": "p022",
+      "status": "flagged",
+      "reason": "Teddy bear in the left photo is too cropped to identify confidently."
+    },
+    {
+      "id": "p023",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p024",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p025",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p026",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p027",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p028",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p029",
+      "status": "flagged",
+      "reason": "Couch is beside the bed with uncertain depth order in the second photo."
+    },
+    {
+      "id": "p030",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p031",
+      "status": "flagged",
+      "reason": "Cat partly inside the bowl and partly resting on the toilet; alternatives can overlap."
+    },
+    {
+      "id": "p032",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p033",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p034",
+      "status": "flagged",
+      "reason": "Right photo appears to show meat rather than pizza."
+    },
+    {
+      "id": "p035",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p036",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p037",
+      "status": "flagged",
+      "reason": "Truck is not clearly visible in the second photo."
+    },
+    {
+      "id": "p038",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p039",
+      "status": "flagged",
+      "reason": "Cat may be inside an open suitcase in the supposed on-top photo."
+    },
+    {
+      "id": "p040",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p041",
+      "status": "flagged",
+      "reason": "Giraffe is camera-behind person in both photos; front depends on person-facing frame."
+    },
+    {
+      "id": "p042",
+      "status": "flagged",
+      "reason": "Horse is image-right in both photos; left label uses another reference frame."
+    },
+    {
+      "id": "p043",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p044",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p045",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p046",
+      "status": "flagged",
+      "reason": "Teddy bear is image-right in both photos; conflicting reference frames."
+    },
+    {
+      "id": "p047",
+      "status": "flagged",
+      "reason": "Only dog head is inside bag; whole-dog containment ambiguous."
+    },
+    {
+      "id": "p048",
+      "status": "flagged",
+      "reason": "Second cat is beside table on chair; under-table relation unclear."
+    },
+    {
+      "id": "p049",
+      "status": "flagged",
+      "reason": "Car not identifiable in first photo."
+    },
+    {
+      "id": "p050",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p051",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p052",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p053",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p054",
+      "status": "flagged",
+      "reason": "Person is image-right in both photos; left label conflicts with camera frame."
+    },
+    {
+      "id": "p055",
+      "status": "flagged",
+      "reason": "Both cats appear inside open suitcases."
+    },
+    {
+      "id": "p056",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p057",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p058",
+      "status": "flagged",
+      "reason": "Only hand visible in first photo; person location not established."
+    },
+    {
+      "id": "p059",
+      "status": "flagged",
+      "reason": "First cat may be inside open suitcase; on/in contrast ambiguous."
+    },
+    {
+      "id": "p060",
+      "status": "flagged",
+      "reason": "Desk versus dining table category ambiguous; second relation unclear."
+    },
+    {
+      "id": "p061",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p062",
+      "status": "flagged",
+      "reason": "Teddy bear is image-right in both photos; left label conflicts with camera frame."
+    },
+    {
+      "id": "p063",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p064",
+      "status": "flagged",
+      "reason": "Second table mostly cropped; depth order unclear."
+    },
+    {
+      "id": "p065",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p066",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p067",
+      "status": "flagged",
+      "reason": "Cat not clearly identifiable in first photo."
+    },
+    {
+      "id": "p068",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p069",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p070",
+      "status": "flagged",
+      "reason": "Only hand visible in first photo; second couch not clearly identifiable."
+    },
+    {
+      "id": "p071",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p072",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p073",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p074",
+      "status": "flagged",
+      "reason": "Only hand visible in second photo."
+    },
+    {
+      "id": "p075",
+      "status": "flagged",
+      "reason": "First cat also appears partly inside open suitcase."
+    },
+    {
+      "id": "p076",
+      "status": "flagged",
+      "reason": "Second elephant is statue and car/depth relation unclear."
+    },
+    {
+      "id": "p077",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p078",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p079",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p080",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p081",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p082",
+      "status": "flagged",
+      "reason": "Second couch behind table from camera viewpoint; reference frame conflict."
+    },
+    {
+      "id": "p083",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p084",
+      "status": "flagged",
+      "reason": "TV is camera-behind person in both photos; front uses person-facing frame."
+    },
+    {
+      "id": "p085",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p086",
+      "status": "flagged",
+      "reason": "Truck identity in first photo and parking meter in second unclear."
+    },
+    {
+      "id": "p087",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p088",
+      "status": "flagged",
+      "reason": "Multiple tables in second photo make target relation ambiguous."
+    },
+    {
+      "id": "p089",
+      "status": "flagged",
+      "reason": "Only feet visible in first photo; person depth location ambiguous."
+    },
+    {
+      "id": "p090",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p091",
+      "status": "flagged",
+      "reason": "Second is computer monitor; cat below rather than clearly behind it."
+    },
+    {
+      "id": "p092",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p093",
+      "status": "flagged",
+      "reason": "Both displays camera-behind cats; reference frame conflict and TV/monitor mismatch."
+    },
+    {
+      "id": "p094",
+      "status": "flagged",
+      "reason": "Umbrella not clearly identifiable in second photo."
+    },
+    {
+      "id": "p095",
+      "status": "flagged",
+      "reason": "Real bear versus costumed character changes object category."
+    },
+    {
+      "id": "p096",
+      "status": "flagged",
+      "reason": "Multiple bananas in second photo, including foreground held banana."
+    },
+    {
+      "id": "p097",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p098",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p099",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    },
+    {
+      "id": "p100",
+      "status": "unflagged",
+      "reason": "No ambiguity flagged in visual screening."
+    }
+  ]
+}

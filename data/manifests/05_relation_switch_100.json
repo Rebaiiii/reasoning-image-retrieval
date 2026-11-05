@@ -1,0 +1,2402 @@
+[
+  {
+    "image": "000000553735.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553735.jpg",
+    "sha256": "8cc02de6bc84e7504f75b503eb51b49854334e119895199b087dae1d37e6278c",
+    "source": {
+      "split": "train",
+      "row": 4488,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553735.jpg"
+    }
+  },
+  {
+    "image": "000000370260.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000370260.jpg",
+    "sha256": "90e5fdd8f6e1874d7d938ff91009880111ff4803876d957b15b741ddd47cacd9",
+    "source": {
+      "split": "train",
+      "row": 2576,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000370260.jpg"
+    }
+  },
+  {
+    "image": "000000294346.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294346.jpg",
+    "sha256": "4bdb87521714a6d67d8f0aa54a54cfb021230b9ad7f54a3f9d47c8ce791573a2",
+    "source": {
+      "split": "train",
+      "row": 6677,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294346.jpg"
+    }
+  },
+  {
+    "image": "000000347884.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000347884.jpg",
+    "sha256": "68bc3c782d2d03d823d1dd9a51c36ce0077c2102d8f5bb5f2e82f537290792ac",
+    "source": {
+      "split": "train",
+      "row": 154,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000347884.jpg"
+    }
+  },
+  {
+    "image": "000000459200.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459200.jpg",
+    "sha256": "30a691139943a4e0df9dec293ff6cb52cd96db721789063c8a5feec13aa37d02",
+    "source": {
+      "split": "train",
+      "row": 554,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459200.jpg"
+    }
+  },
+  {
+    "image": "000000428599.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000428599.jpg",
+    "sha256": "132908ec34a5dee137b5903c6290afe2f0809d760a78930e111098097c339759",
+    "source": {
+      "split": "train",
+      "row": 4010,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000428599.jpg"
+    }
+  },
+  {
+    "image": "000000212868.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000212868.jpg",
+    "sha256": "0a35c6db19bdfe2b009c90b85b9e54b60c19616dbc8f33e1dd962db79e019440",
+    "source": {
+      "split": "dev",
+      "row": 63,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000212868.jpg"
+    }
+  },
+  {
+    "image": "000000473964.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000473964.jpg",
+    "sha256": "58fb0acfbdbe36981a2cbb556e922f7fcf74f1d49d1fa1feb585eab2e4d06fe3",
+    "source": {
+      "split": "train",
+      "row": 2001,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000473964.jpg"
+    }
+  },
+  {
+    "image": "000000057308.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057308.jpg",
+    "sha256": "b915bc493a6d55e81abb576a658101c778f829ae5684b0fc5bcada9b92d4a218",
+    "source": {
+      "split": "train",
+      "row": 6303,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057308.jpg"
+    }
+  },
+  {
+    "image": "000000377756.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000377756.jpg",
+    "sha256": "6c0bc71bb097978f4789b0b4dd8e1ed3f6f8f121abc0c5d1b876dd7315e5711c",
+    "source": {
+      "split": "train",
+      "row": 3299,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000377756.jpg"
+    }
+  },
+  {
+    "image": "000000429582.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000429582.jpg",
+    "sha256": "fd716003512727643b851a09a305cd4d455ba1c06fb8638a27ed933e90f8db9f",
+    "source": {
+      "split": "train",
+      "row": 3008,
+      "relation": "left of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000429582.jpg"
+    }
+  },
+  {
+    "image": "000000545670.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000545670.jpg",
+    "sha256": "96d370916d6ed6baa46a71a9c0bd33678feafb99ab55a7d55de2d470a79dc71e",
+    "source": {
+      "split": "train",
+      "row": 2265,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000545670.jpg"
+    }
+  },
+  {
+    "image": "000000045830.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045830.jpg",
+    "sha256": "85cebb6da53e046527d714d5b82528ec2e2fc43cd2f2409b500ed66ac230c6a1",
+    "source": {
+      "split": "train",
+      "row": 5146,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045830.jpg"
+    }
+  },
+  {
+    "image": "000000087377.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000087377.jpg",
+    "sha256": "0724c428b1c10e96230eef3fb689caaf8704be842ac7bb66fde136ab17081976",
+    "source": {
+      "split": "train",
+      "row": 5215,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000087377.jpg"
+    }
+  },
+  {
+    "image": "000000503992.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000503992.jpg",
+    "sha256": "58295261d3756e8655340c23b431250703dbcb46b1a33e91ec3389d3cf58ce27",
+    "source": {
+      "split": "train",
+      "row": 5986,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000503992.jpg"
+    }
+  },
+  {
+    "image": "000000137016.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137016.jpg",
+    "sha256": "feaf9e74dbb00db135c9c922b8c192dcbee0dea0c7e9b2e0f00e7c443ded37cf",
+    "source": {
+      "split": "dev",
+      "row": 429,
+      "relation": "beneath",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137016.jpg"
+    }
+  },
+  {
+    "image": "000000135820.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000135820.jpg",
+    "sha256": "b6f714f0eec618e44207cffbe0fe8b275bd8bb975b3f889c4ba22cf2de462c26",
+    "source": {
+      "split": "train",
+      "row": 2430,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000135820.jpg"
+    }
+  },
+  {
+    "image": "000000085666.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000085666.jpg",
+    "sha256": "a266d600455eec978f637c7fa46c6e573d913156a2894a3aef628bd48027d958",
+    "source": {
+      "split": "train",
+      "row": 7088,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000085666.jpg"
+    }
+  },
+  {
+    "image": "000000321736.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321736.jpg",
+    "sha256": "f32ab67908ff1dab56a3634bfef04672848696c6fdffc5535b2b3f4ced55f44f",
+    "source": {
+      "split": "train",
+      "row": 2595,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321736.jpg"
+    }
+  },
+  {
+    "image": "000000197236.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000197236.jpg",
+    "sha256": "1b2321c6a9226b166cc1e74c8b446fa7594ec38af7e45c01c188bb1aed54e8a2",
+    "source": {
+      "split": "train",
+      "row": 5757,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000197236.jpg"
+    }
+  },
+  {
+    "image": "000000040348.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040348.jpg",
+    "sha256": "e00caeaac7ddcd0780bc45ef740770288116c38598cd6a085e3ad058b9ae1b44",
+    "source": {
+      "split": "train",
+      "row": 4677,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040348.jpg"
+    }
+  },
+  {
+    "image": "000000332420.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000332420.jpg",
+    "sha256": "193582227f106a41d734487f490e188204a85915589fd65a82e8af3d12708e7c",
+    "source": {
+      "split": "train",
+      "row": 6012,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000332420.jpg"
+    }
+  },
+  {
+    "image": "000000205854.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000205854.jpg",
+    "sha256": "fcd71ea8dec43c2aa51f6e466af501fed149b1fb6143cee537ee1a290c54f0d1",
+    "source": {
+      "split": "train",
+      "row": 1707,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000205854.jpg"
+    }
+  },
+  {
+    "image": "000000139355.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139355.jpg",
+    "sha256": "d009947a9ee517e91b927709ce341d10dcf2ac4c7ce8a11fbba10b61c7a46a81",
+    "source": {
+      "split": "train",
+      "row": 3801,
+      "relation": "beneath",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139355.jpg"
+    }
+  },
+  {
+    "image": "000000391539.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391539.jpg",
+    "sha256": "3746df42a200a21be4fd0229811d2bb59aabf3d317c3961d3e81831a4ea30fd3",
+    "source": {
+      "split": "train",
+      "row": 513,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391539.jpg"
+    }
+  },
+  {
+    "image": "000000407617.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000407617.jpg",
+    "sha256": "23a5b8b2ce09f7db194c84cd29ed44dfaa4a767e7b29e3d9f6c49b2bab0be0a6",
+    "source": {
+      "split": "dev",
+      "row": 74,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000407617.jpg"
+    }
+  },
+  {
+    "image": "000000474764.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000474764.jpg",
+    "sha256": "26ed64582a048129040e8107e4e65413b04b00f9c72531de46be6f91bcfed5fb",
+    "source": {
+      "split": "train",
+      "row": 4726,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000474764.jpg"
+    }
+  },
+  {
+    "image": "000000248876.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000248876.jpg",
+    "sha256": "21b5a68af6cc9964ea65f56b2e5b19f6d28fbb6b5eee3513ed8106ca2025f73b",
+    "source": {
+      "split": "dev",
+      "row": 324,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000248876.jpg"
+    }
+  },
+  {
+    "image": "000000105247.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000105247.jpg",
+    "sha256": "b64559745d1e3a1e08e2a8f6b8b6ee8c5ac354508af36d8d10837a47dc7bfabf",
+    "source": {
+      "split": "train",
+      "row": 1767,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000105247.jpg"
+    }
+  },
+  {
+    "image": "000000341707.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000341707.jpg",
+    "sha256": "8c73b28f8f4a1ae75435d83d084fdc96d2e82fcff60310663a6650f35e5a4f7a",
+    "source": {
+      "split": "train",
+      "row": 281,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000341707.jpg"
+    }
+  },
+  {
+    "image": "000000028333.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028333.jpg",
+    "sha256": "de1070525b6c90657d13184c7ce3842140351d5e3f9c3ded14c1c1c2e0eeaaf3",
+    "source": {
+      "split": "train",
+      "row": 1663,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028333.jpg"
+    }
+  },
+  {
+    "image": "000000439546.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000439546.jpg",
+    "sha256": "f117e5194b488826dc9f61312e5f1fc202cc1832a3a76232279ba84b65f366a3",
+    "source": {
+      "split": "train",
+      "row": 3127,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000439546.jpg"
+    }
+  },
+  {
+    "image": "000000263957.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000263957.jpg",
+    "sha256": "4c6556e887f2654438a3c661a5c33543f3f10d6b15324549fe205f29746d1657",
+    "source": {
+      "split": "train",
+      "row": 4287,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000263957.jpg"
+    }
+  },
+  {
+    "image": "000000158582.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158582.jpg",
+    "sha256": "34a91d86bb48cb46d4185e09529061483b8a54736f233ce76510010d703a9486",
+    "source": {
+      "split": "train",
+      "row": 1165,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158582.jpg"
+    }
+  },
+  {
+    "image": "000000485288.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485288.jpg",
+    "sha256": "84389334e32b3ccc02f9698ca80f87b85c7efcea6346f79972430b2de7ebf7a1",
+    "source": {
+      "split": "train",
+      "row": 4446,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485288.jpg"
+    }
+  },
+  {
+    "image": "000000481689.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000481689.jpg",
+    "sha256": "70a8f5f842dac1a4831817fd7cb83c644e4f1fc0bb20f255ee8acfdc1c0cbee6",
+    "source": {
+      "split": "train",
+      "row": 587,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000481689.jpg"
+    }
+  },
+  {
+    "image": "000000442252.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000442252.jpg",
+    "sha256": "854b08e77fc8b8ce08af0245736251c9e6bbb2a2cec7f15f055b66bbcf281b85",
+    "source": {
+      "split": "train",
+      "row": 7290,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000442252.jpg"
+    }
+  },
+  {
+    "image": "000000320600.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000320600.jpg",
+    "sha256": "0222a714c5aca8ac9b0e50faac1ce347c6a0ca281c1395942878aef8617ee72b",
+    "source": {
+      "split": "train",
+      "row": 2202,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000320600.jpg"
+    }
+  },
+  {
+    "image": "000000364879.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000364879.jpg",
+    "sha256": "5c5b1e58ff0c694fdcb003c4ed22f4e4700a1c654b72c32623b26c93b2408ac5",
+    "source": {
+      "split": "train",
+      "row": 4224,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000364879.jpg"
+    }
+  },
+  {
+    "image": "000000229707.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229707.jpg",
+    "sha256": "948eecd394e5d1dce1c0b52f90cd776da019d444fce48732acc02448c17fd1df",
+    "source": {
+      "split": "train",
+      "row": 388,
+      "relation": "beneath",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229707.jpg"
+    }
+  },
+  {
+    "image": "000000271949.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000271949.jpg",
+    "sha256": "49ed0813d0a59905a09bba3ec18d5651166a541015c10a3012752476e723b493",
+    "source": {
+      "split": "dev",
+      "row": 238,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000271949.jpg"
+    }
+  },
+  {
+    "image": "000000057550.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057550.jpg",
+    "sha256": "a0c16d971e8d8ca9bce5b53f43bde68e1203eafd67a435b379c5e2da58f97ed3",
+    "source": {
+      "split": "train",
+      "row": 7480,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057550.jpg"
+    }
+  },
+  {
+    "image": "000000192575.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000192575.jpg",
+    "sha256": "cf5f9e8805cbb4db58c1811eccb93032051e3bab8e5d021fc3692fd0a8f6bdb1",
+    "source": {
+      "split": "train",
+      "row": 670,
+      "relation": "left of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000192575.jpg"
+    }
+  },
+  {
+    "image": "000000219418.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219418.jpg",
+    "sha256": "ed4039153d0fb55d0ffc6127d46a40a138fe7e435a6312363bc1bd034e35655b",
+    "source": {
+      "split": "train",
+      "row": 3436,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219418.jpg"
+    }
+  },
+  {
+    "image": "000000273607.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273607.jpg",
+    "sha256": "0d90b1f35422bd35c7940ccc3b387c11c7d7c14ad7892473f3d55890d419d1e8",
+    "source": {
+      "split": "train",
+      "row": 6655,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273607.jpg"
+    }
+  },
+  {
+    "image": "000000102987.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000102987.jpg",
+    "sha256": "db9cf54fdcac433c6bef73ca074ca3433568d69c699a109174d70d13634b22e9",
+    "source": {
+      "split": "train",
+      "row": 5439,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000102987.jpg"
+    }
+  },
+  {
+    "image": "000000258344.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000258344.jpg",
+    "sha256": "3fee4883a009f9446906ded0f9770d4ff2b2e794e9815dd504047593149d3d8f",
+    "source": {
+      "split": "train",
+      "row": 2270,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000258344.jpg"
+    }
+  },
+  {
+    "image": "000000186484.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000186484.jpg",
+    "sha256": "c7f542dac71d5f6ee14ebfeadc4d7aff834a38da8fe06a68402053d0b66a5db4",
+    "source": {
+      "split": "train",
+      "row": 5315,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000186484.jpg"
+    }
+  },
+  {
+    "image": "000000369208.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000369208.jpg",
+    "sha256": "d2324901f56d0f2d063c2ce0714121b0b64eab8ffc3287c0f4dc24b473a472ab",
+    "source": {
+      "split": "train",
+      "row": 2889,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000369208.jpg"
+    }
+  },
+  {
+    "image": "000000362231.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000362231.jpg",
+    "sha256": "1ebff14da5e70f7a7e2ac048d581f49a2791386cb9614be8064c6ebd34fbadc0",
+    "source": {
+      "split": "train",
+      "row": 977,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000362231.jpg"
+    }
+  },
+  {
+    "image": "000000393375.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000393375.jpg",
+    "sha256": "df6e5c2ce3e7da4167b56b2c09a96d3a7d808fee96b121424cba21cd98aab2ad",
+    "source": {
+      "split": "dev",
+      "row": 124,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000393375.jpg"
+    }
+  },
+  {
+    "image": "000000229286.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229286.jpg",
+    "sha256": "bb4adef81638f4f983c3aa11611e2768135504745fc571f8c3e906eeb008c8e6",
+    "source": {
+      "split": "train",
+      "row": 237,
+      "relation": "right of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229286.jpg"
+    }
+  },
+  {
+    "image": "000000573206.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000573206.jpg",
+    "sha256": "19fdce5c616a577b2a0af31cd6f827bdc98d266f4a90639747b4cb3397571a5f",
+    "source": {
+      "split": "train",
+      "row": 2095,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000573206.jpg"
+    }
+  },
+  {
+    "image": "000000415594.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415594.jpg",
+    "sha256": "87c42b5a1911e805957b99536691fd521e5c8fb45e8c2e529d74fc2255392c22",
+    "source": {
+      "split": "train",
+      "row": 5966,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415594.jpg"
+    }
+  },
+  {
+    "image": "000000386029.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000386029.jpg",
+    "sha256": "76cac1839d6c5fc85067b16706e1350a423721f695b52c447cc919effc170be2",
+    "source": {
+      "split": "train",
+      "row": 7316,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000386029.jpg"
+    }
+  },
+  {
+    "image": "000000555951.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555951.jpg",
+    "sha256": "86c547f0826ff9533a38bc3b32f6e4d6d26f1b44c1f38f4d0a59b76944bf62d5",
+    "source": {
+      "split": "train",
+      "row": 2348,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555951.jpg"
+    }
+  },
+  {
+    "image": "000000550780.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000550780.jpg",
+    "sha256": "95e9c84c292bf654dabfaaadb37f2332a63aa576bd6f608abb7a9e1fe3508272",
+    "source": {
+      "split": "train",
+      "row": 4028,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000550780.jpg"
+    }
+  },
+  {
+    "image": "000000257021.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000257021.jpg",
+    "sha256": "accc44f5a820586a44d1e611bdb28eed78e10e7dda7c83e1d0c92ad50bcc202d",
+    "source": {
+      "split": "train",
+      "row": 1231,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000257021.jpg"
+    }
+  },
+  {
+    "image": "000000391638.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391638.jpg",
+    "sha256": "80201bdb98ef9d7e9a0e4973d42cc9ae9386eb20d0a255a4d59d4ce484a0594d",
+    "source": {
+      "split": "train",
+      "row": 4186,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391638.jpg"
+    }
+  },
+  {
+    "image": "000000321223.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321223.jpg",
+    "sha256": "aa7ff8451d260eb4bc2b6a5bff3f08e1e61afd0a152f9ed04bde03458e04f30f",
+    "source": {
+      "split": "train",
+      "row": 1939,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321223.jpg"
+    }
+  },
+  {
+    "image": "000000219567.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219567.jpg",
+    "sha256": "8e32584dc5be9e11f42d0e1430a95f81b238f0213d25456fcef8673c7166cd40",
+    "source": {
+      "split": "train",
+      "row": 4433,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219567.jpg"
+    }
+  },
+  {
+    "image": "000000411685.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000411685.jpg",
+    "sha256": "aa172d2585889e1215fba1574fcae3bbbde2684a9fb8736c7e28e61b930648e2",
+    "source": {
+      "split": "train",
+      "row": 3346,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000411685.jpg"
+    }
+  },
+  {
+    "image": "000000156506.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000156506.jpg",
+    "sha256": "930dcc275f67dc4a55cd4324f766f9aa3e6d671b46c01b39716b16e8cee91a35",
+    "source": {
+      "split": "train",
+      "row": 1371,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000156506.jpg"
+    }
+  },
+  {
+    "image": "000000340004.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000340004.jpg",
+    "sha256": "f47f9298f283b1daf6daa7d73c9bbb8e075a22abe3611365de86952cd73d936d",
+    "source": {
+      "split": "train",
+      "row": 702,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000340004.jpg"
+    }
+  },
+  {
+    "image": "000000183236.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000183236.jpg",
+    "sha256": "40b62aaf541232e7d37754eb84a5895f5973c4ce787d156074694a4e16902bfc",
+    "source": {
+      "split": "train",
+      "row": 6534,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000183236.jpg"
+    }
+  },
+  {
+    "image": "000000149250.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149250.jpg",
+    "sha256": "65d3fdf8d475e5a1b6ba74148f413f6d369f7a4dd43a3ff54f6e6cc4949fed40",
+    "source": {
+      "split": "train",
+      "row": 1212,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149250.jpg"
+    }
+  },
+  {
+    "image": "000000238795.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000238795.jpg",
+    "sha256": "ba3416a8b2d15a01df4c196a4ab7c5b6052530cfdd799dbc0f0a636766d694a6",
+    "source": {
+      "split": "train",
+      "row": 18,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000238795.jpg"
+    }
+  },
+  {
+    "image": "000000281920.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281920.jpg",
+    "sha256": "e6151b71dab4b6c6e75f4133b3da04e2b130ce835dae55e8f8dc69aeefb98ca6",
+    "source": {
+      "split": "train",
+      "row": 5638,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281920.jpg"
+    }
+  },
+  {
+    "image": "000000066271.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000066271.jpg",
+    "sha256": "407fdee8cd12b9c6ee6c66cca93ae8c750c628f3e1927f36dd3e058e5331d490",
+    "source": {
+      "split": "train",
+      "row": 5324,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000066271.jpg"
+    }
+  },
+  {
+    "image": "000000319865.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000319865.jpg",
+    "sha256": "2c85e8a0f5888b38099efa9dcb548cf92741742dc98b79532500097ab4fe78c6",
+    "source": {
+      "split": "train",
+      "row": 5300,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000319865.jpg"
+    }
+  },
+  {
+    "image": "000000562574.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000562574.jpg",
+    "sha256": "2015729218f6ec7e1dbfe1dda3f730c55aafbd99f657bdd2c29e4bb28bf763f8",
+    "source": {
+      "split": "dev",
+      "row": 486,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000562574.jpg"
+    }
+  },
+  {
+    "image": "000000359085.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000359085.jpg",
+    "sha256": "7451ed251b131afaa3f8dc859b196625489e2abe4a5b39cc237f5f894d659a59",
+    "source": {
+      "split": "dev",
+      "row": 1068,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000359085.jpg"
+    }
+  },
+  {
+    "image": "000000335339.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335339.jpg",
+    "sha256": "983f8b0db155bffa7b7c6366cedb7f2fa6a4622a8e34b399b97c9e22184b7818",
+    "source": {
+      "split": "train",
+      "row": 7454,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335339.jpg"
+    }
+  },
+  {
+    "image": "000000421455.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000421455.jpg",
+    "sha256": "c9262daf96f9a989413d418a565e62acf670f51ac5984c69159451b067ba5c50",
+    "source": {
+      "split": "dev",
+      "row": 897,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000421455.jpg"
+    }
+  },
+  {
+    "image": "000000353427.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000353427.jpg",
+    "sha256": "d4ec823fd1d40b51d862ff59962653ded5a6809ed4b7ea553c44f1d4960dc57a",
+    "source": {
+      "split": "train",
+      "row": 2185,
+      "relation": "left of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000353427.jpg"
+    }
+  },
+  {
+    "image": "000000304858.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000304858.jpg",
+    "sha256": "85e7c34381b539b7330425b68e90ddc3c2668a01355d1a4a1b79dfd717217539",
+    "source": {
+      "split": "train",
+      "row": 4909,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000304858.jpg"
+    }
+  },
+  {
+    "image": "000000501498.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501498.jpg",
+    "sha256": "cbbe197e9a34676d316fe75bb0e7f7ce6db7fbfd5ad53f13a63015ca267a79a6",
+    "source": {
+      "split": "train",
+      "row": 5963,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501498.jpg"
+    }
+  },
+  {
+    "image": "000000086229.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000086229.jpg",
+    "sha256": "f3a0cced1537291c89d17471cf3c8311ec5d9a74aeb6473de8016e299d6e85c4",
+    "source": {
+      "split": "dev",
+      "row": 716,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000086229.jpg"
+    }
+  },
+  {
+    "image": "000000123970.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000123970.jpg",
+    "sha256": "8d73396ec76a8d334849220cd9aa98dd6f217a6e43b320d4f0d4739954ce4aa6",
+    "source": {
+      "split": "train",
+      "row": 7272,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000123970.jpg"
+    }
+  },
+  {
+    "image": "000000059949.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000059949.jpg",
+    "sha256": "14540bc4c3481c9485ca6b5da21f2fe713a87959e46c4cc0a6570a83f623042d",
+    "source": {
+      "split": "train",
+      "row": 5312,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000059949.jpg"
+    }
+  },
+  {
+    "image": "000000358748.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000358748.jpg",
+    "sha256": "bef42eeaa1650ab527a9ee12a6522911689eac1712a0762556cc75505f3d71c1",
+    "source": {
+      "split": "train",
+      "row": 4047,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000358748.jpg"
+    }
+  },
+  {
+    "image": "000000315018.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315018.jpg",
+    "sha256": "e0935a67b07bfa72eff69ce70151dec5d31c6622f664b9d6f3847aa4462dfb72",
+    "source": {
+      "split": "train",
+      "row": 6402,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315018.jpg"
+    }
+  },
+  {
+    "image": "000000253487.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000253487.jpg",
+    "sha256": "6fe8a6d777020562ccda963893384e32aaf6fde3d6eb0565abcb5132a7bb8bc6",
+    "source": {
+      "split": "train",
+      "row": 5833,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000253487.jpg"
+    }
+  },
+  {
+    "image": "000000408328.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000408328.jpg",
+    "sha256": "4f053e399d6b80a19d5788f1e26da7cd1fe8c111e439dfa3bde0e720ad9e7c6a",
+    "source": {
+      "split": "train",
+      "row": 525,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000408328.jpg"
+    }
+  },
+  {
+    "image": "000000080168.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000080168.jpg",
+    "sha256": "3ff2412d74cab6e2e9fe3320503176dc9a4128be17ce3a3b904ea6c80ebad605",
+    "source": {
+      "split": "dev",
+      "row": 926,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000080168.jpg"
+    }
+  },
+  {
+    "image": "000000360157.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000360157.jpg",
+    "sha256": "1e00473c5f65d81756d03480e08b65593cef65efea5cfb02bf12d00776f81159",
+    "source": {
+      "split": "dev",
+      "row": 607,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000360157.jpg"
+    }
+  },
+  {
+    "image": "000000280043.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000280043.jpg",
+    "sha256": "892796da7f302ea47c9374786c5a5eb836cd07c230d78e5614fd82680bdf79a3",
+    "source": {
+      "split": "train",
+      "row": 6465,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000280043.jpg"
+    }
+  },
+  {
+    "image": "000000158354.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158354.jpg",
+    "sha256": "da6734f4ef8f1d1cdc39d867a728829a62de9d8513873a271f44cbd5bc2ba44c",
+    "source": {
+      "split": "train",
+      "row": 2113,
+      "relation": "beneath",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158354.jpg"
+    }
+  },
+  {
+    "image": "000000363468.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000363468.jpg",
+    "sha256": "6f46626435b4ace5a405327ccac3025fe3204a1ce731eff767846cf97a8ff39e",
+    "source": {
+      "split": "train",
+      "row": 6004,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000363468.jpg"
+    }
+  },
+  {
+    "image": "000000072538.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000072538.jpg",
+    "sha256": "8043e97e3ef6d49fbf020c60bca28c7e0703bcc1b9e6b78501d77ab2e1e525b6",
+    "source": {
+      "split": "train",
+      "row": 7150,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000072538.jpg"
+    }
+  },
+  {
+    "image": "000000041625.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000041625.jpg",
+    "sha256": "56f8387641062838db169daed09043888cbf4316265b43286180447aa3cb1e9e",
+    "source": {
+      "split": "train",
+      "row": 760,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000041625.jpg"
+    }
+  },
+  {
+    "image": "000000542854.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000542854.jpg",
+    "sha256": "7b0a204281b2b0a076a9f6774ef55717a9537a5bc31a83f8a89877378f67edc4",
+    "source": {
+      "split": "train",
+      "row": 1463,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000542854.jpg"
+    }
+  },
+  {
+    "image": "000000441674.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000441674.jpg",
+    "sha256": "ced67db87704d772c51be28ad3e08671321003f7bade75c52c2a2f422105dc26",
+    "source": {
+      "split": "train",
+      "row": 4631,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000441674.jpg"
+    }
+  },
+  {
+    "image": "000000375140.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000375140.jpg",
+    "sha256": "68e6dde5e8759a454f3b18decff157a919c37a702f33554875f3eef2616e963b",
+    "source": {
+      "split": "train",
+      "row": 437,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000375140.jpg"
+    }
+  },
+  {
+    "image": "000000555574.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555574.jpg",
+    "sha256": "619916cd737200f7c5196feb7fde5e2fcbee76a95c3518495b40b8dcc788d1b8",
+    "source": {
+      "split": "train",
+      "row": 4529,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555574.jpg"
+    }
+  },
+  {
+    "image": "000000268141.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000268141.jpg",
+    "sha256": "047d334557e134ff3a94bb86888b495137da157faddc08655df5d37ef72f1e06",
+    "source": {
+      "split": "dev",
+      "row": 269,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000268141.jpg"
+    }
+  },
+  {
+    "image": "000000273579.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273579.jpg",
+    "sha256": "9bb1adedd83cecf23aa316090715269d1d4d82089c4175653907417f4d2b83fc",
+    "source": {
+      "split": "train",
+      "row": 4101,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273579.jpg"
+    }
+  },
+  {
+    "image": "000000551100.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000551100.jpg",
+    "sha256": "9d881705fc2b295308c1be6d540125315862555168ffb02aa4cee1731f3a3018",
+    "source": {
+      "split": "train",
+      "row": 2705,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000551100.jpg"
+    }
+  },
+  {
+    "image": "000000394234.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000394234.jpg",
+    "sha256": "e024deb2ac05aded4571c90ca701b94e7b96667e09433d6ace33b7f3b844ee30",
+    "source": {
+      "split": "train",
+      "row": 925,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000394234.jpg"
+    }
+  },
+  {
+    "image": "000000037707.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037707.jpg",
+    "sha256": "f5d4d3a855d371e01589bfb104f745210cd1b91c518f319642f78345b2e0bf96",
+    "source": {
+      "split": "train",
+      "row": 2124,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037707.jpg"
+    }
+  },
+  {
+    "image": "000000471407.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471407.jpg",
+    "sha256": "809be78ab6345704ae498b60b804b872a31d625f4b260e795521a1d1ea0f5af5",
+    "source": {
+      "split": "train",
+      "row": 6236,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471407.jpg"
+    }
+  },
+  {
+    "image": "000000169365.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000169365.jpg",
+    "sha256": "da60968459693b13f4088e6a55f8c1db35888eb4d17a1b635114dac5fe786f76",
+    "source": {
+      "split": "dev",
+      "row": 492,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000169365.jpg"
+    }
+  },
+  {
+    "image": "000000504293.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000504293.jpg",
+    "sha256": "4a22016e70ea2326abaec02c7e630889daf4258e4ea07162e09f3b151b1af422",
+    "source": {
+      "split": "train",
+      "row": 6297,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000504293.jpg"
+    }
+  },
+  {
+    "image": "000000313520.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000313520.jpg",
+    "sha256": "1cc25c2a73f3c5c6f0b02941c4480049ebc87840e06353384e4b3acfcd3ea7d5",
+    "source": {
+      "split": "train",
+      "row": 1842,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000313520.jpg"
+    }
+  },
+  {
+    "image": "000000079445.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000079445.jpg",
+    "sha256": "42df9652e6cda5d1373348ba1b8b551eb528bf4fef05dc8acf40a01129acac8d",
+    "source": {
+      "split": "train",
+      "row": 6694,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000079445.jpg"
+    }
+  },
+  {
+    "image": "000000558189.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558189.jpg",
+    "sha256": "e37a16f45d51c2daf170a6c1d906d7a49c6221f91a082780e0d75a209349e538",
+    "source": {
+      "split": "train",
+      "row": 6436,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558189.jpg"
+    }
+  },
+  {
+    "image": "000000012827.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000012827.jpg",
+    "sha256": "ef990337936f52b70ce3bb4fe88ab5fdb451564df17bfe0f35d0c48b3ed84dcf",
+    "source": {
+      "split": "train",
+      "row": 654,
+      "relation": "left of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000012827.jpg"
+    }
+  },
+  {
+    "image": "000000402177.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000402177.jpg",
+    "sha256": "9fd35d3beed9f7ff9f3a3807c444efed925bd9292bb4d1278238e2e85ef7c0f5",
+    "source": {
+      "split": "train",
+      "row": 3505,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000402177.jpg"
+    }
+  },
+  {
+    "image": "000000397606.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000397606.jpg",
+    "sha256": "916ad140c775f297c1094e39660ac556e2698a6f9b1762939e872b27b7050e71",
+    "source": {
+      "split": "train",
+      "row": 2068,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000397606.jpg"
+    }
+  },
+  {
+    "image": "000000488004.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000488004.jpg",
+    "sha256": "48e2e500c162f62a686bd363313b33bfd6ad1579258778cf9de8716fa988c2ad",
+    "source": {
+      "split": "train",
+      "row": 7636,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000488004.jpg"
+    }
+  },
+  {
+    "image": "000000485560.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485560.jpg",
+    "sha256": "0349aaaf434c642479c9171087602785acc2672cf90393c59e4002decb221705",
+    "source": {
+      "split": "dev",
+      "row": 1011,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485560.jpg"
+    }
+  },
+  {
+    "image": "000000081918.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081918.jpg",
+    "sha256": "7d6b8c3aa3eba6b289b31da13263a8515c85b9b7ad7aaf44c4b4b1e501b8573a",
+    "source": {
+      "split": "train",
+      "row": 3461,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081918.jpg"
+    }
+  },
+  {
+    "image": "000000044702.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000044702.jpg",
+    "sha256": "77dd338d52d002560ef1942ff0bcbad60ef957f82d557cd21a8e40901bbaad0c",
+    "source": {
+      "split": "train",
+      "row": 3468,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000044702.jpg"
+    }
+  },
+  {
+    "image": "000000037729.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037729.jpg",
+    "sha256": "cebce358be07ef8c5ee77c2cb4ea4bbba056c2d586a6e13c4e09bf3e90720925",
+    "source": {
+      "split": "train",
+      "row": 4435,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037729.jpg"
+    }
+  },
+  {
+    "image": "000000398153.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000398153.jpg",
+    "sha256": "088a01e779ad85746265efceeafd628e2152c8f798e73c7dc699692ad029fe14",
+    "source": {
+      "split": "train",
+      "row": 344,
+      "relation": "left of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000398153.jpg"
+    }
+  },
+  {
+    "image": "000000343104.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000343104.jpg",
+    "sha256": "992932e1cd6a097026a78aaf92714e0674de7d539332a949fbe6e8f397941eda",
+    "source": {
+      "split": "train",
+      "row": 6339,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000343104.jpg"
+    }
+  },
+  {
+    "image": "000000389474.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000389474.jpg",
+    "sha256": "65f2b1d3af3e6671f091193a9240697dc6fce84e25663d7857082840ef17cade",
+    "source": {
+      "split": "train",
+      "row": 7024,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000389474.jpg"
+    }
+  },
+  {
+    "image": "000000468951.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000468951.jpg",
+    "sha256": "fb3ecfe7860add7cb30a08bebeedb6ca3898e8717ebb055007c147ce19d279dc",
+    "source": {
+      "split": "train",
+      "row": 5573,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000468951.jpg"
+    }
+  },
+  {
+    "image": "000000401144.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000401144.jpg",
+    "sha256": "eaf653d88b58ebce39437711ae942801c550284075e718ffaaf0a459ee08cc05",
+    "source": {
+      "split": "train",
+      "row": 2171,
+      "relation": "on",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000401144.jpg"
+    }
+  },
+  {
+    "image": "000000413250.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000413250.jpg",
+    "sha256": "559d751b3cadd97ebac004ddb9654b5ef396597644ecbc0ac153da3c28d82765",
+    "source": {
+      "split": "train",
+      "row": 6176,
+      "relation": "under",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000413250.jpg"
+    }
+  },
+  {
+    "image": "000000062237.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000062237.jpg",
+    "sha256": "e684e2f40aeaf0fe743445087abf62a98343ec3f1f9b7c1c206ffb28c8847bea",
+    "source": {
+      "split": "dev",
+      "row": 628,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000062237.jpg"
+    }
+  },
+  {
+    "image": "000000501126.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501126.jpg",
+    "sha256": "d1d1a6eefd6dc0463aeb2fc92750e0bdf45669fcdafcdaf0c98205ab72266163",
+    "source": {
+      "split": "train",
+      "row": 3304,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501126.jpg"
+    }
+  },
+  {
+    "image": "000000278184.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278184.jpg",
+    "sha256": "467022fad82e237047ce1909311829131017a3d2d378bd51c1bee8856b392fc3",
+    "source": {
+      "split": "train",
+      "row": 5570,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278184.jpg"
+    }
+  },
+  {
+    "image": "000000088241.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000088241.jpg",
+    "sha256": "0876abb1c05f76d8ff8e1146a04e7db264f2ba9d82029bab8c4a726c7a8b8b86",
+    "source": {
+      "split": "train",
+      "row": 2313,
+      "relation": "right of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000088241.jpg"
+    }
+  },
+  {
+    "image": "000000076654.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076654.jpg",
+    "sha256": "bb17ec39cf737479cbcc87b2d8b45fc50c098fba6d847a2fb34fe2957868257d",
+    "source": {
+      "split": "train",
+      "row": 2929,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076654.jpg"
+    }
+  },
+  {
+    "image": "000000155604.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000155604.jpg",
+    "sha256": "d7d8c4ba4bfac5d7ed899653868c03e67427844fe1eb8a8f0ed76bb0ff6bc501",
+    "source": {
+      "split": "train",
+      "row": 5076,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000155604.jpg"
+    }
+  },
+  {
+    "image": "000000517049.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000517049.jpg",
+    "sha256": "03c6a3471fba1a98ea06a1f349a4fea2bcc288e4139cd7891cc3f4110544c058",
+    "source": {
+      "split": "train",
+      "row": 3500,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000517049.jpg"
+    }
+  },
+  {
+    "image": "000000276055.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000276055.jpg",
+    "sha256": "e5ccfb9ce6af7dcdb972a85127b646f066a84de1a8d17f1bc3d24a63b1c18f1a",
+    "source": {
+      "split": "train",
+      "row": 227,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000276055.jpg"
+    }
+  },
+  {
+    "image": "000000414481.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000414481.jpg",
+    "sha256": "01e0d1e8a8719f5efdba4d84a3c90e16dcdb8561ebda284a06eb234266b46e30",
+    "source": {
+      "split": "train",
+      "row": 4339,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000414481.jpg"
+    }
+  },
+  {
+    "image": "000000315441.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315441.jpg",
+    "sha256": "904afdd2aebd0fc97d7238070933a95a16104ee8e6c8996924b18a524ac53153",
+    "source": {
+      "split": "train",
+      "row": 4168,
+      "relation": "right of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315441.jpg"
+    }
+  },
+  {
+    "image": "000000180479.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000180479.jpg",
+    "sha256": "0e9cc3d90b47255d1db05973d1f2a1e1fe762a6f7e40dd2dc5c253bc63f541f0",
+    "source": {
+      "split": "train",
+      "row": 2468,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000180479.jpg"
+    }
+  },
+  {
+    "image": "000000278962.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278962.jpg",
+    "sha256": "4efba28e8e489876d1271220f97c171781919afe00d4866a6ab4eccf47b63cf7",
+    "source": {
+      "split": "train",
+      "row": 1863,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278962.jpg"
+    }
+  },
+  {
+    "image": "000000139639.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139639.jpg",
+    "sha256": "127d822e329eb7a8bb5c13fb1b1c20ad859bab71dc6f30016ccc1d766164d024",
+    "source": {
+      "split": "train",
+      "row": 4352,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139639.jpg"
+    }
+  },
+  {
+    "image": "000000040419.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040419.jpg",
+    "sha256": "fde1d7db902b466356b424e6693da5d492a6c048dd1fb0a60face77c93501bfe",
+    "source": {
+      "split": "train",
+      "row": 5140,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040419.jpg"
+    }
+  },
+  {
+    "image": "000000229180.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229180.jpg",
+    "sha256": "24880d75d7c3fa7dfd261f54e223cb62b48da9f1580e2eb001ee9c78dddbf699",
+    "source": {
+      "split": "dev",
+      "row": 540,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229180.jpg"
+    }
+  },
+  {
+    "image": "000000269098.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000269098.jpg",
+    "sha256": "b98f9f3603051c9cebd33eab1d97ae5083b4eec7a6f9eee2c426bfbaf634255a",
+    "source": {
+      "split": "dev",
+      "row": 653,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000269098.jpg"
+    }
+  },
+  {
+    "image": "000000168260.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000168260.jpg",
+    "sha256": "b9aef802efe94e13c371f2e448c4046305a3f2ea419527aaaf577773e63b35e8",
+    "source": {
+      "split": "train",
+      "row": 6767,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000168260.jpg"
+    }
+  },
+  {
+    "image": "000000209791.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000209791.jpg",
+    "sha256": "78b1150aa3b41e546342eda01145bee65d27ca905e7fc5c336938f666abb7999",
+    "source": {
+      "split": "train",
+      "row": 7602,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000209791.jpg"
+    }
+  },
+  {
+    "image": "000000566955.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000566955.jpg",
+    "sha256": "7efc503cb5ecf180caaf0d7b04dbfa0dadf5205df5e474705dc9b6b7d7d44d16",
+    "source": {
+      "split": "train",
+      "row": 4592,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000566955.jpg"
+    }
+  },
+  {
+    "image": "000000296524.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000296524.jpg",
+    "sha256": "ce0132ba7cdeee6107a55d9ecfa53c1de96ba8f762f114fc9cdb4b9fa6c50ac9",
+    "source": {
+      "split": "train",
+      "row": 5605,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000296524.jpg"
+    }
+  },
+  {
+    "image": "000000574769.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000574769.jpg",
+    "sha256": "b175b46e2b7346cddadee5271aad1619ebcacf3c75fd150792e9a534c5482d9a",
+    "source": {
+      "split": "dev",
+      "row": 823,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000574769.jpg"
+    }
+  },
+  {
+    "image": "000000294751.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294751.jpg",
+    "sha256": "f4de1ef1685980c16eb97b6de3079d7732df48c2e18e910057000ec132ebf014",
+    "source": {
+      "split": "train",
+      "row": 5649,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294751.jpg"
+    }
+  },
+  {
+    "image": "000000391632.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391632.jpg",
+    "sha256": "78efaad6a198d53bb002bb2add83f6588335b5e645f34c8d7cae5b1df2b3bdbe",
+    "source": {
+      "split": "train",
+      "row": 1989,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391632.jpg"
+    }
+  },
+  {
+    "image": "000000388312.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000388312.jpg",
+    "sha256": "22b11c4d1b2f6770f24b10544254edc7b855565cb76f797074e69dd55bcf946b",
+    "source": {
+      "split": "train",
+      "row": 3460,
+      "relation": "inside",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000388312.jpg"
+    }
+  },
+  {
+    "image": "000000145381.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000145381.jpg",
+    "sha256": "db7fe49197e1e3b9feae44ed5abf944e90ad787cd24a1584ed109f4e8c77d3af",
+    "source": {
+      "split": "train",
+      "row": 7459,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000145381.jpg"
+    }
+  },
+  {
+    "image": "000000137188.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137188.jpg",
+    "sha256": "37a5b00dbdf113ae9fe97f841c5b4926909b25dd8369de30ac310b191f80b7a5",
+    "source": {
+      "split": "train",
+      "row": 4121,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137188.jpg"
+    }
+  },
+  {
+    "image": "000000355175.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000355175.jpg",
+    "sha256": "44876a98e68a92ffb7569831018c048d1215dace3d18726b3790ee0b5c98dba6",
+    "source": {
+      "split": "train",
+      "row": 4692,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000355175.jpg"
+    }
+  },
+  {
+    "image": "000000235464.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000235464.jpg",
+    "sha256": "f6f9fb6df358ca9358eb06b399469254b7dd3858dc53ba2d3ac92bad20833e91",
+    "source": {
+      "split": "train",
+      "row": 7408,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000235464.jpg"
+    }
+  },
+  {
+    "image": "000000045071.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045071.jpg",
+    "sha256": "4943cf45312739c9223110e61b7d1d22473eb4e57ab8e1e493642bcd9f6d722a",
+    "source": {
+      "split": "train",
+      "row": 7417,
+      "relation": "on top of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045071.jpg"
+    }
+  },
+  {
+    "image": "000000375278.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000375278.jpg",
+    "sha256": "1c8da1eabfff62cbca8233739b1313b6c0e7755268dbb2cd5cd401466e1c8bbb",
+    "source": {
+      "split": "train",
+      "row": 6100,
+      "relation": "in",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000375278.jpg"
+    }
+  },
+  {
+    "image": "000000470745.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000470745.jpg",
+    "sha256": "cb6afe88e0c5607f222ab05feb29f2fe62b9d4c9eca5caf84531ceb58f3f5f17",
+    "source": {
+      "split": "train",
+      "row": 5176,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000470745.jpg"
+    }
+  },
+  {
+    "image": "000000149551.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149551.jpg",
+    "sha256": "74c89aa816d454d25449eb688395c8ce2fe9bf58b18492cda206681b009cfd23",
+    "source": {
+      "split": "train",
+      "row": 5433,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149551.jpg"
+    }
+  },
+  {
+    "image": "000000219075.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219075.jpg",
+    "sha256": "a0d8f29dc471012936cf4ea7534448ffc433acfd87b9f7fe8ff165770d4cc7df",
+    "source": {
+      "split": "dev",
+      "row": 1046,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219075.jpg"
+    }
+  },
+  {
+    "image": "000000459935.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459935.jpg",
+    "sha256": "404069b1c224fa40c8480a8a5f1f2a28aaa1a77b72ec977170069ff9c9042958",
+    "source": {
+      "split": "train",
+      "row": 2105,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459935.jpg"
+    }
+  },
+  {
+    "image": "000000050403.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000050403.jpg",
+    "sha256": "48ddf5eca033c694288569973d0c3aa5aaafa8fc2235257c07a1cc7df78634ef",
+    "source": {
+      "split": "train",
+      "row": 5786,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000050403.jpg"
+    }
+  },
+  {
+    "image": "000000335712.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335712.jpg",
+    "sha256": "e02e253b90e9cf905c9236b6359e90f4a460001e4a623b9530a659019b4b8cc3",
+    "source": {
+      "split": "train",
+      "row": 3619,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335712.jpg"
+    }
+  },
+  {
+    "image": "000000281111.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281111.jpg",
+    "sha256": "e35425636ac85eb7e2e17ab87dea1a99d8d2cce9312a5f10a24fc7e5e8aafef6",
+    "source": {
+      "split": "train",
+      "row": 2034,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281111.jpg"
+    }
+  },
+  {
+    "image": "000000280930.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000280930.jpg",
+    "sha256": "57a58decd3d841b44ab611fda39b45f69815586899d28e0db8a58b8472213639",
+    "source": {
+      "split": "train",
+      "row": 4655,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000280930.jpg"
+    }
+  },
+  {
+    "image": "000000523639.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000523639.jpg",
+    "sha256": "b3ff9b368e7e80964b2c92171249c03209e10aa834f306a515c1a3bb8abd0059",
+    "source": {
+      "split": "train",
+      "row": 7620,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000523639.jpg"
+    }
+  },
+  {
+    "image": "000000111347.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000111347.jpg",
+    "sha256": "8f5f09d1a3211b272cdf7b9a5c84d60a7d319b16ed678ac858ac65e60fcde499",
+    "source": {
+      "split": "train",
+      "row": 2561,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000111347.jpg"
+    }
+  },
+  {
+    "image": "000000147492.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000147492.jpg",
+    "sha256": "b1244fd1b981b5e68e0b1feee5a6815684a2c6894772f7a411f9678c01ce5022",
+    "source": {
+      "split": "train",
+      "row": 1487,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000147492.jpg"
+    }
+  },
+  {
+    "image": "000000533917.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000533917.jpg",
+    "sha256": "72780de904b69bb7bbbde27e2c6a888f952df1ae8d57df6ecd44a2ea238bdda1",
+    "source": {
+      "split": "train",
+      "row": 6747,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000533917.jpg"
+    }
+  },
+  {
+    "image": "000000489550.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000489550.jpg",
+    "sha256": "8a5222d8a0600493b047b535d766922729486f3ad475c5c19439e44f603250da",
+    "source": {
+      "split": "dev",
+      "row": 990,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000489550.jpg"
+    }
+  },
+  {
+    "image": "000000346947.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346947.jpg",
+    "sha256": "53294ceaad6e581a156333895e9e931eaa5c601b960895a15b782c2a9cc36273",
+    "source": {
+      "split": "train",
+      "row": 5046,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346947.jpg"
+    }
+  },
+  {
+    "image": "000000035547.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000035547.jpg",
+    "sha256": "b5e5b3a004926498b1f471c5f34bfee48037bb2597b3d1c5f0f749165e8d9446",
+    "source": {
+      "split": "dev",
+      "row": 785,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000035547.jpg"
+    }
+  },
+  {
+    "image": "000000328673.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000328673.jpg",
+    "sha256": "54320533a425abd8373e14d8368bb5df39de66cc1e9698f91cef7952535cf7ce",
+    "source": {
+      "split": "train",
+      "row": 1550,
+      "relation": "at the right side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000328673.jpg"
+    }
+  },
+  {
+    "image": "000000544832.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000544832.jpg",
+    "sha256": "594c5d5c0d8047b255c6d926bd381a5818f13bcc58b7db83b7ccb00a21e3c4a8",
+    "source": {
+      "split": "dev",
+      "row": 357,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000544832.jpg"
+    }
+  },
+  {
+    "image": "000000182339.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000182339.jpg",
+    "sha256": "06abadc4ce8609aeafaeb2eaafdca28b52acdbdb062b754501a1c75dcdb794ed",
+    "source": {
+      "split": "train",
+      "row": 891,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000182339.jpg"
+    }
+  },
+  {
+    "image": "000000567106.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000567106.jpg",
+    "sha256": "4ef6f7c86716e96fa59e062d5950060286f4ca2df67d557cc1f0664ebaf63105",
+    "source": {
+      "split": "train",
+      "row": 6240,
+      "relation": "at the left side of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000567106.jpg"
+    }
+  },
+  {
+    "image": "000000558671.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558671.jpg",
+    "sha256": "65082692b132af56c0debfb815e78bd5fb3cf9d8fc26dfddeb101776abc06706",
+    "source": {
+      "split": "train",
+      "row": 4873,
+      "relation": "right of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558671.jpg"
+    }
+  },
+  {
+    "image": "000000559754.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000559754.jpg",
+    "sha256": "363d07bd247ce81ce92c11662ca39296e74427918715413fec3f49dcaafd9a43",
+    "source": {
+      "split": "train",
+      "row": 6818,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000559754.jpg"
+    }
+  },
+  {
+    "image": "000000519203.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000519203.jpg",
+    "sha256": "a71f62479cca48ba2dfa25cafc5dd4e978c96f8776d9913e351bb37f48a2276d",
+    "source": {
+      "split": "train",
+      "row": 6633,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000519203.jpg"
+    }
+  },
+  {
+    "image": "000000270922.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000270922.jpg",
+    "sha256": "08a3e42a5c2af9bbba0c98dfba81ecff8a52fb6b98eb523d638311605063d94f",
+    "source": {
+      "split": "train",
+      "row": 1031,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000270922.jpg"
+    }
+  },
+  {
+    "image": "000000387913.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000387913.jpg",
+    "sha256": "e96906646d3eb30e044b584ccbca385c39dc9af327545982d5bca8ec89e3554d",
+    "source": {
+      "split": "train",
+      "row": 4568,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000387913.jpg"
+    }
+  },
+  {
+    "image": "000000415755.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415755.jpg",
+    "sha256": "918d08b589e9a1e0758e61dc33f43eddbd1f16c843ac7b6b5dda5574fbcd54d9",
+    "source": {
+      "split": "train",
+      "row": 3205,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415755.jpg"
+    }
+  },
+  {
+    "image": "000000384755.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000384755.jpg",
+    "sha256": "11fb2edccfc8350ce177cfb2cbfa6b702752e644efb5c3bdafe5fe752bafb4ea",
+    "source": {
+      "split": "train",
+      "row": 4218,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000384755.jpg"
+    }
+  },
+  {
+    "image": "000000316353.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000316353.jpg",
+    "sha256": "8f363c17fff819a1795165f58e744107233951d66425f2857618d88ba6fd45b6",
+    "source": {
+      "split": "train",
+      "row": 229,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000316353.jpg"
+    }
+  },
+  {
+    "image": "000000144358.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000144358.jpg",
+    "sha256": "4aee4bb423bb5f8d70fa01f51cb5c90c763f80bb1fc227425692f2bc289ff911",
+    "source": {
+      "split": "train",
+      "row": 4864,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000144358.jpg"
+    }
+  },
+  {
+    "image": "000000157601.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000157601.jpg",
+    "sha256": "c6bebe830e7a12afdb30c9fe497cf8d37c705a730d1bc02cd6efef9743cd067c",
+    "source": {
+      "split": "train",
+      "row": 5606,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000157601.jpg"
+    }
+  },
+  {
+    "image": "000000563647.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000563647.jpg",
+    "sha256": "11ab5fd12a6d852168a9801ef248c3cb8505b8d4d591660515af10cd28d81151",
+    "source": {
+      "split": "train",
+      "row": 3317,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000563647.jpg"
+    }
+  },
+  {
+    "image": "000000580651.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000580651.jpg",
+    "sha256": "14247dbd9b4fb06ac6797aeaca29bd725e5d131be986e204b83491f41f88cf8d",
+    "source": {
+      "split": "train",
+      "row": 1533,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000580651.jpg"
+    }
+  },
+  {
+    "image": "000000434222.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000434222.jpg",
+    "sha256": "2f8397ecb55c7b18be0229176ac2d9a8e966878e309aec644d611d5eb9e276b3",
+    "source": {
+      "split": "train",
+      "row": 369,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000434222.jpg"
+    }
+  },
+  {
+    "image": "000000001915.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001915.jpg",
+    "sha256": "cb3592b4ca823e207deffe4e8c1be69e4ea56de49a4ea2c0010f2765baecc372",
+    "source": {
+      "split": "train",
+      "row": 6054,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001915.jpg"
+    }
+  },
+  {
+    "image": "000000472375.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000472375.jpg",
+    "sha256": "928f89bb03d6c06a883ba1b4eadeeea8db2764134445a3c70c5d1c33cf13ed39",
+    "source": {
+      "split": "train",
+      "row": 7445,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000472375.jpg"
+    }
+  },
+  {
+    "image": "000000076762.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076762.jpg",
+    "sha256": "587f0a638f4b0a52e43be665e323a5f999a4e498b41ed6bd0d6003e1a06903ab",
+    "source": {
+      "split": "train",
+      "row": 6273,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076762.jpg"
+    }
+  },
+  {
+    "image": "000000142890.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000142890.jpg",
+    "sha256": "231fc7f5ca43dce0464c9d0b7f197ebb1d1c60bc1b230b376ecdec11b0fd09fa",
+    "source": {
+      "split": "train",
+      "row": 6439,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000142890.jpg"
+    }
+  },
+  {
+    "image": "000000553361.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553361.jpg",
+    "sha256": "1e8f84e11e70bc924cabdb9c51590472c5271e501da528fa62dc544be74cf676",
+    "source": {
+      "split": "train",
+      "row": 1453,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553361.jpg"
+    }
+  },
+  {
+    "image": "000000081748.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081748.jpg",
+    "sha256": "6b702f459ca57f36fc8eefa67a9c4ff7548c39484ed168917158777d198a557e",
+    "source": {
+      "split": "train",
+      "row": 3805,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081748.jpg"
+    }
+  },
+  {
+    "image": "000000497662.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000497662.jpg",
+    "sha256": "adcb6365aa9f4fc6437ab1554333d817de88744cb60d3633d4dfa67f7f3af5a8",
+    "source": {
+      "split": "train",
+      "row": 491,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000497662.jpg"
+    }
+  },
+  {
+    "image": "000000073197.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000073197.jpg",
+    "sha256": "c854ae5738a784a3379074dcc979251464d425a185174f02dfbb90b30eada43f",
+    "source": {
+      "split": "train",
+      "row": 611,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000073197.jpg"
+    }
+  },
+  {
+    "image": "000000283405.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000283405.jpg",
+    "sha256": "768a5bb330ac7fbdf20f5ee02df40abc5c63b745896dcf6333f9e739a0b0e4aa",
+    "source": {
+      "split": "train",
+      "row": 33,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000283405.jpg"
+    }
+  },
+  {
+    "image": "000000348838.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000348838.jpg",
+    "sha256": "7e58b29cccf3715b399779a2d4e21422b457ed269f3b8b2eb9500a93250e6436",
+    "source": {
+      "split": "train",
+      "row": 243,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000348838.jpg"
+    }
+  },
+  {
+    "image": "000000266083.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000266083.jpg",
+    "sha256": "a51373f7f9b6701cdbef1f5646ad07bbbfb7f9663d046b0cbfb64eac7833ac3c",
+    "source": {
+      "split": "train",
+      "row": 617,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000266083.jpg"
+    }
+  },
+  {
+    "image": "000000471871.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471871.jpg",
+    "sha256": "a75f68f696d0c7105f3b3a96c68891ff094b3d017f4d0a043c56c07db3e7cd54",
+    "source": {
+      "split": "train",
+      "row": 5564,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471871.jpg"
+    }
+  },
+  {
+    "image": "000000101762.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000101762.jpg",
+    "sha256": "8150aec4794933e1d30b565f6511a870e5721e58c72a919735eff71575fb098b",
+    "source": {
+      "split": "train",
+      "row": 1713,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000101762.jpg"
+    }
+  },
+  {
+    "image": "000000446409.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000446409.jpg",
+    "sha256": "88059d7773785b054f10d7e6e2aad3d7dc1d04778e2f54bb1adc3d2ad2396652",
+    "source": {
+      "split": "train",
+      "row": 6962,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000446409.jpg"
+    }
+  },
+  {
+    "image": "000000223462.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000223462.jpg",
+    "sha256": "e9cc4bb37df132d73017b34d0f1de88af929df7e9131fd93cb267fa623d978b6",
+    "source": {
+      "split": "train",
+      "row": 1037,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000223462.jpg"
+    }
+  },
+  {
+    "image": "000000346207.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346207.jpg",
+    "sha256": "b2be3c66a51a3b8c3699c9ca81f38cbe92d6af1911cdf27b0ed88427d6e4cc63",
+    "source": {
+      "split": "train",
+      "row": 3883,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346207.jpg"
+    }
+  },
+  {
+    "image": "000000279477.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000279477.jpg",
+    "sha256": "1643333be6dc4370be6ce929d5830f0186884cb21a8e4c71288df94e398765b5",
+    "source": {
+      "split": "train",
+      "row": 4953,
+      "relation": "in front of",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000279477.jpg"
+    }
+  },
+  {
+    "image": "000000148705.jpg",
+    "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000148705.jpg",
+    "sha256": "8b204414ef34a1b3756d34184885322e6b018fe1230c8bade0e476595cb174d5",
+    "source": {
+      "split": "train",
+      "row": 4275,
+      "relation": "behind",
+      "label": 1,
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000148705.jpg"
+    }
+  }
+]

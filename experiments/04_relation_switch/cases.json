@@ -1,0 +1,87 @@
+[
+  {
+    "id": "laptop_A",
+    "images": [
+      "000000398767.jpg",
+      "000000018903.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on the laptop.",
+        "target": "000000398767.jpg"
+      },
+      {
+        "text": "The cat is beside the laptop.",
+        "target": "000000018903.jpg"
+      }
+    ]
+  },
+  {
+    "id": "laptop_B",
+    "images": [
+      "000000022962.jpg",
+      "000000052290.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on the laptop.",
+        "target": "000000022962.jpg"
+      },
+      {
+        "text": "The cat is beside the laptop.",
+        "target": "000000052290.jpg"
+      }
+    ]
+  },
+  {
+    "id": "refrigerator",
+    "images": [
+      "000000466680.jpg",
+      "000000191016.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the refrigerator.",
+        "target": "000000466680.jpg"
+      },
+      {
+        "text": "The cat is inside the refrigerator.",
+        "target": "000000191016.jpg"
+      }
+    ]
+  },
+  {
+    "id": "wine_glass",
+    "images": [
+      "000000275449.jpg",
+      "000000196619.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is behind the wine glass.",
+        "target": "000000275449.jpg"
+      },
+      {
+        "text": "The cat is in front of the wine glass.",
+        "target": "000000196619.jpg"
+      }
+    ]
+  },
+  {
+    "id": "car",
+    "images": [
+      "000000230224.jpg",
+      "000000000650.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is under the car.",
+        "target": "000000230224.jpg"
+      },
+      {
+        "text": "The cat is on the roof of the car.",
+        "target": "000000000650.jpg"
+      }
+    ]
+  }
+]

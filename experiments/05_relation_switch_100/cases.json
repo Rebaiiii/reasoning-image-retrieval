@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "p001",
+    "category": "depth",
+    "images": [
+      "000000553735.jpg",
+      "000000370260.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The bus is in front of the truck.",
+        "target": "000000553735.jpg"
+      },
+      {
+        "text": "The bus is behind the truck.",
+        "target": "000000370260.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4488,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553735.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2576,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000370260.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p002",
+    "category": "horizontal",
+    "images": [
+      "000000294346.jpg",
+      "000000347884.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the refrigerator.",
+        "target": "000000294346.jpg"
+      },
+      {
+        "text": "The person is at the right side of the refrigerator.",
+        "target": "000000347884.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6677,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294346.jpg"
+      },
+      {
+        "split": "train",
+        "row": 154,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000347884.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p003",
+    "category": "support_containment",
+    "images": [
+      "000000459200.jpg",
+      "000000428599.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The pizza is on top of the oven.",
+        "target": "000000459200.jpg"
+      },
+      {
+        "text": "The pizza is inside the oven.",
+        "target": "000000428599.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 554,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459200.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4010,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000428599.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p004",
+    "category": "support_vertical",
+    "images": [
+      "000000212868.jpg",
+      "000000473964.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The backpack is on the cat.",
+        "target": "000000212868.jpg"
+      },
+      {
+        "text": "The backpack is under the cat.",
+        "target": "000000473964.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 63,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000212868.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2001,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000473964.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p005",
+    "category": "depth",
+    "images": [
+      "000000057308.jpg",
+      "000000377756.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The parking meter is in front of the car.",
+        "target": "000000057308.jpg"
+      },
+      {
+        "text": "The parking meter is behind the car.",
+        "target": "000000377756.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6303,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057308.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3299,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000377756.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p006",
+    "category": "horizontal",
+    "images": [
+      "000000429582.jpg",
+      "000000545670.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is left of the teddy bear.",
+        "target": "000000429582.jpg"
+      },
+      {
+        "text": "The person is at the right side of the teddy bear.",
+        "target": "000000545670.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 3008,
+        "relation": "left of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000429582.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2265,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000545670.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p007",
+    "category": "support_containment",
+    "images": [
+      "000000045830.jpg",
+      "000000087377.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000045830.jpg"
+      },
+      {
+        "text": "The cat is inside the suitcase.",
+        "target": "000000087377.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5146,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045830.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5215,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000087377.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p008",
+    "category": "support_vertical",
+    "images": [
+      "000000503992.jpg",
+      "000000137016.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dog is on the bed.",
+        "target": "000000503992.jpg"
+      },
+      {
+        "text": "The dog is beneath the bed.",
+        "target": "000000137016.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5986,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000503992.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 429,
+        "relation": "beneath",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137016.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p009",
+    "category": "depth",
+    "images": [
+      "000000135820.jpg",
+      "000000085666.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is in front of the zebra.",
+        "target": "000000135820.jpg"
+      },
+      {
+        "text": "The person is behind the zebra.",
+        "target": "000000085666.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2430,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000135820.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7088,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000085666.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p010",
+    "category": "horizontal",
+    "images": [
+      "000000321736.jpg",
+      "000000197236.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The tv is at the left side of the cat.",
+        "target": "000000321736.jpg"
+      },
+      {
+        "text": "The tv is at the right side of the cat.",
+        "target": "000000197236.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2595,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321736.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5757,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000197236.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p011",
+    "category": "support_containment",
+    "images": [
+      "000000040348.jpg",
+      "000000332420.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000040348.jpg"
+      },
+      {
+        "text": "The cat is inside the suitcase.",
+        "target": "000000332420.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4677,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040348.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6012,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000332420.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p012",
+    "category": "support_vertical",
+    "images": [
+      "000000205854.jpg",
+      "000000139355.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dog is on top of the teddy bear.",
+        "target": "000000205854.jpg"
+      },
+      {
+        "text": "The dog is beneath the teddy bear.",
+        "target": "000000139355.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1707,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000205854.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3801,
+        "relation": "beneath",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139355.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p013",
+    "category": "depth",
+    "images": [
+      "000000391539.jpg",
+      "000000407617.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The refrigerator is in front of the person.",
+        "target": "000000391539.jpg"
+      },
+      {
+        "text": "The refrigerator is behind the person.",
+        "target": "000000407617.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 513,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391539.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 74,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000407617.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p014",
+    "category": "horizontal",
+    "images": [
+      "000000474764.jpg",
+      "000000248876.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is at the left side of the laptop.",
+        "target": "000000474764.jpg"
+      },
+      {
+        "text": "The cat is at the right side of the laptop.",
+        "target": "000000248876.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4726,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000474764.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 324,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000248876.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p015",
+    "category": "support_containment",
+    "images": [
+      "000000105247.jpg",
+      "000000341707.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The pizza is on top of the oven.",
+        "target": "000000105247.jpg"
+      },
+      {
+        "text": "The pizza is in the oven.",
+        "target": "000000341707.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1767,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000105247.jpg"
+      },
+      {
+        "split": "train",
+        "row": 281,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000341707.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p016",
+    "category": "support_vertical",
+    "images": [
+      "000000028333.jpg",
+      "000000439546.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The couch is on the truck.",
+        "target": "000000028333.jpg"
+      },
+      {
+        "text": "The couch is under the truck.",
+        "target": "000000439546.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1663,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000028333.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3127,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000439546.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p017",
+    "category": "depth",
+    "images": [
+      "000000263957.jpg",
+      "000000158582.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is in front of the laptop.",
+        "target": "000000263957.jpg"
+      },
+      {
+        "text": "The person is behind the laptop.",
+        "target": "000000158582.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4287,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000263957.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1165,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158582.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p018",
+    "category": "horizontal",
+    "images": [
+      "000000485288.jpg",
+      "000000481689.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the dining table.",
+        "target": "000000485288.jpg"
+      },
+      {
+        "text": "The person is at the right side of the dining table.",
+        "target": "000000481689.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4446,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485288.jpg"
+      },
+      {
+        "split": "train",
+        "row": 587,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000481689.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p019",
+    "category": "support_containment",
+    "images": [
+      "000000442252.jpg",
+      "000000320600.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the handbag.",
+        "target": "000000442252.jpg"
+      },
+      {
+        "text": "The cat is inside the handbag.",
+        "target": "000000320600.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7290,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000442252.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2202,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000320600.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p020",
+    "category": "support_vertical",
+    "images": [
+      "000000364879.jpg",
+      "000000229707.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on the person.",
+        "target": "000000364879.jpg"
+      },
+      {
+        "text": "The cat is beneath the person.",
+        "target": "000000229707.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4224,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000364879.jpg"
+      },
+      {
+        "split": "train",
+        "row": 388,
+        "relation": "beneath",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229707.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p021",
+    "category": "depth",
+    "images": [
+      "000000271949.jpg",
+      "000000057550.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The horse is in front of the person.",
+        "target": "000000271949.jpg"
+      },
+      {
+        "text": "The horse is behind the person.",
+        "target": "000000057550.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 238,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000271949.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7480,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000057550.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p022",
+    "category": "horizontal",
+    "images": [
+      "000000192575.jpg",
+      "000000219418.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is left of the teddy bear.",
+        "target": "000000192575.jpg"
+      },
+      {
+        "text": "The cat is at the right side of the teddy bear.",
+        "target": "000000219418.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 670,
+        "relation": "left of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000192575.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3436,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219418.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p023",
+    "category": "support_containment",
+    "images": [
+      "000000273607.jpg",
+      "000000102987.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the backpack.",
+        "target": "000000273607.jpg"
+      },
+      {
+        "text": "The cat is inside the backpack.",
+        "target": "000000102987.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6655,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273607.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5439,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000102987.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p024",
+    "category": "support_vertical",
+    "images": [
+      "000000258344.jpg",
+      "000000186484.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the car.",
+        "target": "000000258344.jpg"
+      },
+      {
+        "text": "The cat is under the car.",
+        "target": "000000186484.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2270,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000258344.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5315,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000186484.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p025",
+    "category": "depth",
+    "images": [
+      "000000369208.jpg",
+      "000000362231.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is in front of the laptop.",
+        "target": "000000369208.jpg"
+      },
+      {
+        "text": "The cat is behind the laptop.",
+        "target": "000000362231.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2889,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000369208.jpg"
+      },
+      {
+        "split": "train",
+        "row": 977,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000362231.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p026",
+    "category": "horizontal",
+    "images": [
+      "000000393375.jpg",
+      "000000229286.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The laptop is at the left side of the cake.",
+        "target": "000000393375.jpg"
+      },
+      {
+        "text": "The laptop is right of the cake.",
+        "target": "000000229286.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 124,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000393375.jpg"
+      },
+      {
+        "split": "train",
+        "row": 237,
+        "relation": "right of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229286.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p027",
+    "category": "support_containment",
+    "images": [
+      "000000573206.jpg",
+      "000000415594.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The pizza is on top of the oven.",
+        "target": "000000573206.jpg"
+      },
+      {
+        "text": "The pizza is in the oven.",
+        "target": "000000415594.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2095,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000573206.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5966,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415594.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p028",
+    "category": "support_vertical",
+    "images": [
+      "000000386029.jpg",
+      "000000555951.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is on top of the cat.",
+        "target": "000000386029.jpg"
+      },
+      {
+        "text": "The teddy bear is under the cat.",
+        "target": "000000555951.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7316,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000386029.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2348,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555951.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p029",
+    "category": "depth",
+    "images": [
+      "000000550780.jpg",
+      "000000257021.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The couch is in front of the bed.",
+        "target": "000000550780.jpg"
+      },
+      {
+        "text": "The couch is behind the bed.",
+        "target": "000000257021.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4028,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000550780.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1231,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000257021.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p030",
+    "category": "horizontal",
+    "images": [
+      "000000391638.jpg",
+      "000000321223.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The oven is at the left side of the person.",
+        "target": "000000391638.jpg"
+      },
+      {
+        "text": "The oven is at the right side of the person.",
+        "target": "000000321223.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4186,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391638.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1939,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000321223.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p031",
+    "category": "support_containment",
+    "images": [
+      "000000219567.jpg",
+      "000000411685.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the toilet.",
+        "target": "000000219567.jpg"
+      },
+      {
+        "text": "The cat is inside the toilet.",
+        "target": "000000411685.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4433,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219567.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3346,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000411685.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p032",
+    "category": "support_vertical",
+    "images": [
+      "000000156506.jpg",
+      "000000340004.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on the motorcycle.",
+        "target": "000000156506.jpg"
+      },
+      {
+        "text": "The cat is under the motorcycle.",
+        "target": "000000340004.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1371,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000156506.jpg"
+      },
+      {
+        "split": "train",
+        "row": 702,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000340004.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p033",
+    "category": "depth",
+    "images": [
+      "000000183236.jpg",
+      "000000149250.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The chair is in front of the dining table.",
+        "target": "000000183236.jpg"
+      },
+      {
+        "text": "The chair is behind the dining table.",
+        "target": "000000149250.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6534,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000183236.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1212,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149250.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p034",
+    "category": "horizontal",
+    "images": [
+      "000000238795.jpg",
+      "000000281920.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The broccoli is at the left side of the pizza.",
+        "target": "000000238795.jpg"
+      },
+      {
+        "text": "The broccoli is at the right side of the pizza.",
+        "target": "000000281920.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 18,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000238795.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5638,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281920.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p035",
+    "category": "support_containment",
+    "images": [
+      "000000066271.jpg",
+      "000000319865.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000066271.jpg"
+      },
+      {
+        "text": "The cat is in the suitcase.",
+        "target": "000000319865.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5324,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000066271.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5300,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000319865.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p036",
+    "category": "support_vertical",
+    "images": [
+      "000000562574.jpg",
+      "000000359085.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dog is on the chair.",
+        "target": "000000562574.jpg"
+      },
+      {
+        "text": "The dog is under the chair.",
+        "target": "000000359085.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 486,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000562574.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 1068,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000359085.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p037",
+    "category": "depth",
+    "images": [
+      "000000335339.jpg",
+      "000000421455.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The truck is in front of the car.",
+        "target": "000000335339.jpg"
+      },
+      {
+        "text": "The truck is behind the car.",
+        "target": "000000421455.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7454,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335339.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 897,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000421455.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p038",
+    "category": "horizontal",
+    "images": [
+      "000000353427.jpg",
+      "000000304858.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The donut is left of the cup.",
+        "target": "000000353427.jpg"
+      },
+      {
+        "text": "The donut is at the right side of the cup.",
+        "target": "000000304858.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2185,
+        "relation": "left of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000353427.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4909,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000304858.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p039",
+    "category": "support_containment",
+    "images": [
+      "000000501498.jpg",
+      "000000086229.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000501498.jpg"
+      },
+      {
+        "text": "The cat is inside the suitcase.",
+        "target": "000000086229.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5963,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501498.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 716,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000086229.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p040",
+    "category": "support_vertical",
+    "images": [
+      "000000123970.jpg",
+      "000000059949.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the umbrella.",
+        "target": "000000123970.jpg"
+      },
+      {
+        "text": "The cat is under the umbrella.",
+        "target": "000000059949.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7272,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000123970.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5312,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000059949.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p041",
+    "category": "depth",
+    "images": [
+      "000000358748.jpg",
+      "000000315018.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The giraffe is in front of the person.",
+        "target": "000000358748.jpg"
+      },
+      {
+        "text": "The giraffe is behind the person.",
+        "target": "000000315018.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4047,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000358748.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6402,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315018.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p042",
+    "category": "horizontal",
+    "images": [
+      "000000253487.jpg",
+      "000000408328.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The horse is at the left side of the person.",
+        "target": "000000253487.jpg"
+      },
+      {
+        "text": "The horse is at the right side of the person.",
+        "target": "000000408328.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5833,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000253487.jpg"
+      },
+      {
+        "split": "train",
+        "row": 525,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000408328.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p043",
+    "category": "support_containment",
+    "images": [
+      "000000080168.jpg",
+      "000000360157.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000080168.jpg"
+      },
+      {
+        "text": "The cat is in the suitcase.",
+        "target": "000000360157.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 926,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000080168.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 607,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000360157.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p044",
+    "category": "support_vertical",
+    "images": [
+      "000000280043.jpg",
+      "000000158354.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the umbrella.",
+        "target": "000000280043.jpg"
+      },
+      {
+        "text": "The cat is beneath the umbrella.",
+        "target": "000000158354.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6465,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000280043.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2113,
+        "relation": "beneath",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000158354.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p045",
+    "category": "depth",
+    "images": [
+      "000000363468.jpg",
+      "000000072538.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The couch is in front of the person.",
+        "target": "000000363468.jpg"
+      },
+      {
+        "text": "The couch is behind the person.",
+        "target": "000000072538.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6004,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000363468.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7150,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000072538.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p046",
+    "category": "horizontal",
+    "images": [
+      "000000041625.jpg",
+      "000000542854.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is at the left side of the dog.",
+        "target": "000000041625.jpg"
+      },
+      {
+        "text": "The teddy bear is at the right side of the dog.",
+        "target": "000000542854.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 760,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000041625.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1463,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000542854.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p047",
+    "category": "support_containment",
+    "images": [
+      "000000441674.jpg",
+      "000000375140.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dog is on top of the suitcase.",
+        "target": "000000441674.jpg"
+      },
+      {
+        "text": "The dog is inside the suitcase.",
+        "target": "000000375140.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4631,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000441674.jpg"
+      },
+      {
+        "split": "train",
+        "row": 437,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000375140.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p048",
+    "category": "support_vertical",
+    "images": [
+      "000000555574.jpg",
+      "000000268141.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the dining table.",
+        "target": "000000555574.jpg"
+      },
+      {
+        "text": "The cat is under the dining table.",
+        "target": "000000268141.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4529,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000555574.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 269,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000268141.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p049",
+    "category": "depth",
+    "images": [
+      "000000273579.jpg",
+      "000000551100.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The car is in front of the elephant.",
+        "target": "000000273579.jpg"
+      },
+      {
+        "text": "The car is behind the elephant.",
+        "target": "000000551100.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4101,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000273579.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2705,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000551100.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p050",
+    "category": "horizontal",
+    "images": [
+      "000000394234.jpg",
+      "000000037707.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The laptop is at the left side of the cat.",
+        "target": "000000394234.jpg"
+      },
+      {
+        "text": "The laptop is at the right side of the cat.",
+        "target": "000000037707.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 925,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000394234.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2124,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037707.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p051",
+    "category": "support_containment",
+    "images": [
+      "000000471407.jpg",
+      "000000169365.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the sink.",
+        "target": "000000471407.jpg"
+      },
+      {
+        "text": "The cat is in the sink.",
+        "target": "000000169365.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6236,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471407.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 492,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000169365.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p052",
+    "category": "support_vertical",
+    "images": [
+      "000000504293.jpg",
+      "000000313520.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dog is on the chair.",
+        "target": "000000504293.jpg"
+      },
+      {
+        "text": "The dog is under the chair.",
+        "target": "000000313520.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6297,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000504293.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1842,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000313520.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p053",
+    "category": "depth",
+    "images": [
+      "000000079445.jpg",
+      "000000558189.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is in front of the laptop.",
+        "target": "000000079445.jpg"
+      },
+      {
+        "text": "The cat is behind the laptop.",
+        "target": "000000558189.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6694,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000079445.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6436,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558189.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p054",
+    "category": "horizontal",
+    "images": [
+      "000000012827.jpg",
+      "000000402177.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is left of the cat.",
+        "target": "000000012827.jpg"
+      },
+      {
+        "text": "The person is at the right side of the cat.",
+        "target": "000000402177.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 654,
+        "relation": "left of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000012827.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3505,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000402177.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p055",
+    "category": "support_containment",
+    "images": [
+      "000000397606.jpg",
+      "000000488004.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000397606.jpg"
+      },
+      {
+        "text": "The cat is in the suitcase.",
+        "target": "000000488004.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2068,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000397606.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7636,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000488004.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p056",
+    "category": "support_vertical",
+    "images": [
+      "000000485560.jpg",
+      "000000081918.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the dog.",
+        "target": "000000485560.jpg"
+      },
+      {
+        "text": "The cat is under the dog.",
+        "target": "000000081918.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 1011,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000485560.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3461,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081918.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p057",
+    "category": "depth",
+    "images": [
+      "000000044702.jpg",
+      "000000037729.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is in front of the potted plant.",
+        "target": "000000044702.jpg"
+      },
+      {
+        "text": "The cat is behind the potted plant.",
+        "target": "000000037729.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 3468,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000044702.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4435,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000037729.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p058",
+    "category": "horizontal",
+    "images": [
+      "000000398153.jpg",
+      "000000343104.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is left of the cake.",
+        "target": "000000398153.jpg"
+      },
+      {
+        "text": "The person is at the right side of the cake.",
+        "target": "000000343104.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 344,
+        "relation": "left of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000398153.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6339,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000343104.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p059",
+    "category": "support_containment",
+    "images": [
+      "000000389474.jpg",
+      "000000468951.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000389474.jpg"
+      },
+      {
+        "text": "The cat is in the suitcase.",
+        "target": "000000468951.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7024,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000389474.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5573,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000468951.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p060",
+    "category": "support_vertical",
+    "images": [
+      "000000401144.jpg",
+      "000000413250.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on the dining table.",
+        "target": "000000401144.jpg"
+      },
+      {
+        "text": "The cat is under the dining table.",
+        "target": "000000413250.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2171,
+        "relation": "on",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000401144.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6176,
+        "relation": "under",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000413250.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p061",
+    "category": "depth",
+    "images": [
+      "000000062237.jpg",
+      "000000501126.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is in front of the laptop.",
+        "target": "000000062237.jpg"
+      },
+      {
+        "text": "The cat is behind the laptop.",
+        "target": "000000501126.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 628,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000062237.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3304,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000501126.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p062",
+    "category": "horizontal",
+    "images": [
+      "000000278184.jpg",
+      "000000088241.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is at the left side of the dog.",
+        "target": "000000278184.jpg"
+      },
+      {
+        "text": "The teddy bear is right of the dog.",
+        "target": "000000088241.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5570,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278184.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2313,
+        "relation": "right of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000088241.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p063",
+    "category": "support_containment",
+    "images": [
+      "000000076654.jpg",
+      "000000155604.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The pizza is on top of the oven.",
+        "target": "000000076654.jpg"
+      },
+      {
+        "text": "The pizza is in the oven.",
+        "target": "000000155604.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2929,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076654.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5076,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000155604.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p064",
+    "category": "depth",
+    "images": [
+      "000000517049.jpg",
+      "000000276055.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dining table is in front of the person.",
+        "target": "000000517049.jpg"
+      },
+      {
+        "text": "The dining table is behind the person.",
+        "target": "000000276055.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 3500,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000517049.jpg"
+      },
+      {
+        "split": "train",
+        "row": 227,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000276055.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p065",
+    "category": "horizontal",
+    "images": [
+      "000000414481.jpg",
+      "000000315441.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is at the left side of the cat.",
+        "target": "000000414481.jpg"
+      },
+      {
+        "text": "The teddy bear is right of the cat.",
+        "target": "000000315441.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4339,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000414481.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4168,
+        "relation": "right of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000315441.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p066",
+    "category": "support_containment",
+    "images": [
+      "000000180479.jpg",
+      "000000278962.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The pizza is on top of the oven.",
+        "target": "000000180479.jpg"
+      },
+      {
+        "text": "The pizza is inside the oven.",
+        "target": "000000278962.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2468,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000180479.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1863,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000278962.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p067",
+    "category": "depth",
+    "images": [
+      "000000139639.jpg",
+      "000000040419.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The couch is in front of the cat.",
+        "target": "000000139639.jpg"
+      },
+      {
+        "text": "The couch is behind the cat.",
+        "target": "000000040419.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4352,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000139639.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5140,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000040419.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p068",
+    "category": "horizontal",
+    "images": [
+      "000000229180.jpg",
+      "000000269098.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the couch.",
+        "target": "000000229180.jpg"
+      },
+      {
+        "text": "The person is at the right side of the couch.",
+        "target": "000000269098.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 540,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000229180.jpg"
+      },
+      {
+        "split": "dev",
+        "row": 653,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000269098.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p069",
+    "category": "support_containment",
+    "images": [
+      "000000168260.jpg",
+      "000000209791.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The surfboard is on top of the truck.",
+        "target": "000000168260.jpg"
+      },
+      {
+        "text": "The surfboard is in the truck.",
+        "target": "000000209791.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6767,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000168260.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7602,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000209791.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p070",
+    "category": "depth",
+    "images": [
+      "000000566955.jpg",
+      "000000296524.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The couch is in front of the person.",
+        "target": "000000566955.jpg"
+      },
+      {
+        "text": "The couch is behind the person.",
+        "target": "000000296524.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4592,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000566955.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5605,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000296524.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p071",
+    "category": "horizontal",
+    "images": [
+      "000000574769.jpg",
+      "000000294751.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the refrigerator.",
+        "target": "000000574769.jpg"
+      },
+      {
+        "text": "The person is at the right side of the refrigerator.",
+        "target": "000000294751.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 823,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000574769.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5649,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000294751.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p072",
+    "category": "support_containment",
+    "images": [
+      "000000391632.jpg",
+      "000000388312.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000391632.jpg"
+      },
+      {
+        "text": "The cat is inside the suitcase.",
+        "target": "000000388312.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1989,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000391632.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3460,
+        "relation": "inside",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000388312.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p073",
+    "category": "depth",
+    "images": [
+      "000000145381.jpg",
+      "000000137188.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is in front of the book.",
+        "target": "000000145381.jpg"
+      },
+      {
+        "text": "The teddy bear is behind the book.",
+        "target": "000000137188.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7459,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000145381.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4121,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000137188.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p074",
+    "category": "horizontal",
+    "images": [
+      "000000355175.jpg",
+      "000000235464.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the refrigerator.",
+        "target": "000000355175.jpg"
+      },
+      {
+        "text": "The person is at the right side of the refrigerator.",
+        "target": "000000235464.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4692,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000355175.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7408,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000235464.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p075",
+    "category": "support_containment",
+    "images": [
+      "000000045071.jpg",
+      "000000375278.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is on top of the suitcase.",
+        "target": "000000045071.jpg"
+      },
+      {
+        "text": "The cat is in the suitcase.",
+        "target": "000000375278.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7417,
+        "relation": "on top of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000045071.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6100,
+        "relation": "in",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000375278.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p076",
+    "category": "depth",
+    "images": [
+      "000000470745.jpg",
+      "000000149551.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The elephant is in front of the car.",
+        "target": "000000470745.jpg"
+      },
+      {
+        "text": "The elephant is behind the car.",
+        "target": "000000149551.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5176,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000470745.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5433,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000149551.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p077",
+    "category": "horizontal",
+    "images": [
+      "000000219075.jpg",
+      "000000459935.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The refrigerator is at the left side of the person.",
+        "target": "000000219075.jpg"
+      },
+      {
+        "text": "The refrigerator is at the right side of the person.",
+        "target": "000000459935.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 1046,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000219075.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2105,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000459935.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p078",
+    "category": "depth",
+    "images": [
+      "000000050403.jpg",
+      "000000335712.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The teddy bear is in front of the person.",
+        "target": "000000050403.jpg"
+      },
+      {
+        "text": "The teddy bear is behind the person.",
+        "target": "000000335712.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5786,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000050403.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3619,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000335712.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p079",
+    "category": "horizontal",
+    "images": [
+      "000000281111.jpg",
+      "000000280930.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The person is at the left side of the oven.",
+        "target": "000000281111.jpg"
+      },
+      {
+        "text": "The person is at the right side of the oven.",
+        "target": "000000280930.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 2034,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000281111.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4655,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000280930.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p080",
+    "category": "depth",
+    "images": [
+      "000000523639.jpg",
+      "000000111347.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dining table is in front of the person.",
+        "target": "000000523639.jpg"
+      },
+      {
+        "text": "The dining table is behind the person.",
+        "target": "000000111347.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 7620,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000523639.jpg"
+      },
+      {
+        "split": "train",
+        "row": 2561,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000111347.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p081",
+    "category": "horizontal",
+    "images": [
+      "000000147492.jpg",
+      "000000533917.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The banana is at the left side of the sandwich.",
+        "target": "000000147492.jpg"
+      },
+      {
+        "text": "The banana is at the right side of the sandwich.",
+        "target": "000000533917.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1487,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000147492.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6747,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000533917.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p082",
+    "category": "depth",
+    "images": [
+      "000000489550.jpg",
+      "000000346947.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dining table is in front of the couch.",
+        "target": "000000489550.jpg"
+      },
+      {
+        "text": "The dining table is behind the couch.",
+        "target": "000000346947.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 990,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000489550.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5046,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346947.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p083",
+    "category": "horizontal",
+    "images": [
+      "000000035547.jpg",
+      "000000328673.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cow is at the left side of the person.",
+        "target": "000000035547.jpg"
+      },
+      {
+        "text": "The cow is at the right side of the person.",
+        "target": "000000328673.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 785,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000035547.jpg"
+      },
+      {
+        "split": "train",
+        "row": 1550,
+        "relation": "at the right side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000328673.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p084",
+    "category": "depth",
+    "images": [
+      "000000544832.jpg",
+      "000000182339.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The tv is in front of the person.",
+        "target": "000000544832.jpg"
+      },
+      {
+        "text": "The tv is behind the person.",
+        "target": "000000182339.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "dev",
+        "row": 357,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000544832.jpg"
+      },
+      {
+        "split": "train",
+        "row": 891,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000182339.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p085",
+    "category": "horizontal",
+    "images": [
+      "000000567106.jpg",
+      "000000558671.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The refrigerator is at the left side of the dog.",
+        "target": "000000567106.jpg"
+      },
+      {
+        "text": "The refrigerator is right of the dog.",
+        "target": "000000558671.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6240,
+        "relation": "at the left side of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000567106.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4873,
+        "relation": "right of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000558671.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p086",
+    "category": "depth",
+    "images": [
+      "000000559754.jpg",
+      "000000519203.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The parking meter is in front of the truck.",
+        "target": "000000559754.jpg"
+      },
+      {
+        "text": "The parking meter is behind the truck.",
+        "target": "000000519203.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6818,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000559754.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6633,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000519203.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p087",
+    "category": "depth",
+    "images": [
+      "000000270922.jpg",
+      "000000387913.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The oven is in front of the person.",
+        "target": "000000270922.jpg"
+      },
+      {
+        "text": "The oven is behind the person.",
+        "target": "000000387913.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1031,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000270922.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4568,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000387913.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p088",
+    "category": "depth",
+    "images": [
+      "000000415755.jpg",
+      "000000384755.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The dining table is in front of the person.",
+        "target": "000000415755.jpg"
+      },
+      {
+        "text": "The dining table is behind the person.",
+        "target": "000000384755.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 3205,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000415755.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4218,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000384755.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p089",
+    "category": "depth",
+    "images": [
+      "000000316353.jpg",
+      "000000144358.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The refrigerator is in front of the person.",
+        "target": "000000316353.jpg"
+      },
+      {
+        "text": "The refrigerator is behind the person.",
+        "target": "000000144358.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 229,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000316353.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4864,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000144358.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p090",
+    "category": "depth",
+    "images": [
+      "000000157601.jpg",
+      "000000563647.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cup is in front of the sandwich.",
+        "target": "000000157601.jpg"
+      },
+      {
+        "text": "The cup is behind the sandwich.",
+        "target": "000000563647.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 5606,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000157601.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3317,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000563647.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p091",
+    "category": "depth",
+    "images": [
+      "000000580651.jpg",
+      "000000434222.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The cat is in front of the tv.",
+        "target": "000000580651.jpg"
+      },
+      {
+        "text": "The cat is behind the tv.",
+        "target": "000000434222.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1533,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000580651.jpg"
+      },
+      {
+        "split": "train",
+        "row": 369,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000434222.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p092",
+    "category": "depth",
+    "images": [
+      "000000001915.jpg",
+      "000000472375.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The motorcycle is in front of the dog.",
+        "target": "000000001915.jpg"
+      },
+      {
+        "text": "The motorcycle is behind the dog.",
+        "target": "000000472375.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6054,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000001915.jpg"
+      },
+      {
+        "split": "train",
+        "row": 7445,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000472375.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p093",
+    "category": "depth",
+    "images": [
+      "000000076762.jpg",
+      "000000142890.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The tv is in front of the cat.",
+        "target": "000000076762.jpg"
+      },
+      {
+        "text": "The tv is behind the cat.",
+        "target": "000000142890.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 6273,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000076762.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6439,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000142890.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p094",
+    "category": "depth",
+    "images": [
+      "000000553361.jpg",
+      "000000081748.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The umbrella is in front of the bed.",
+        "target": "000000553361.jpg"
+      },
+      {
+        "text": "The umbrella is behind the bed.",
+        "target": "000000081748.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1453,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000553361.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3805,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000081748.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p095",
+    "category": "depth",
+    "images": [
+      "000000497662.jpg",
+      "000000073197.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The bear is in front of the person.",
+        "target": "000000497662.jpg"
+      },
+      {
+        "text": "The bear is behind the person.",
+        "target": "000000073197.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 491,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000497662.jpg"
+      },
+      {
+        "split": "train",
+        "row": 611,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000073197.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p096",
+    "category": "depth",
+    "images": [
+      "000000283405.jpg",
+      "000000348838.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The banana is in front of the person.",
+        "target": "000000283405.jpg"
+      },
+      {
+        "text": "The banana is behind the person.",
+        "target": "000000348838.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 33,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000283405.jpg"
+      },
+      {
+        "split": "train",
+        "row": 243,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000348838.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p097",
+    "category": "depth",
+    "images": [
+      "000000266083.jpg",
+      "000000471871.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The car is in front of the cat.",
+        "target": "000000266083.jpg"
+      },
+      {
+        "text": "The car is behind the cat.",
+        "target": "000000471871.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 617,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000266083.jpg"
+      },
+      {
+        "split": "train",
+        "row": 5564,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000471871.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p098",
+    "category": "depth",
+    "images": [
+      "000000101762.jpg",
+      "000000446409.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The bicycle is in front of the cat.",
+        "target": "000000101762.jpg"
+      },
+      {
+        "text": "The bicycle is behind the cat.",
+        "target": "000000446409.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1713,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/val2017/000000101762.jpg"
+      },
+      {
+        "split": "train",
+        "row": 6962,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000446409.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p099",
+    "category": "depth",
+    "images": [
+      "000000223462.jpg",
+      "000000346207.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The laptop is in front of the cat.",
+        "target": "000000223462.jpg"
+      },
+      {
+        "text": "The laptop is behind the cat.",
+        "target": "000000346207.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 1037,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000223462.jpg"
+      },
+      {
+        "split": "train",
+        "row": 3883,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000346207.jpg"
+      }
+    ]
+  },
+  {
+    "id": "p100",
+    "category": "depth",
+    "images": [
+      "000000279477.jpg",
+      "000000148705.jpg"
+    ],
+    "queries": [
+      {
+        "text": "The bench is in front of the potted plant.",
+        "target": "000000279477.jpg"
+      },
+      {
+        "text": "The bench is behind the potted plant.",
+        "target": "000000148705.jpg"
+      }
+    ],
+    "sources": [
+      {
+        "split": "train",
+        "row": 4953,
+        "relation": "in front of",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000279477.jpg"
+      },
+      {
+        "split": "train",
+        "row": 4275,
+        "relation": "behind",
+        "label": 1,
+        "url": "https://s3.amazonaws.com/images.cocodataset.org/train2017/000000148705.jpg"
+      }
+    ]
+  }
+]
