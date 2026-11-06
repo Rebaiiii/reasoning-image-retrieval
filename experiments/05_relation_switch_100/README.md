@@ -1,8 +1,8 @@
 # 100-Pair Spatial Retrieval Test
 
-I tested CLIP ViT-B/32 on 100 photo pairs, with two opposing queries per pair. Each query ranks only the two photos in its pair, not the full collection.
+This test uses CLIP ViT-B/32 on 100 photo pairs. Each pair has two queries with different expected answers. Each query ranks only the two photos in its pair, not the full collection.
 
-For example, one query asks for a cat in front of a laptop; the other asks for a cat behind a laptop. The expected answer changes. I check whether CLIP changes its choice correctly.
+For example, one query asks for a cat in front of a laptop; the other asks for a cat behind a laptop. The expected answer changes. The test checks whether CLIP switches to the right photo.
 
 ## Results
 
@@ -22,26 +22,26 @@ There were no exact score ties. Choosing the same image for both opposing querie
 | On top / inside | 24/40 | 4/20 | 14/22 | 3/11 |
 | On / under | 17/30 | 2/15 | 13/22 | 2/11 |
 
-## What I take from this
+## What the results show
 
-CLIP often kept the same preferred photo when the spatial relationship changed. That makes relationship sensitivity worth investigating further. Horizontal relationships also had errors, so these results do not isolate a specifically 3D problem.
+CLIP often chose the same photo when the relationship changed. Left/right queries also had errors. The problem is not limited to depth-related queries in this set.
 
-This does not show that CLIP ignores depth. The photos differ in viewpoint, background, visibility and appearance. Its scores may respond to the relation without changing the winning image. I would need controlled scenes to separate image-plane position from physical depth or support.
+This does not show that CLIP ignores depth. The photos differ in viewpoint, background, visibility and appearance. Its scores may respond to the relation without changing the winning image. To test the cause, new photos would need to keep the camera and objects the same while changing their positions.
 
-## How I built the test
+## How the pairs were chosen
 
-- I used positive captions from VSR's random train and development splits, matching the subject and object text across opposing relationships.
-- The set has 200 distinct image filenames and 200 distinct file hashes. No photo is reused between pairs, and earlier inspected photos are excluded. Similar scenes and repeated object categories can still be correlated.
-- I used seed 20261105 and fixed quotas: 40 depth, 25 horizontal, 20 support/containment, and 15 support/vertical pairs. This is a quota-selected exploratory set, not a representative random benchmark sample.
-- I froze the pairs before scoring. AI-assisted visual screening of full-image contact sheets flagged 43 pairs before inference. Reasons are in `audit.json`; none were removed from the full result.
-- The 57 unflagged pairs are provisional, not independently human-validated labels. CLIP's center crops were not separately audited in this run.
-- Each caption is positive for its own photo in VSR. Treating it as negative for the other photo is an inference made for this experiment. Some relationships overlap or depend on the reference frame.
+- The captions come from VSR's random train and development sets. Both captions in a pair name the same objects, but use different relationships. VSR marks each caption as true for its own photo.
+- The set has 200 different image filenames and file hashes. No photo is reused between pairs. Earlier reviewed photos were left out. Some photos still show similar scenes or the same types of objects.
+- The selection uses random seed 20261105 and fixed group sizes: 40 front/behind, 25 left/right, 20 on top/inside, and 15 on/under pairs. These chosen group sizes mean the set does not represent all possible spatial queries.
+- The pairs were saved before running CLIP. An AI review of the full photos marked 43 pairs as unclear. The reasons are in `audit.json`. All 100 pairs stayed in the full result.
+- At the time of this run, the other 57 pairs had only passed the AI review. They had not been checked by a person. The cropped images seen by CLIP were not checked separately in this run.
+- VSR marks each caption as true for its own photo. This test assumes it is false for the other photo in the pair; VSR does not supply that second label here. Both descriptions can sometimes fit a photo. Words such as “in front of” can also depend on the viewpoint.
 
 The model is unchanged: frozen CLIP ViT-B/32 on CPU, one photo encoded at a time, with the existing baseline's preprocessing and cosine ranking. No training or reranking was added.
 
 ## Run
 
-From the repository root, with the existing Python environment active:
+From the main project folder, with the existing Python environment active:
 
 ```bash
 python -m retrieval.download --experiment 05_relation_switch_100
@@ -54,8 +54,8 @@ Add `--cache-dir /path/to/existing/cache` to reuse the downloaded model. Results
 
 ## Source
 
-I adapted captions and COCO photos referenced by [Visual Spatial Reasoning](https://github.com/cambridgeltl/visual-spatial-reasoning). This paired retrieval test is not the official VSR evaluation. VSR's repository license is retained in `VSR_LICENSE.txt`; the underlying photographs retain their own rights.
+The captions and COCO photo links come from [Visual Spatial Reasoning](https://github.com/cambridgeltl/visual-spatial-reasoning). This paired retrieval test is not the official VSR evaluation. VSR's repository license is saved in `VSR_LICENSE.txt`; the photo rights stay with their owners.
 
-## Repository layout
+## File locations
 
-Paths in commands are relative to the repository root. Shared code is in `retrieval/`; downloaded photos are in `data/images/`. Recorded `example_run.json` files are preserved unchanged. Fresh runs go to this experiment’s ignored `results/` directory.
+Run commands from the main project folder. Shared code is in `retrieval/`, and downloaded photos are in `data/images/`. Saved results stay in `example_run.json`. New runs go to this experiment’s `results/` folder, which Git ignores.

@@ -1,18 +1,18 @@
 # Reasoning-Based Image Retrieval
 
-I’m testing whether text-to-image retrieval distinguishes spatial relationships, such as a cat **on** a laptop versus a cat **beside** it.
+This project tests whether CLIP can find images from descriptions such as a cat **on** a laptop or a cat **beside** it.
 
-The current baseline is frozen CLIP ViT-B/32. I run it on CPU, one image at a time, on an M1 MacBook with 8 GB RAM. Qwen reranking is planned; it is not implemented yet.
+The starting model is CLIP ViT-B/32, used without extra training. It runs on CPU, one image at a time, on an M1 MacBook with 8 GB RAM. A later step will use Qwen to check and reorder CLIP’s results.
 
 ## Current results
 
-In the latest experiment, I tested 100 photo pairs with two opposing queries per pair. CLIP answered **109/200 queries correctly** and selected the same photo for both queries in **83/100 pairs**.
+The 100-pair test uses two descriptions per pair, each with a different expected photo. CLIP answered **109/200 queries correctly** and selected the same photo for both queries in **83/100 pairs**.
 
-Visual screening flagged 43 ambiguous pairs before scoring. On the 57 unflagged pairs, accuracy was **66/114**, with both answers correct in **10/57 pairs**. These are exploratory results, not evidence that CLIP cannot understand depth. [Read the experiment and limitations](experiments/05_relation_switch_100/README.md).
+A review of the photos marked 43 pairs as unclear before running CLIP. For the other 57 pairs, CLIP got **66/114** answers right and both answers right in **10/57 pairs**. This early test does not prove that CLIP cannot understand depth. [Read the experiment and limitations](experiments/05_relation_switch_100/README.md).
 
 ## Setup
 
-Run from the repository root with Python 3.10–3.12:
+Run from the main project folder with Python 3.10–3.12:
 
 ```bash
 python3 -m venv .venv
@@ -21,32 +21,32 @@ python -m pip install -r requirements.txt
 python baseline.py
 ```
 
-The first run downloads the model weights (about 605 MB). Subsequent runs reuse `cache/`. The six generated practice images check the pipeline; they are not a research benchmark.
+The first run downloads the model weights (about 605 MB). Later runs reuse `cache/`. The six generated practice images check that the code works. They are too simple to measure performance on real photos.
 
 ```bash
 python baseline.py --query "A red circle to the left of a blue square."
 ```
 
-## Reproduce an experiment
+## Run an experiment again
 
 ```bash
 python -m retrieval.download --experiment 05_relation_switch_100
 python -m retrieval.evaluate --experiment 05_relation_switch_100
 ```
 
-The downloader checks image hashes. The evaluator uses only the images specified by the selected experiment, even when other photos are downloaded. Add `--cache-dir /path/to/existing/cache` to reuse a cache elsewhere.
+The downloader uses file hashes to check that the photos match the saved copies. Each test uses only its listed photos, even if other photos have been downloaded. Add `--cache-dir /path/to/existing/cache` to reuse a cache elsewhere.
 
-New output goes to the experiment’s `results/latest.json`. Recorded `example_run.json` files remain unchanged. The shared evaluator records rankings, scores and input hashes; its output schema is documented in [the experiment guide](experiments/README.md).
+New output goes to the experiment’s `results/latest.json`. Recorded `example_run.json` files remain unchanged. The test code saves image order, scores and file hashes. The saved fields are explained in [the experiment guide](experiments/README.md).
 
 ## Project layout
 
 ```text
-retrieval/             Shared CLIP, downloading, evaluation and metrics code
-experiments/           Fixed queries, audit notes, methods and recorded results
-data/manifests/        Image URLs, source annotations and checksums
+retrieval/             Shared model, download and test code
+experiments/           Saved questions, review notes and results
+data/manifests/        Photo links, source labels and file hashes
 data/images/           Downloaded photos (ignored by Git)
 practice/              Original generated examples
-tests/                Evaluation checks
+tests/                 Checks for the test code
 baseline.py            Original baseline command
 ```
 
@@ -54,13 +54,13 @@ baseline.py            Original baseline command
 
 | Experiment | Question |
 |---|---|
-| [01 — Baseline](experiments/01_baseline/README.md) | Does the retrieval pipeline work? |
-| [02 — Spatial examples](experiments/02_spatial_examples/README.md) | Can it retrieve two spatial descriptions among four photos? |
-| [03 — Query wording](experiments/03_query_wording/README.md) | Does more explicit wording change the answer? |
+| [01 — Baseline](experiments/01_baseline/README.md) | Does the search code work? |
+| [02 — Spatial examples](experiments/02_spatial_examples/README.md) | Can it find the right photo among four choices? |
+| [03 — Query wording](experiments/03_query_wording/README.md) | Does clearer wording change the answer? |
 | [04 — Relation switch](experiments/04_relation_switch/README.md) | Does changing the relationship change the selected photo? |
-| [05 — 100-pair relation switch](experiments/05_relation_switch_100/README.md) | Does that behaviour persist across more examples? |
+| [05 — 100-pair relation switch](experiments/05_relation_switch_100/README.md) | Does the same problem appear in more examples? |
 
-Experiment numbers record completed steps; they do not imply independent test sets. Source annotations and photo rights are documented with each experiment. Downloaded COCO photos are not included in Git.
+The folder numbers show the order of the tests. Some tests reuse earlier photos. Each folder lists its data sources and photo rights. Downloaded COCO photos are not included in Git.
 
 ## Checks
 
@@ -68,4 +68,4 @@ Experiment numbers record completed steps; they do not imply independent test se
 python -m unittest discover -s tests -v
 ```
 
-I’m keeping the project training-free and adding one research step at a time. The next planned comparison is CLIP retrieval with and without multimodal reranking.
+The project uses existing models without extra training. The next planned comparison is CLIP alone versus CLIP with Qwen checking its results.

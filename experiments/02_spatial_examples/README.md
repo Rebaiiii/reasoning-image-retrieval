@@ -2,7 +2,7 @@
 
 Four COCO photographs and two queries for inspecting spatial retrieval. The
 photos were selected from the VSR random development split and checked visually
-before running CLIP. This is a development exercise, not a held-out benchmark.
+before running CLIP. These photos are used to explore the problem, not as a separate final test.
 
 ## Examples
 
@@ -13,11 +13,11 @@ before running CLIP. This is a development exercise, not a held-out benchmark.
 
 The first pair contains a cat on a laptop and a cat beside a laptop. The second
 contains a cat under a car and a cat on its roof. Each query searches all four
-images, with exactly one labelled answer in this candidate set.
+images, with one labelled answer among these four photos.
 
 An incorrect image containing the same objects is called a **hard negative**.
-It helps reveal whether retrieval distinguishes their relationship. Other visual
-differences remain, so success on these pairs does not prove relational reasoning.
+It helps check whether CLIP can tell the relationships apart. The photos also
+differ in other ways, so a correct answer does not prove that CLIP understood the relationship.
 
 ## Files
 
@@ -32,7 +32,7 @@ for evaluation only; CLIP receives the image pixels and query text.
 
 ## How to Run
 
-With the Module 1 environment activated, run from the repository root:
+With the Module 1 environment activated, run from the main project folder:
 
 ```bash
 python -m retrieval.download --experiment 02_spatial_examples
@@ -52,7 +52,7 @@ the earlier six-shape exercise: the candidate images and queries are different.
 The CPU baseline retrieved the correct image for 1 of 2 queries. For the laptop
 query it placed the cat beside the laptop first (0.3044), just above the cat on
 the laptop (0.3039). The car query ranked the correct image first. These are
-cosine similarity scores, not probabilities. Small device differences may affect
+cosine similarity scores, which measure how closely the image and text match; they are not probabilities. Small device differences may affect
 close rankings. The examples were selected before observing these scores.
 
 ## Review
@@ -62,8 +62,8 @@ close rankings. The examples were selected before observing these scores.
 3. Read the full ranking for one query in `example_run.json`.
 
 Two queries are deliberately small enough to inspect individually. Their score
-cannot support a research conclusion. They are development examples and must
-not later be described as an untouched test set. Adding a photo also requires
+are not enough for a broad research claim. They are development examples and must
+not later be described as an new, unseen test set. Adding a photo also requires
 checking whether it becomes another valid answer to an existing query.
 
 Before expanding the dataset, inspect CLIP's centre crop: important objects can
@@ -75,7 +75,7 @@ full and after the baseline processor's crop.
 Annotations: [Visual Spatial Reasoning](https://github.com/cambridgeltl/visual-spatial-reasoning),
 Fangyu Liu, Guy Edward Toh Emerson and Nigel Collier, TACL 2023.
 Selected from `data/splits/random/dev.jsonl`; row numbers are zero-based.
-The original captions and labels are retained in the manifest. VSR is a
+The original captions and labels are saved in the manifest. VSR is a
 true/false caption benchmark; this small retrieval exercise adapts those labels
 and is not an official VSR evaluation.
 
@@ -86,6 +86,6 @@ The VSR license is included as `VSR_LICENSE.txt`.
 
 Qwen reranking is reserved for a later module.
 
-## Repository layout
+## File locations
 
-Paths in commands are relative to the repository root. Shared code is in `retrieval/`; downloaded photos are in `data/images/`. Recorded `example_run.json` files are preserved unchanged. Fresh runs go to this experiment’s ignored `results/` directory.
+Run commands from the main project folder. Shared code is in `retrieval/`, and downloaded photos are in `data/images/`. Saved results stay in `example_run.json`. New runs go to this experiment’s `results/` folder, which Git ignores.

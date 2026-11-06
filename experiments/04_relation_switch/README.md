@@ -19,10 +19,9 @@ changes with the relationship described in the text.
 | Wine glass | Behind: correct | In front: wrong | Same image |
 | Car | Under: correct | On roof: correct | Correct switch |
 
-The wine-glass pair illustrates why one correct answer can be misleading. CLIP
+The wine-glass pair shows why one correct answer can be misleading. CLIP
 selected the photo showing a cat behind a glass for both “behind” and “in front
-of.” The earlier successful behind-query alone did not demonstrate reliable
-use of the depth relationship.
+of.” The earlier successful behind-query alone did not show that CLIP could reliably tell front from behind.
 
 The cosine scores changed when the query changed, even in pairs where the winner
 did not. An unchanged winner does not mean the text encoder completely ignored
@@ -35,36 +34,36 @@ only the text changes. Both queries name the same object categories, though
 “on the roof of” also specifies a part of the car. The labels in `cases.json`
 were fixed before this run. No prompts were adjusted after seeing this result.
 
-The ten photographs are distinct: no photo is reused across these five pairs.
+The ten photographs are different: no photo is reused across these five pairs.
 They come from the earlier spatial probe, whose original-query results were
-already known. This is exploratory development work, not an independent test set.
+already known. These photos help explore the problem. They are not a fresh test set.
 
 All five pairs were visually reviewed in full and through CLIP's centre crop.
-The alternate relationship descriptions are our visual annotations, not an
-additional set of independently validated VSR labels. The paired relationships
-are alternatives for these particular photos, not necessarily logical opposites
-in every possible scene.
+The second descriptions were added during the photo review. They are not extra
+labels checked by VSR. The paired relationships
+are alternatives for these particular photos, not always opposites
+in every scene.
 
 The photographs within each pair differ in camera viewpoint, background, and
 object appearance. This is **not** the proposed fixed-camera experiment with the
-same objects rearranged. We do not have those newly captured photographs yet.
-Image position was not experimentally controlled, so this run cannot isolate
-2D-versus-3D understanding as the cause.
+same objects rearranged. Those new photos have not been taken yet.
+Object positions were not kept the same across photos, so this test cannot show
+whether 2D or 3D understanding caused the errors.
 
-## Interpretation
+## What the results show
 
-CLIP's choices were consistent with both requested relationships in two pairs,
-and remained on one image in the other three. This is evidence of inconsistent
-relation-dependent retrieval on these examples. It does not establish that CLIP
-uses only 2D cues, and success on two pairs does not establish general 3D reasoning.
+CLIP got both answers right in two pairs and kept the same image in the other
+three. It did not reliably change its answer when the relationship changed.
+This does not prove that CLIP only uses 2D clues. Two correct pairs also do not
+prove that it understands 3D space in general.
 
 A stronger follow-up would photograph the same objects from a fixed camera in
 both arrangements, label them before scoring, and include cases where apparent
 image height stays similar while physical support changes.
 
-## Reproduce
+## Run again
 
-From the repository root, with the existing environment activated:
+From the main project folder, with the existing environment activated:
 
 ```bash
 python -m retrieval.download --experiment 03_query_wording
@@ -83,12 +82,12 @@ to `results/latest.json`. Exact ties are flagged and never counted as correct.
 
 ## Sources
 
-The photographs and original annotation provenance are inherited from
+The photographs and original label sources come from
 [the spatial probe](../03_query_wording/README.md), using COCO images referenced by
 [VSR](https://github.com/cambridgeltl/visual-spatial-reasoning).
 The VSR license remains in the adjacent `03_query_wording` folder. Original image
 rights remain with the photographers; photos are not included in Git.
 
-## Repository layout
+## File locations
 
-Paths in commands are relative to the repository root. Shared code is in `retrieval/`; downloaded photos are in `data/images/`. Recorded `example_run.json` files are preserved unchanged. Fresh runs go to this experiment’s ignored `results/` directory.
+Run commands from the main project folder. Shared code is in `retrieval/`, and downloaded photos are in `data/images/`. Saved results stay in `example_run.json`. New runs go to this experiment’s `results/` folder, which Git ignores.

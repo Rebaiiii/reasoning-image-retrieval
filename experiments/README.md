@@ -1,6 +1,6 @@
 # Experiment records
 
-Each numbered folder keeps the questions, labels, methods and recorded results for one completed experiment. I keep the original input and result files unchanged so that restructuring the code does not rewrite the experiment history.
+Each numbered folder keeps the questions, labels, methods and recorded results for one completed experiment. The original input and result files stay unchanged when the code moves.
 
 - `config.json` selects the evaluation mode and image manifest.
 - `queries.json` or `cases.json` fixes the query text and expected answers.
@@ -8,19 +8,19 @@ Each numbered folder keeps the questions, labels, methods and recorded results f
 - `example_run.json` is the original recorded output.
 - `results/` holds new runs and is ignored by Git.
 
-The first experiment still runs through `python baseline.py`. For experiments 02–05, use `python -m retrieval.download --experiment NAME` followed by `python -m retrieval.evaluate --experiment NAME` from the repository root.
+The first experiment still runs through `python baseline.py`. For experiments 02–05, use `python -m retrieval.download --experiment NAME` followed by `python -m retrieval.evaluate --experiment NAME` from the main project folder.
 
-## Evaluation modes
+## Test types
 
-`full` ranks all photos in the selected manifest for each query. `wording` compares the original and explicit query against the same two photos. `pairs` evaluates two opposing queries against a fixed pair.
+`full` ranks all photos in the selected manifest for each query. `wording` compares the original and explicit query against the same two photos. `pairs` checks two queries with different expected answers against the same two photos.
 
-New shared-evaluator outputs include model revision, device, manifest and input hashes, and every ranking. Each query records `target_margin` (target score minus the strongest alternative), `correct`, and `tie`. Pair experiments additionally report whether the choice changed and whether both answers were correct. When an audit is present, results are reported for both all pairs and unflagged pairs.
+New results include the model version, device, file hashes, and every image ranking. Each query records `target_margin` (target score minus the strongest alternative), `correct`, and `tie`. Pair tests also report whether the choice changed and whether both answers were correct. When an audit is present, results are reported for both all pairs and unflagged pairs.
 
-Scores are cosine similarities, not probabilities. An exact tie is never counted as correct by the shared evaluator. The original practice baseline retains its historical stable-ranking tie behaviour.
+Scores are cosine similarities, not probabilities. An exact tie is never counted as correct by the shared evaluator. The original practice code keeps filename order when scores tie.
 
-## Layout migration
+## Folder changes
 
-The earlier folders were renamed as follows; their JSON inputs and recorded results were preserved byte-for-byte:
+The earlier folders were renamed as follows; their JSON inputs and recorded results were kept exactly the same:
 
 | Previous location | Current experiment |
 |---|---|
@@ -30,4 +30,4 @@ The earlier folders were renamed as follows; their JSON inputs and recorded resu
 | `datasets/relation_switch` | `04_relation_switch` |
 | `datasets/probe100` | `05_relation_switch_100` |
 
-Image manifests moved to `data/manifests/`. Real photos now share `data/images/`, with duplicate IDs checked for identical content during migration. Individual experiment candidate sets are unchanged. Historical result schemas are retained; fresh runs use the shared schema above.
+Image manifests moved to `data/manifests/`. Real photos now share `data/images/`, files with the same ID were checked to make sure their contents matched. Each test still uses the same photos as before. Old result files keep their original format. New runs use the fields described above.
